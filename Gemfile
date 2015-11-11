@@ -18,7 +18,6 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'responders', '~> 2.0'
 
 gem 'polymer-rails'
-gem 'polymer-elements-rails'
 
 source 'https://rails-assets.org' do
  gem 'rails-assets-bootstrap'
