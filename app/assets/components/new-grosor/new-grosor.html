@@ -1,0 +1,27 @@
+<dom-module id="new-grosor">
+  <link rel="stylesheet" href="new-grosor.css" />
+  <template>
+        <iron-ajax
+            id="send"
+            url="https://coster.herokuapp.com/api/grosores/"
+            method="POST"
+            content-type="application/json"
+            on-response="clear_form">
+        </iron-ajax>
+        
+            <div>
+              <div class="">    
+                  <div class="form-inline">
+                      <div class="form-group">
+                      <label>Grosor:</label>
+                      <input type="number" placeholder="Valor del Grosor" class="form-control" value="{{grosor::input}}"/>
+                  
+                        <button class="btn btn-danger" on-tap="requestGrosor">Añadir Nuevo Grosor</button>
+                      
+                      </div>
+                  </div>
+              </div>
+          </div>
+    </template>    
+  <script src="new-grosor.js"></script>
+</dom-module>

@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Coster</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+<meta charset="utf-8"/>
+<meta name="author" content="A.C. Artec"/>
+<meta name="application-name" content="Coster Dashboard"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<title>Dashboard</title>
+
+<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css"/>
+
+<link rel="stylesheet" href="css/custom.css"/>
+
+<script src="lib/jquery/dist/jquery.min.js"></script>    
+<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<%= html_import_tag 'application'%>
+<%= csrf_meta_tags %>
 </head>
+
 <body>
 
 <%= yield %>

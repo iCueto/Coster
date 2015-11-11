@@ -1,0 +1,322 @@
+<link rel="import" href="../polymer/polymer.html"/>
+<link rel="import" href="../iron-ajax/iron-ajax.html"/>
+
+<dom-module id="item-coster">
+    <style>
+        
+.item{
+    margin: 0.4rem;
+    display: inline-block;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #ccc;
+    border-radius: 0.3rem;
+}
+        
+.item input[type="radio"]{
+    display: none;
+}
+
+.item:hover{
+background: #FFE3B3;
+border-color: #FFE3b3;
+border-width: 0.1rem;
+}
+
+.item label{
+    padding: 0.4rem;
+}
+        
+.item label:hover{
+background: #FFE3B3;
+}
+
+input[type='radio']:checked + label {
+  background: #FFE3B3;
+}    
+
+
+.in{
+        display: inline;
+        }
+        
+.result{
+    background-color: #5D300F;
+    color: white;
+    
+    font-size: 2rem;
+    
+    padding: 0.5rem;
+    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+</style>
+
+<template>
+    
+    <iron-ajax
+    auto
+    url="/api/grosores"
+    handle-as="json"
+    on-response="handleData"></iron-ajax>
+    
+    <div class="area-item" on-change="updateDataItems">
+            
+            <div class="four columns">
+                <h5>Madera</h5>
+                <div class="item">
+                <span>
+                <a data-toggle="modal" href="#pick_wood">
+                <img src="[[selectedWood.thumb_url]]"/>
+                </a>
+                </span>
+                </div>
+                
+                <div class="modal fade" id="pick_wood">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h5 class="modal-title">Seleccione una tipo de Madera</h5>
+      </div>
+      <div class="modal-body container-fluid" on-change="updateSelectedWood">
+          <template is="dom-repeat" items="{{itWood}}" as="wood">
+        
+        <div class="item">
+                
+        <input type="radio" id="{{woodID(wood.id)}}" name="woods" value$="{{obj_wood(wood.id, wood.tipo_madera, wood.valor, wood.thumb_url)}}"/>
+        <label for$="{{woodID(wood.id)}}">
+            <span><img src$="{{wood.thumb_url}}"/></span>
+                        </label>
+                </div>
+              
+          </template>
+                </div>
+      <footer class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+      </footer>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+            
+            </div>
+            
+            <div class="four columns">
+                <h5>Puerta</h5>
+                
+                <div class="item">
+                <span>
+                <a data-toggle="modal" href="#pick_door">
+                <img src="{{selectedDoor.thumb_url}}"/>
+                </a>
+            </span>
+                
+                </div>
+                
+                <div class="modal fade" id="pick_door">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h5 class="modal-title">Seleccione una puerta</h5>
+      </div>
+      <div class="modal-body container-fluid" on-change="updateSelectedDoor">
+          <template is="dom-repeat" items="{{itDoor}}" as="door">
+        
+        <div class="item">
+                
+        <input type="radio" id="{{doorID('e', door.id)}}" name="doors" value$="{{obj_door(door.id, door.tipo_puerta, door.codigo, door.thumb_url, door.precio, door.descripcion)}}"/>
+                       
+        <label for$="{{doorID('e', door.id)}}">
+            <span><img src$="{{door.thumb_url}}"/></span>
+                        </label>
+                </div>
+          
+          </template>
+                </div>
+      <footer class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+      </footer>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+            
+            </div>
+        
+            <div class="four columns">
+                
+                <h5>Medidas (Pies)</h5>
+                
+            <div>
+            <div><label class="in">Alto</label><input type="number" placeholder="Pies" class="u-full-width" min="1" step="any" value="{{alto::input}}"/></div>                
+            <div><label class="in">Ancho</label><input placeholder="Pies" type="number" class="u-full-width" min="1" value="{{ancho::input}}"/></div>
+        
+            <div><label class="in">grosores</label>
+                <select value="{{grosor::change}}" class="u-full-width">
+                <option>Seleccione el grosor</option>
+                <template is="dom-repeat" items="{{grosors}}">
+                <option value="{{item.valor}}">
+                    <strong>{{item.valor}}</strong>
+                </option>    
+                </template>
+                </select>
+            </div> 
+                
+    <div class="center">
+        <output on-change="storeCoster()" class="result u-full-width">RD$<span>{{result}}</span></output>
+            </div>
+            </div>
+            </div>
+        
+    </div>
+
+
+</template>    
+
+</dom-module>
+
+<script>
+    
+    Polymer({
+        is: "item-coster",
+        
+        properties: {
+            
+            itWood: {
+                type: Object,
+                notify: true
+            },
+            
+            itDoor: {
+                type: Object,
+                notify: true
+            },
+        
+            selectedDoor: {
+                type: Object,
+                notify: true
+            },
+            
+            selectedWood: {
+                type: Object,
+                notify: true
+            },
+           
+            grosor: {
+                type: Number,
+                notify: true
+            },
+            
+            alto: {
+                type: Number,
+                notify: true
+            },
+            
+            ancho: {
+                type: Number,
+                notify: true
+            },
+            
+            result: {
+                type: Number,
+                computed: 'computeCost(selectedDoor, selectedWood, grosor, alto, ancho)',
+                notify: true
+            },
+        
+            datos: {
+                type: Object,
+                computed: 'computeStore(selectedWood, selectedDoor, alto, ancho, grosor, result)',
+                notify: true    
+            }
+            
+        },
+        
+    computeCost: function(door, wood, grosor, alto, ancho){
+        
+        return ((door.precio + wood.valor) * (alto * ancho) * grosor).toFixed(2);
+        
+        },
+        
+        handleData: function(data){
+            
+            this.grosors = data.detail.response;
+        },
+        
+        updateDataItems: function(){
+        
+        this.selectedWood = JSON.parse(localStorage.getItem("selectedWood"));
+        
+        this.selectedDoor = JSON.parse(localStorage.getItem("selectedDoor"));
+            
+        },
+        
+        obj_door: function(id, tipo, codigo, thumb_url, precio, descripcion){
+            
+            puerta_select = {
+                "id": id,
+                "tipo_puerta": tipo,
+                "codigo": codigo, 
+                "thumb_url": thumb_url,
+                "precio": precio,
+                "descripcion": descripcion
+            };
+            
+            return JSON.stringify(puerta_select);
+            
+        },
+        
+        obj_wood: function(id, tipo, valor, thumb_url){
+            
+            madera_select = {
+                "id": id,
+                "tipo_madera": tipo,
+                "valor": valor,
+                "thumb_url": thumb_url
+            };
+            
+            return JSON.stringify(madera_select);
+            
+        },
+        
+        woodID: function(id){
+            
+            return 'wood' + id;
+        },
+        
+        doorID: function(sharp, id){
+            
+            return sharp + 'door' + id;
+        },
+        
+        updateSelectedWood: function(e, detail, sender){
+            this.selectedWood = e.target.value;
+            localStorage.setItem("selectedWood", this.selectedWood);
+        },
+        
+        updateSelectedDoor: function(e, detail, sender){
+            this.selectedDoor = e.target.value;
+            localStorage.setItem("selectedDoor", this.selectedDoor);
+        },
+        
+        computeStore: function(madera, puerta, alto, ancho, grosor, result){
+            
+            cotizacion = {
+                "madera" : madera,
+                "puerta" : puerta,
+                "medidas" : {
+                    "alto" : alto,
+                    "ancho" : ancho,
+                    "grosor" : grosor
+                },
+                resultado: result
+            
+            };
+            return cotizacion;
+        }
+        
+          
+    });
+    
+</script>

@@ -1,0 +1,151 @@
+<link rel="import" href="../polymer/polymer.html"/>
+
+<link rel="import" href="coster-print.html"/>
+<link rel="import" href="item-contact.html"/>
+<link rel="import" href="item-coster.html"/>
+<link rel="import" href="item-door.html"/>
+<link rel="import" href="item-wood.html"/>
+
+<dom-module id="coster-app">
+    <style>
+
+    </style>
+
+    <template>
+        
+                
+    <div class="container">
+        
+        <section id="step_1" class="panel">
+            <item-contact id="contact"></item-contact>
+        </section>
+
+        <section id="step_2" class="panel">
+            <div class="container">
+                <div class="center">
+                <h4>CATALOGO DE PUERTAS</h4>
+                <span>¿Cual puerta le gusta?</span>
+                </div>
+                <div class="">
+                    <item-door id="door"></item-door>
+                     </div>
+                <div class="step_select">
+                    <div class="six columns">
+                <button class="u-full-width" onclick="prev_step('#step_1', '#step_2');">Anterior</button>
+                    </div>
+                    <div class="six columns">
+                    <button class="button-primary u-full-width" onclick="next_step('#step_2', '#step_3');">Siguiente</button>
+                    </div>
+                </div>
+        </section>
+
+        <section id="step_3" class="panel">
+            <div class="container">
+                <div class="center">
+                <h4>TIPO DE MADERA</h4>
+                <span>Escoja entre nuestra gran variedad de maderas.</span>
+                </div>
+                <div class="">
+                    <item-wood id="wood"></item-wood>
+                </div>
+                <div class="step_select">
+                    <div class="six columns">
+                <button class="u-full-width" onclick="prev_step('#step_2', '#step_3');">Anterior</button>
+                    </div>
+                    <div class="six columns">
+                    <button class="button-primary u-full-width" onclick="next_step('#step_3', '#step_4');" on-tap="updateData">Siguiente</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="step_4" class="panel">
+            <div class="container">
+                <div class="center">
+                <h4>Cotizacion</h4>
+                <span>Puede cambiar su eleccion.</span>
+                </div>
+                <item-coster id="cotizacion"
+                        it-wood="[[maderas]]"
+                        it-door="[[puertas]]">
+                </item-coster>
+                <div class="step_select">
+                    <div class="six columns">
+                <button class="u-full-width" onclick="prev_step('#step_3', '#step_4');">Anterior</button>
+                    </div>
+                    <div class="six columns">
+                    <button class="button-primary u-full-width" onclick="next_step('#step_4', '#step_5');" on-tap="updateData">Siguiente</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="step_5" class="panel">
+            
+                   <coster-print
+                                 id="final"
+                                 client-full="[[cliente]]"
+                                 price-full="[[cotizacion]]"
+                                 >
+                </coster-print>  
+        </section>
+        
+    </div>
+       
+    </template>    
+
+</dom-module>
+
+<script>
+    
+    Polymer({
+        is: "coster-app",
+        
+        properties: {
+            cliente: {
+                type: Object,
+                notify: true,
+                
+            },
+            cotizacion: {
+                type: Object,
+                notify: true
+            },
+            
+            puertas: {
+                type: Object,
+                notify: true
+            },
+            
+            maderas: {
+                type: Object,
+                notify: true
+            }
+        },
+       
+        ready: function(){
+            
+        },
+        
+        updateData: function(){
+            
+            this.cliente = this.$.contact.clientStored;
+            
+            this.puertas = this.$.door.doorsData;
+            
+            this.maderas = this.$.wood.woodsData;
+            
+            this.cotizacion = this.$.cotizacion.datos;
+           
+            console.log(this.cliente);
+            console.log(this.puertas);
+            console.log(this.maderas);
+            console.log(this.$.cotizacion.datos);
+            console.log(this.cotizacion);
+          
+            
+        }
+        
+    });
+    
+</script>

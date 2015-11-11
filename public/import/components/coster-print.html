@@ -1,0 +1,133 @@
+<link rel="import" href="../polymer/polymer.html"/>
+<link rel="import" href="../iron-ajax/iron-ajax.html"/>
+
+<dom-module id="coster-print">
+    <style>
+        @media print{
+    
+    .notprint{
+        display: none;
+    }
+}
+    </style>
+
+    <template>
+        
+        <iron-ajax
+            id="send"
+            url="/api/cotizaciones/"
+            method="POST"
+            content-type="application/json"
+            on-response="handleResponse">
+        </iron-ajax>
+        
+        <div class="container">
+                <div class="center notprint">
+                <h4>!YA CASI TERMINAMOS¡</h4>
+                <span>si quiere imprimir, pulse en el boton imprimir.</span>
+                </div>
+                <div class="area-item u-full-width">
+                    
+        
+        <div>
+            <h3>Cotización</h3>
+            <p>
+            <div class="twelve columns">
+            <strong >Cliente:</strong> <span>{{clientFull.name}}</span> <span>{{clientFull.lastName}}</span>
+            </div>
+            
+            <div class="twelve columns">
+            <strong>Tel.:</strong> <span>{{clientFull.phone}}</span>
+            </div>
+
+            <div class="twelve columns">
+            <strong>Email:</strong> <span>{{clientFull.email}}</span>
+            </div>
+            
+            </p>
+            
+            <p>
+        <table class="u-full-width">
+  <thead>
+    <tr>
+      <th>Cod. Puerta</th>
+      <th>Nombre Madera</th>
+      <th>Medidas</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{priceFull.puerta.codigo}}</td>
+      <td>{{priceFull.madera.tipo_madera}}</td>
+      <td><span>{{priceFull.medidas.alto}}</span> x <span>{{priceFull.medidas.ancho}}</span> pies</td>
+      <td>RD$<span>{{priceFull.resultado}}</span></td>
+    </tr>
+  </tbody>
+</table>
+            </p>
+            
+        </div>
+
+        </div>
+                <div class="step_select notprint">
+                    <div class="six columns">
+                <button class="u-full-width" onclick="prev_step('#step_4', '#step_5');">Anterior</button>
+                    </div>
+                    <div class="six columns">
+                        <div class="six columns"><button class="button-primary u-full-width" onclick="print();">Imprimir</button></div>
+                        <div class="six columns"><button class="button-primary u-full-width" on-tap="_requestCoster">Enviar</button></div>
+                    
+                    </div>
+                </div>
+            </div>
+        
+    </template>    
+
+</dom-module>
+
+<script>
+    
+    Polymer({
+        is: "coster-print",
+        
+        properties: {
+           
+            clientFull: {
+                type: Object,
+                notify: true
+            },
+            priceFull: {
+                type: Object,
+                notify: true
+            }
+            
+        },
+       
+        ready: function(){
+        
+        },
+        
+        
+        _requestCoster: function(){
+      
+            cotizacion = {
+                
+                "cliente": JSON.stringify(this.clientFull),
+                "cotizacion": JSON.stringify(this.priceFull)
+            
+            }; 
+            
+            console.log(cotizacion);
+            this.$.send.body = JSON.stringify(cotizacion);
+            this.$.send.generateRequest();
+        },
+        
+        handleResponse: function(e, request) {
+    var headers = request.xhr.getAllResponseHeaders();
+    alert(headers)
+  }
+        
+    });
+    
+</script>

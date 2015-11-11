@@ -1,0 +1,148 @@
+<link rel="import" href="../polymer/polymer.html"/>
+<link rel="import" href="../iron-ajax/iron-ajax.html"/>
+
+<dom-module id="item-door">
+    <style>
+        
+        .area-item{
+    margin-bottom: 1.3rem;
+    margin-top: 1.3rem;
+    overflow-y: auto;
+    padding: 0.4rem;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #ccc;
+    border-radius: 0.3rem;
+} 
+
+.item{
+    margin: 0.4rem;
+    display: inline-block;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #ccc;
+    border-radius: 0.3rem;
+}
+
+
+.item{
+    padding: 0.3rem;
+}
+
+.item:hover{
+background: #FFE3B3;
+border-color: #FFE3b3;
+border-width: 0.1rem;
+}
+
+
+
+</style>
+
+<template>
+    
+    <iron-ajax
+    auto
+    url="/api/puertas"
+    handle-as="json"
+    on-response="handleData"></iron-ajax>
+    
+    <div class="area-item twelve columns">
+        <template is="dom-repeat" items="{{doorsData}}">
+            <div class="item">
+                <span>
+                <a data-toggle="modal" href="{{doorID('#', item.id)}}">
+                <img src="{{item.thumb_url}}"/>
+                </a>
+                </span>
+            </div>
+            
+            <div class="modal fade" id="{{doorID('', item.id)}}">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h5 class="modal-title">Descripcion de la puerta</h5>
+      </div>
+      <div class="modal-body container-fluid">
+          <div class="container">
+              <div class="row">
+              <div class="four columns"><img src="{{item.thumb_url}}"/></div>  
+            <div class="eight columns">
+            <h5><span>Modelo:</span> <small>{{item.codigo}}</small></h5>
+            <p>{{item.descripcion}}</p>
+            </div>
+          </div>
+
+          </div>
+                </div>
+      <footer class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+        <button type="button" class="btn btn-primary" value="{{obj_door(item.id, item.tipo_puerta, item.codigo, item.thumb_url, item.precio, item.descripcion)}}" on-tap="updateSelectedDoor" data-dismiss="modal">me gusta</button>
+      </footer>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+            
+            
+        </template>
+    </div>
+    
+</template>    
+
+</dom-module>
+
+<script>
+    
+    Polymer({
+        is: "item-door",
+        
+        properties: {
+            
+            doorsData:{
+                type: Array,
+                notify: true
+            },
+            
+            selectDoor:{
+                type: String,
+                notify: true
+            } 
+        },
+        
+        updateSelectedDoor: function(e, detail, sender){
+            
+            this.selectDoor = e.target.value;
+            localStorage.setItem("selectedDoor", this.selectDoor);
+            
+            next_step('#step_2', '#step_3');
+        },
+        
+        handleData: function(data){
+            
+            this.doorsData = data.detail.response;
+        },
+        
+        doorID: function(sharp, id){
+            
+            return sharp + 'door' + id;
+        },
+        
+        obj_door: function(id, tipo, codigo, thumb_url, precio, descripcion){
+            
+            puerta_select = {
+                "id": id,
+                "tipo_puerta": tipo,
+                "codigo": codigo, 
+                "thumb_url": thumb_url,
+                "precio": precio,
+                "descripcion": descripcion
+            };
+            
+            return JSON.stringify(puerta_select);
+            
+        }
+        
+    });
+    
+</script>

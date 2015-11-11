@@ -1,0 +1,51 @@
+<dom-module id="new-door">
+  <link rel="stylesheet" href="new-door.css" />
+  
+  <template>
+        
+        <iron-ajax
+            id="send"
+            url="https://coster.herokuapp.com/api/puertas/"
+            method="POST"
+            content-type="application/json"
+            on-response="clear_form">
+        </iron-ajax>
+        
+            <div>
+              <div class="col-md-12">    
+                  <div class="form-group">
+                    <label>Tipo de Puerta:</label>
+                  <input type="text" placeholder="Nombre de la Puerta" class="form-control" value="{{typeDoor::input}}"/>
+                  </div>
+                  
+                  <div class="form-group">
+                        <label>Codigo:</label>
+                        <input type="text" class="form-control" placeholder="el codigo debe empezar con un #" value="{{code::input}}"/>
+                  </div>
+                  
+                  <div class="form-group">
+                        <label>Imagen:</label>      
+                        <input type="url" placeholder="Url de la Imagen" class="form-control" value="{{imgUrl::input}}"/>
+                  </div>
+                  
+                  <div class="form-group">
+                        <label>Precio:</label>
+                        <input type="number" placeholder="Precio de la Puerta" class="form-control" value="{{precio::input}}"/>
+                  </div>
+                  
+                  <div class="form-group">
+                        <label>Descripcion:</label>
+                        <textarea placeholder="Descripcion de la Puerta" class="form-control" value="{{descripcion::input}}"></textarea>
+                  </div>
+                  
+                  <div class="form-group pull-right">
+                        <button class="btn btn-danger" on-tap="requestDoor">Añadir Puerta</button>
+                  </div>
+                  
+              </div>
+          </div>
+     
+    </template>
+
+  <script src="new-door.js"></script>
+</dom-module>

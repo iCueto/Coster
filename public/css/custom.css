@@ -1,0 +1,47 @@
+@media print{
+    
+    .notprint{
+        display: none;
+    }
+}
+
+body{
+background-image: url(../img/wood_texture.jpg);
+background-size: auto;
+margin: 0;
+}
+
+.panel{
+    background-color: #fff;
+    height: 80%;
+}
+
+.center{
+    text-align: center;
+}
+
+/**ocultando todos los pasos **/
+
+#step_2{
+display: none;
+}
+
+#step_3{
+display: none;
+}
+
+#step_4{
+display: none;
+}
+
+#step_5{
+display: none;
+}
+
+.navbar-brand{
+ padding: 0;   
+}
+
+.white{
+    background: #fff;
+}

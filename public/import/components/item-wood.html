@@ -1,0 +1,121 @@
+<link rel="import" href="../polymer/polymer.html"/>
+<link rel="import" href="../iron-ajax/iron-ajax.html"/>
+
+<dom-module id="item-wood">
+    <style>
+        .area-item{
+    margin-bottom: 1.3rem;
+    margin-top: 1.3rem;
+    overflow-y: auto;
+    padding: 0.4rem;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #ccc;
+    border-radius: 0.3rem;
+} 
+
+.item{
+    margin: 0.4rem;
+    display: inline-block;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #ccc;
+    border-radius: 0.3rem;
+}
+
+.item input[type="radio"]{
+    display: none;
+}
+
+.item label{
+    padding: 0.4rem;
+}
+
+.item label:hover{
+background: #FFE3B3;
+}
+
+input[type='radio']:checked + label {
+  background: #FFE3B3;
+}
+
+</style>
+
+<template>
+    <iron-ajax
+    auto
+    url="/api/maderas"
+    handle-as="json"
+    on-response="handleData"></iron-ajax>
+    
+    <div class="area-item twelve columns" on-change="updateSelectedWood">
+        <template is="dom-repeat" items="{{woodsData}}">
+            
+            <div class="item" data-toggle="tooltip" data-placement="top" title$="{{item.tipo_madera}}">
+                
+        <input type="radio" id$="{{ woodID('#', item.id) }}" name="woods" value$="{{obj_wood(item.id, item.tipo_madera, item.valor, item.thumb_url)}}"/>
+                       
+        <label for$="{{ woodID('#', item.id) }}">
+            <span><img src$="{{item.thumb_url}}"/></span>
+                        </label>
+                </div>
+        </template>
+    </div>
+    
+</template>    
+
+</dom-module>
+
+<script>
+    
+    Polymer({
+        is: "item-wood",
+        properties: {
+            
+            woodsData:{
+                type: Array,
+                notify: true
+            },
+            
+            selectWood:{
+                type: String,
+                notify: true
+            } 
+        },
+        
+        updateSelectedWood: function(e, detail, sender){
+            
+            this.selectWood = e.target.value;
+            localStorage.setItem("selectedWood", this.selectWood); 
+        },
+        
+        handleData: function(data){
+            
+            this.woodsData = data.detail.response;
+        },
+        
+        woodID: function(sharp, id){
+            
+            return sharp + 'wood' + id;
+        },
+        
+        obj_wood: function(id, tipo, valor, thumb_url){
+            
+            madera_select = {
+                "id": id,
+                "tipo_madera": tipo,
+                "valor": valor,
+                "thumb_url": thumb_url
+            };
+            
+            return JSON.stringify(madera_select);
+            
+        },
+        
+        ready: function(){
+       
+    }});
+    
+</script>
+
+
