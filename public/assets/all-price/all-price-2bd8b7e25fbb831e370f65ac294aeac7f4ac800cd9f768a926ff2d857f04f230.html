@@ -1,0 +1,102 @@
+<dom-module id="all-price">
+  <style>:host{display:block}.item{display:inline-block;margin:0.3rem}
+</style>
+  <template>
+    
+    <iron-ajax id="get" auto="" url="https://coster.herokuapp.com/api/cotizaciones" handle-as="json" on-response="handleData"></iron-ajax>
+    
+    <iron-ajax id="delete" method="DELETE" on-response="refresh"></iron-ajax>
+    
+    <table class="table table-hover">
+        <thead>
+    <tr>
+      <th>No.</th>
+      <th>Cliente</th>
+      <th>Fecha</th>
+      <th>Detalles</th>
+    </tr>
+  </thead>
+       <tbody> 
+         <template is="dom-repeat" items="{{price}}">     
+    <tr>
+      <td>{{item.id}}</td>
+      <td>
+<span>{{item.cliente.name}}</span> <span>{{item.cliente.lastName}}</span>
+</td>
+      <td>{{item.created_at}}</td>
+      <td>
+    <a data-toggle="modal" href$="{{priceID('#', item.id)}}">detalles</a>
+      </td>
+    </tr>
+                   
+            <div class="modal fade" id$="{{priceID('', item.id)}}">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h5 class="modal-title">Detalles de la Cotizacion</h5>
+      </div>
+      <div class="modal-body">
+          <div class="row">
+            <div class="col-md-12">
+                <h3>Fecha: <small class="pull-right">[[item.created_at]]</small>
+</h3>
+            <div class="col-md-6">
+                <h3>Datos del Cliente:</h3>
+                <div>
+<strong>Cliente:</strong> <span>[[item.cliente.name]]</span> <span>[[item.cliente.lastName]]</span>
+</div>
+                <div>
+<strong>Telefono:</strong> <span>[[item.cliente.phone]]</span>
+</div>
+                <div>
+<strong>Email:</strong> <span>[[item.cliente.email]]</span>
+</div>
+            </div>
+            <div class="col-md-6">
+                <h3>Cotizacion</h3>
+                <div>
+                    <h4>Madera:</h4>
+                    <div class="thumbnail text-center">
+                        <img src="%5B%5Bitem.cotizacion.madera.thumb_url%5D%5D">
+                        <span>[[item.cotizacion.madera.tipo_madera]]</span>
+                    </div>
+                    <h4>Puerta:</h4>
+                    <div class="thumbnail text-center">
+                        <img src="%5B%5Bitem.cotizacion.puerta.thumb_url%5D%5D">
+                        <span>[[item.cotizacion.puerta.codigo]]</span>
+                        <span>[[item.cotizacion.puerta.tipo_puerta]]</span>
+                    </div>
+                    <h4>Medidas:</h4>
+                    <div>
+                    <div>Alto: <span>[[item.cotizacion.medidas.alto]]</span> pies</div>
+                <div>Ancho: <span>[[item.cotizacion.medidas.ancho]]</span> pies</div>
+                <div>Grosor: <span>[[item.cotizacion.medidas.grosor]]</span> pies</div>
+                    </div>
+                <h4>Total: <strong>RD$<span>[[item.cotizacion.resultado]]</span></strong>
+</h4>
+                </div>
+                
+            </div>
+                
+                  
+          </div>
+                </div>
+      <footer class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal" id$="{{item.id}}" on-tap="handleRemove">Eliminar</button>
+      </footer>
+    </div>
+<!-- /.modal-content -->
+  </div>
+<!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+            
+        </div></template>
+      </tbody>
+    </table>
+    
+ </template>    
+
+  <script>Polymer({is:"all-price",attached:function(){this.price=[]},handleData:function(e){for(this.price=e.detail.response,i=0;i<this.price.length;i++)this.price[i].cliente=JSON.parse(this.price[i].cliente),this.price[i].cotizacion=JSON.parse(this.price[i].cotizacion);this.price.reverse()},handleRemove:function(e){var i=e.currentTarget;console.log(i.id),this.$["delete"].url="https://coster.herokuapp.com/api/cotizaciones/"+i.id,this.$["delete"].generateRequest()},refresh:function(){this.$.get.generateRequest()},priceID:function(e,i){return e+"price"+i},ready:function(){}});</script>
+</dom-module>

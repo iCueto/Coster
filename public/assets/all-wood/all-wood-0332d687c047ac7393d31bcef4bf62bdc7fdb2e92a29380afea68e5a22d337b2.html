@@ -1,0 +1,73 @@
+<dom-module id="all-wood">
+  <style>:host{display:block}.item{display:inline-block;margin:0.3rem}
+</style>
+  <template>
+    
+    <iron-ajax id="get" auto="" url="https://coster.herokuapp.com/api/maderas" handle-as="json" on-response="handleData"></iron-ajax>
+    
+    <iron-ajax id="send" method="POST" content-type="application/json" on-response="handleResponse">
+        </iron-ajax>
+    
+    <iron-ajax id="edit" method="PUT" content-type="application/json" on-response="refresh">
+        </iron-ajax>
+    
+    <iron-ajax id="delete" method="DELETE" on-response="refresh"></iron-ajax>
+    
+    <div class="col-sm-12">
+        <template is="dom-repeat" items="{{woods}}">
+            <div class="item" data-toggle="tooltip" data-placement="top" title$="{{item.tipo_madera}}">       
+            <div class="thumbnail">
+                <img src="%7B%7Bitem.thumb_url%7D%7D" class="img-rounded">
+                <a data-toggle="modal" href$="{{woodID('#', item.id)}}">
+                Editar
+                </a> | 
+                <a href="#" id$="{{item.id}}" on-tap="handleRemove">
+                Eliminar
+                </a>
+                </div>
+                </div>
+            
+            <div class="modal fade" id$="{{woodID('', item.id)}}">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h5 class="modal-title">Editar Puerta</h5>
+      </div>
+      <div class="modal-body">
+          <div class="row">
+              <div class="col-md-12">    
+                  <div class="form-group">
+                    <label>Tipo de Madera:</label>
+                  <input type="text" placeholder="Nombre de la Puerta" class="form-control" value="{{typeDoor::input}}">
+                  </div>
+                  
+                  <div class="form-group">
+                  <label>Imagen:</label>      
+                  <input type="url" placeholder="Url de la Imagen" class="form-control" value="{{imgUrl::input}}">
+                  </div>
+                  
+                  <div class="form-group">
+                      <label>Valor:</label>
+                      <input type="number" placeholder="Precio de la Puerta" class="form-control" value="{{valor::input}}">
+                  </div>
+              </div>
+          </div>
+                </div>
+      <footer class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" id$="{{item.id}}" on-tap="handleEdit">Enviar</button>
+      </footer>
+    </div>
+<!-- /.modal-content -->
+  </div>
+<!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+        </template>
+    </div>
+    
+  </template>    
+
+  <script>Polymer({is:"all-wood",properties:{typeWood:String,imgUrl:String,valor:Number},setEdit:function(){EditRequest={tipo_madera:this.typeWood,thumb_url:this.imgUrl,precio:this.valor},this.$.edit.body=JSON.stringify(EditRequest),console.log(this.$.edit.body)},attached:function(){this.woods=[]},handleData:function(e){this.woods=e.detail.response},handleRemove:function(e){var t=e.currentTarget;console.log(t.id),this.$["delete"].url="https://coster.herokuapp.com/api/maderas/"+t.id,this.$["delete"].generateRequest()},handleEdit:function(e){var t=e.currentTarget;console.log(t.id),this.setEdit(),this.$.edit.url="https://coster.herokuapp.com/api/maderas/"+t.id,this.$.edit.generateRequest()},refresh:function(){this.$.get.generateRequest()},woodID:function(e,t){return e+"wood"+t},ready:function(){}});</script>
+</dom-module>

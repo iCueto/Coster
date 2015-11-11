@@ -1,0 +1,34 @@
+<dom-module id="new-wood">
+  <style>:host{display:block}
+</style>
+  <template>
+        
+        <iron-ajax id="send" url="https://coster.herokuapp.com/api/maderas/" method="POST" content-type="application/json" on-response="clear_form">
+        </iron-ajax>
+        
+            <div>
+              <div class="col-md-12">    
+                  <div class="form-group">
+                    <label>Tipo de Madera:</label>
+                  <input type="text" placeholder="Nombre de la Puerta" class="form-control" value="{{ typeDoor::input }}">
+                  </div>
+                  
+                  <div class="form-group">
+                  <label>Imagen:</label>      
+                  <input type="url" placeholder="Url de la Imagen" class="form-control" value="{{ imgUrl::input }}">
+                  </div>
+                  
+                  <div class="form-group">
+                      <label>Valor:</label>
+                      <input type="number" placeholder="Precio de la Puerta" class="form-control" value="{{ valor::input }}">
+                  </div>
+                  
+                  <div class="form-group pull-right">
+                        <button class="btn btn-danger" on-tap="requestWood">Añadir Madera</button>
+                  </div>
+              </div>
+          </div>
+    </template>    
+
+  <script>Polymer({is:"new-wood",properties:{typeWood:String,imgUrl:String,valor:Number},ready:function(){},requestWood:function(){bodyRequest={tipo_madera:this.typeWood,thumb_url:this.imgUrl,valor:this.valor},this.$.send.body=JSON.stringify(bodyRequest),this.$.send.generateRequest()},clear_form:function(){this.typeWood="",this.imgUrl="",this.valor=""}});</script>
+</dom-module>
