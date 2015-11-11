@@ -19,6 +19,11 @@ gem 'responders', '~> 2.0'
 gem 'polymer-rails'
 gem 'polymer-elements-rails'
 
+source 'https://rails-assets.org' do
+ gem 'rails-assets-bootstrap'
+
+end
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
