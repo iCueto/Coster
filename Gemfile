@@ -21,7 +21,6 @@ gem 'polymer-elements-rails'
 
 source 'https://rails-assets.org' do
  gem 'rails-assets-bootstrap'
-
 end
 
 # Use jquery as the JavaScript library
