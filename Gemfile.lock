@@ -84,6 +84,7 @@ GEM
       nokogumbo (~> 1.1)
       rails (>= 3.1.0)
       sprockets (< 3.0.0)
+    puma (2.15.3)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -171,6 +172,7 @@ DEPENDENCIES
   pg
   polymer-iron-rails
   polymer-rails (~> 1.0.0)
+  puma
   rails (= 4.2.3)
   rails-assets-bootstrap!
   rails_12factor
