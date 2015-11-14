@@ -1,0 +1,102 @@
+{:uriI"·file:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-material/paper-material.html?type=text/html&id=acc28c1069fda41af7c6cca59ded0ffc6937a0072cf7ca4d77c50bae106f387b:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"á/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-material/paper-material.html;T:	nameI""paper-material/paper-material;T:logical_pathI"'paper-material/paper-material.html;T:content_typeI"text/html;T:sourceI"Ë<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../paper-styles/shadow.html">
+
+<!--
+
+`paper-material` is a container that renders two shadows on top of each other to
+create the effect of a lifted piece of paper.
+
+Example:
+
+    <paper-material elevation="1">
+      ... content ...
+    </paper-material>
+
+@group Paper Elements
+@class paper-material
+@demo demo/index.html
+-->
+
+<dom-module id="paper-material">
+  <style>
+    :host {
+      display: block;
+      position: relative;
+      @apply(--shadow-transition);
+    }
+
+    :host([elevation="1"]) {
+      @apply(--shadow-elevation-2dp);
+    }
+
+    :host([elevation="2"]) {
+      @apply(--shadow-elevation-4dp);
+    }
+
+    :host([elevation="3"]) {
+      @apply(--shadow-elevation-6dp);
+    }
+
+    :host([elevation="4"]) {
+      @apply(--shadow-elevation-8dp);
+    }
+
+    :host([elevation="5"]) {
+      @apply(--shadow-elevation-16dp);
+    }
+  </style>
+  <template>
+    <content></content>
+  </template>
+</dom-module>
+<script>
+  Polymer({
+    is: 'paper-material',
+
+    properties: {
+
+      /**
+       * The z-depth of this element, from 0-5. Setting to 0 will remove the
+       * shadow, and each increasing number greater than 0 will be "deeper"
+       * than the last.
+       *
+       * @attribute elevation
+       * @type number
+       * @default 1
+       */
+      elevation: {
+        type: Number,
+        reflectToAttribute: true,
+        value: 1
+      },
+
+      /**
+       * Set this to true to animate the shadow when setting a new
+       * `elevation` value.
+       *
+       * @attribute animated
+       * @type boolean
+       * @default false
+       */
+      animated: {
+        type: Boolean,
+        reflectToAttribute: true,
+        value: false
+      }
+    }
+  });
+</script>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"ïfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-material/paper-material.html;TT:charsetI"
+utf-8;F:digest"%‚ŸúÅZBWo@´Êàwõéf…Õü/3lK%M<:lengthiË:integrityI"Kni:///sha-256;4tkRE5yBWkJXb0Cr5oh3m45myc2fLzMFbEsNJU0QPB0?ct=text/html;T:dependencies_digest"%{Æ°˙€8‹à8YÆÂ◊túåpWø™˘ä∫VÿÓ8ﬂ:idI"Eacc28c1069fda41af7c6cca59ded0ffc6937a0072cf7ca4d77c50bae106f387b;F:
+mtimel+^FV

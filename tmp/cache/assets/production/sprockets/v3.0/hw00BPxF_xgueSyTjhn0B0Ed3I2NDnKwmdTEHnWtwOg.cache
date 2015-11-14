@@ -1,0 +1,52 @@
+{:uriI"Øfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-meta/test/basic.html?type=text/html&id=e5479c96abf28efd96ce53dd523224a6776e0d159d55831d865225036fddad2e:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"~/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-meta/test/basic.html;T:	nameI"iron-meta/test/basic;T:logical_pathI"iron-meta/test/basic.html;T:content_typeI"text/html;T:sourceI"<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<html>
+<head>
+
+  <title>iron-meta-basic</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+  <script src="../../web-component-tester/browser.js"></script>
+
+  <link rel="import" href="../iron-meta.html">
+
+</head>
+<body>
+
+  <iron-meta key="info" value="foo/bar"></iron-meta>
+
+  <script>
+
+    suite('basic', function() {
+
+      test('byKey', function() {
+        var meta = document.createElement('iron-meta');
+        assert.equal(meta.byKey('info'), 'foo/bar');
+      });
+
+      test('list', function() {
+        var meta = document.createElement('iron-meta');
+        assert.equal(meta.list.length, 1);
+      });
+
+    });
+
+  </script>
+
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"Œfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-meta/test/basic.html;TT:charsetI"
+utf-8;F:digest"%,úg±Ò»‰3ú—jRÏ0"ØŸx|H‰êJB\bAÁ:lengthi:integrityI"Kni:///sha-256;LPpnsdK7iTP6l2oNUs8wItifeBp8SInqSkISXGJBwQc?ct=text/html;T:dependencies_digest"%Ó‘ðŒz­;±€œN_­²ûÞ‹ºÄóx\Z`U#‚M:idI"Ee5479c96abf28efd96ce53dd523224a6776e0d159d55831d865225036fddad2e;F:
+mtimel+^FV

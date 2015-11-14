@@ -1,0 +1,29 @@
+{:uriI"Ÿfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-image/test/index.html?type=text/html&id=690f8a2d5fe80a5c834e9101b7cf965a8dfe2d8430d9ec81f6bda8ca07480639:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-image/test/index.html;T:	nameI"iron-image/test;T:logical_pathI"iron-image/test.html;T:content_typeI"text/html;T:sourceI"B<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="../../web-component-tester/browser.js"></script>
+  </head>
+  <body>
+    <script>
+      WCT.loadSuites([
+        'iron-image.html'
+      ]);
+    </script>
+  </body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"çfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-image/test/index.html;TT:charsetI"
+utf-8;F:digest"% L≈´z>{÷5Å¡^ŸKÜef·0çeﬁ†˚:¬öq:lengthiB:integrityI"Kni:///sha-256;IEzFq3o-e9Y1GYHBXgzZS4ZlZuEwjWXeoBP7OsKaBXE?ct=text/html;T:dependencies_digest"%ûå±cÙΩí’oÚ0sO_bZlì’xK\,L 7:idI"E690f8a2d5fe80a5c834e9101b7cf965a8dfe2d8430d9ec81f6bda8ca07480639;F:
+mtimel+^FV

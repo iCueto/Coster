@@ -1,0 +1,55 @@
+{:uriI"˘file:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-form-element-behavior/iron-form-element-behavior.html?type=text/html&id=d12d3fd8bf6468a1fc3b54de92e370469e5179587a0d4d713c4304e2582fb5dc:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"ü/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-form-element-behavior/iron-form-element-behavior.html;T:	nameI":iron-form-element-behavior/iron-form-element-behavior;T:logical_pathI"?iron-form-element-behavior/iron-form-element-behavior.html;T:content_typeI"text/html;T:sourceI"E<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+Enables a custom element to be included in an `iron-form`.
+-->
+<script>
+
+  /** 
+  
+  @demo demo/index.html
+  @polymerBehavior 
+  
+  */
+  Polymer.IronFormElementBehavior = {
+
+    properties: {
+
+      /**
+       * The name of this element.
+       */
+      name: {
+        type: String
+      },
+
+      /**
+       * The value for this element.
+       */
+      value: {
+        notify: true,
+        type: String
+      },
+    },
+
+    attached: function() {
+      this.fire('iron-form-element-register');
+    }
+
+  };
+
+</script>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"≠file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-form-element-behavior/iron-form-element-behavior.html;TT:charsetI"
+utf-8;F:digest"%$HÆn	»Xm‹ä$.ªúÂcEÍ=—£û–ØÄüÖ6á:lengthiE:integrityI"Kni:///sha-256;JEiubgkNyFht3IokLruc5WNFGuo90aOe0K-AHZ-FNoc?ct=text/html;T:dependencies_digest"%M∆$¥õ&ıŒ™åı"ã÷îgn
+XQ‡h∆á::€“è:idI"Ed12d3fd8bf6468a1fc3b54de92e370469e5179587a0d4d713c4304e2582fb5dc;F:
+mtimel+^FV

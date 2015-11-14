@@ -1,0 +1,30 @@
+{:uriI"Ûfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-image/bower.json?type=application/json&id=341b76adfc16435c30c123ebfbef18dba23178722873c84892cdedd475965805:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-image/bower.json;T:	nameI"iron-image/bower;T:logical_pathI"iron-image/bower.json;T:content_typeI"application/json;T:sourceI"Á{
+  "name": "iron-image",
+  "version": "1.0.0",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "description": "An image-displaying element with lots of convenient features",
+  "private": true,
+  "authors": [
+    "The Polymer Authors"
+  ],
+  "keywords": [
+    "web-components",
+    "polymer",
+    "media"
+  ],
+  "dependencies": {
+    "iron-flex-layout": "polymerelements/iron-flex-layout#^1.0.0",
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "polymerelements/iron-component-page#^1.0.0",
+    "test-fixture": "polymerelements/test-fixture#^1.0.0",
+    "web-component-tester": "*",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"ˆfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-image/bower.json;TT:charsetI"
+utf-8;F:digest"%Im5KKWtrˆ$ˆLâ¼&·Ïão«Ü:¦W¬	:lengthiÁ:integrityI"Rni:///sha-256;SW01S0tXdHKIJIgTTOK8JrfPAR7jbx-r3DofphtXrAk?ct=application/json;T:dependencies_digest"%×·@‰v> 	–İëàN
+p~ùµÅ·ïıµD$3H:idI"E341b76adfc16435c30c123ebfbef18dba23178722873c84892cdedd475965805;F:
+mtimel+^FV

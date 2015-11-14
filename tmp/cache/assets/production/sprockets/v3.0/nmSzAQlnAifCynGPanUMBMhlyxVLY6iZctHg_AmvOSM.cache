@@ -1,0 +1,44 @@
+{:uriI"×file:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-toolbar/index.html?type=text/html&id=ba2090d0165349213212785b35cfd0db648f8d4fa697f00bc551e199ba984d7c:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"}/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-toolbar/index.html;T:	nameI"paper-toolbar;T:logical_pathI"paper-toolbar.html;T:content_typeI"text/html;T:sourceI"*<!doctype html>
+<!--
+  @license
+  Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+  This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+  The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+  The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+  Code distributed by Google as part of the polymer project is also
+  subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+
+  <title>paper-toolbar</title>
+
+  <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+
+  <link rel="import" href="../polymer/polymer.html">
+  <link rel="import" href="../iron-component-page/iron-component-page.html">
+
+  <style>
+
+    body {
+      margin: 16px;
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <iron-component-page></iron-component-page>
+
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"‹file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-toolbar/index.html;TT:charsetI"
+utf-8;F:digest"%ï×$eº79ùsîÙÜƒ¢!¿wé
+!¹h0F
+Y:lengthi*:integrityI"Kni:///sha-256;7xkM1yRlujc5-RBz7tncgw-iDiG_d-kKIbloMEYVClk?ct=text/html;T:dependencies_digest"%dž,t‡.Ú>‰	`‡Îþƒü@ñé‡Çú›1gÈ]c:idI"Eba2090d0165349213212785b35cfd0db648f8d4fa697f00bc551e199ba984d7c;F:
+mtimel+^FV

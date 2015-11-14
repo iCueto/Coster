@@ -1,0 +1,33 @@
+{:uriI"‰file:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-component-page/bower.json?type=application/json&id=019b48a96a872b306d9e341de62acfa9d5ef2aac784482adc9c5133ec90d5f6d:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"É/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-component-page/bower.json;T:	nameI"iron-component-page/bower;T:logical_pathI"#iron-component-page/bower.json;T:content_typeI"application/json;T:sourceI"({
+  "name": "iron-component-page",
+  "description": "Turns a raw element definition into beautiful documentation",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "docs"
+  ],
+  "version": "1.0.4",
+  "private": true,
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "iron-doc-viewer": "PolymerElements/iron-doc-viewer#^1.0.1",
+    "iron-flex-layout": "PolymerElements/iron-flex-layout#^1.0.0",
+    "paper-toolbar": "PolymerElements/paper-toolbar#^1.0.0",
+    "iron-ajax": "PolymerElements/iron-ajax#^1.0.0",
+    "hydrolysis": "Polymer/hydrolysis#^1.11",
+    "paper-header-panel": "PolymerElements/paper-header-panel#^1.0.0",
+    "iron-icons": "PolymerElements/iron-icons#^1.0.0",
+    "iron-selector": "PolymerElements/iron-selector#^1.0.0",
+    "paper-styles": "PolymerElements/paper-styles#^1.0.0"
+  },
+  "devDependencies": {
+    "test-fixture": "PolymerElements/test-fixture#^1.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0",
+    "web-component-tester": "*"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"ëfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-component-page/bower.json;TT:charsetI"
+utf-8;F:digest"%˝ö`Ó©bH}áÉÅS’„¬Ûa∂ãIlÑîı÷∑Æ3üS:lengthi(:integrityI"Rni:///sha-256;_Zpg7qliSH2Hg4FT1ePC82G2i0lshBKU9da3rjMYn1M?ct=application/json;T:dependencies_digest"%Ò¢?Ò◊hU§<Bù∞œ∑3dˆ∞[≤ÛÂÿÙó'ú”:idI"E019b48a96a872b306d9e341de62acfa9d5ef2aac784482adc9c5133ec90d5f6d;F:
+mtimel+^FV

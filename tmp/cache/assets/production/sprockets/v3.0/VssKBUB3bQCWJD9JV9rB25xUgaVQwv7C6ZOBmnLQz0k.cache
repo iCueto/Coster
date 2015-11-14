@@ -1,0 +1,118 @@
+{:uriI"Ífile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-resizable-behavior/demo/src/x-app.html?type=text/html&id=04bb3db689810c4edbbf17190bc5f94316187290a8d77a2e45177682c906f109:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"ê/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-resizable-behavior/demo/src/x-app.html;T:	nameI"+iron-resizable-behavior/demo/src/x-app;T:logical_pathI"0iron-resizable-behavior/demo/src/x-app.html;T:content_typeI"text/html;T:sourceI"œ<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../../iron-resizable-behavior.html">
+
+<dom-module id="x-puck">
+
+  <style>
+
+    :host {
+      display: inline-block;
+      border: 3px solid lightblue;
+    }
+
+  </style>
+
+  <template>
+
+    <b>I'm a resize-aware, thirdifying puck at (<span>{{x}}</span> x <span>{{y}}</span>).</b>
+
+  </template>
+
+</dom-module>
+
+<script>
+
+  Polymer({
+
+    is: 'x-puck',
+
+    behaviors: [
+      Polymer.IronResizableBehavior
+    ],
+
+    properties: {
+      x: {
+        type: Number,
+        value: 0
+      },
+
+      y: {
+        type: Number,
+        value: 0
+      }
+    },
+
+    listeners: {
+      'iron-resize': '_onIronResize'
+    },
+
+    attached: function() {
+      this.async(this.notifyResize, 1);
+    },
+
+    get parent() {
+      if (this.parentNode.nodeType === Node.DOCUMENT_FRAGMENT_NODE) {
+        return this.parentNode.host;
+      }
+
+      return this.parentNode;
+    },
+
+    _onIronResize: function() {
+      var x = this.x = Math.floor(this.parent.offsetWidth / 3);
+      var y = this.y = Math.floor(this.parent.offsetHeight / 3);
+
+      this.translate3d(x + 'px', y + 'px', 0);
+    }
+  });
+
+</script>
+
+<dom-module id="x-app">
+
+  <style>
+
+    :host {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+  </style>
+
+  <template>
+
+    <x-puck></x-puck>
+
+  </template>
+
+</dom-module>
+
+<script>
+
+  Polymer({
+
+    is: 'x-app',
+
+    behaviors: [
+      Polymer.IronResizableBehavior
+    ]
+  });
+
+</script>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"ûfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-resizable-behavior/demo/src/x-app.html;TT:charsetI"
+utf-8;F:digest"%ÁàÀg%ø]≤h#>é±¶xé’ßG{Ä¸yLÊº⁄E:lengthiœ:integrityI"Kni:///sha-256;54jLZyW_H12yaCM-jrGmFHgRjtWnR3sEgPx5TOa82kU?ct=text/html;T:dependencies_digest"%ûπ∂µí“µ±mùºw’\4¶Rj:Gübô>¥I$à:idI"E04bb3db689810c4edbbf17190bc5f94316187290a8d77a2e45177682c906f109;F:
+mtimel+^FV

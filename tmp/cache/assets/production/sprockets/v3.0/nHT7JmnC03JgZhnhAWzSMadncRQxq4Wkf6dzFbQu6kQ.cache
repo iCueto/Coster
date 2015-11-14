@@ -1,0 +1,41 @@
+{:uriI"Áfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-autogrow-textarea/bower.json?type=application/json&id=6e6ffc26ef358ed16535b2c0a8f9d5a771285a937233a2423d52e26119114608:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"Ü/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-autogrow-textarea/bower.json;T:	nameI"!iron-autogrow-textarea/bower;T:logical_pathI"&iron-autogrow-textarea/bower.json;T:content_typeI"application/json;T:sourceI"h{
+  "name": "iron-autogrow-textarea",
+  "version": "1.0.1",
+  "description": "A textarea element that automatically grows with input",
+  "authors": [
+    "The Polymer Authors"
+  ],
+  "keywords": [
+    "web-components",
+    "polymer",
+    "input",
+    "textarea"
+  ],
+  "main": [
+    "iron-autogrow-textarea.html"
+  ],
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PolymerElements/iron-autogrow-textarea.git"
+  },
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/PolymerElements/iron-autogrow-textarea",
+  "ignore": [],
+  "dependencies": {
+    "iron-flex-layout": "PolymerElements/iron-flex-layout#^1.0.0",
+    "iron-validatable-behavior": "PolymerElements/iron-validatable-behavior#^1.0.0",
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "test-fixture": "PolymerElements/test-fixture#^1.0.0",
+    "web-component-tester": "*",
+    "paper-styles": "PolymerElements/paper-styles#^1.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"îfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-autogrow-textarea/bower.json;TT:charsetI"
+utf-8;F:digest"%ΩÒt¬‰É.¢∆‰K‡ØÙÀe˙gä–ƒMà`qG‚^:lengthih:integrityI"Rni:///sha-256;vR7xdMIX5IMuosbkS-Cv9MsPZfpnihPQxE2IYHFH4l4?ct=application/json;T:dependencies_digest"%Él~∆èNÕº§/ï^c¸V„∞âèÓ“.u{3È:idI"E6e6ffc26ef358ed16535b2c0a8f9d5a771285a937233a2423d52e26119114608;F:
+mtimel+^FV

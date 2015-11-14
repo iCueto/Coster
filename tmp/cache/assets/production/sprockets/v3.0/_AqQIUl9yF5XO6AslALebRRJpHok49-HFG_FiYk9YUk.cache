@@ -1,0 +1,47 @@
+{:uriI"Úfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-form/bower.json?type=application/json&id=aa8ad7c4ddb2d38a6bfc31c2db96ba2aac68ed3f6f03094e82a1aa1a169cc01b:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"~/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-form/bower.json;T:	nameI"iron-form/bower;T:logical_pathI"iron-form/bower.json;T:content_typeI"application/json;T:sourceI"¤{
+  "name": "iron-form",
+  "version": "1.0.1",
+  "description": "Makes it easier to manage forms",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "form"
+  ],
+  "authors": [
+    "The Polymer Authors"
+  ],
+  "keywords": [
+    "web-components",
+    "web-component",
+    "polymer"
+  ],
+  "main": [
+    "iron-form.html"
+  ],
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PolymerElements/iron-form.git"
+  },
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/PolymerElements/iron-form",
+  "ignore": [],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "iron-ajax": "PolymerElements/iron-ajax#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-form-element-behavior": "PolymerElements/iron-form-element-behavior#^1.0.0",
+    "test-fixture": "PolymerElements/test-fixture#^1.0.0",
+    "web-component-tester": "*",
+    "webcomponentsjs": "^0.7.0",
+    "paper-input": "PolymerElements/paper-input#^1.0.0",
+    "paper-button": "PolymerElements/paper-button#^1.0.0",
+    "paper-styles": "PolymerElements/paper-styles#^1.0.0"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"‡file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-form/bower.json;TT:charsetI"
+utf-8;F:digest"%ÏÂýÙàf³Êî‚î‰äÝ¸ÔBˆ¢e”ÝVn¸U?:lengthi¤:integrityI"Rni:///sha-256;zwbC_dngZrMNyu6C7onkFN241EKIomWUGxHdVm64VT8?ct=application/json;T:dependencies_digest"%ø…å¤JSY^d–"4ŽA®oÈŸü÷Ç™zS³BÈ%|:idI"Eaa8ad7c4ddb2d38a6bfc31c2db96ba2aac68ed3f6f03094e82a1aa1a169cc01b;F:
+mtimel+^FV

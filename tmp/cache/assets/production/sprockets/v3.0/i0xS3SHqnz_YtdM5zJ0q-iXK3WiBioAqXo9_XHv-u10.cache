@@ -1,0 +1,30 @@
+{:uriI"Øfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-ajax/test/index.html?type=text/html&id=a2f88cb2b62cd61215f78e425130cf2b6c4712aff9e864c5345ddde6541d4f26:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"~/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-ajax/test/index.html;T:	nameI"iron-ajax/test;T:logical_pathI"iron-ajax/test.html;T:content_typeI"text/html;T:sourceI"W<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="../../webcomponentsjs/webcomponents.js"></script>
+    <script src="../../web-component-tester/browser.js"></script>
+  </head>
+  <body>
+    <script>
+      WCT.loadSuites([
+        'iron-request.html',
+	      'iron-ajax.html'
+      ]);
+    </script>
+  </body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"Œfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-ajax/test/index.html;TT:charsetI"
+utf-8;F:digest"%ÇÚJ.¸úŒm¨Ì(	‰á=ž“K|Õ=Ò
+s`Èœ›7V:lengthiW:integrityI"Kni:///sha-256;E8faSi64-oxtqMwoCYnhPZ6TS3zVPdIMCnNgyJybN1Y?ct=text/html;T:dependencies_digest"%”5J‰¥j'·y½Eˆ°%K@šhèdV/UjV|'N]:idI"Ea2f88cb2b62cd61215f78e425130cf2b6c4712aff9e864c5345ddde6541d4f26;F:
+mtimel+]FV

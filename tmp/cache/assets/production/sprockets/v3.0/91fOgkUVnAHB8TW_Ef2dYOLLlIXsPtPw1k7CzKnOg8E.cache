@@ -1,0 +1,34 @@
+{:uriI"äfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-range-behavior/bower.json?type=application/json&id=1949f8738f83e3972f4e1a573fd362d05fcd69b998acb671af8cb1b4bd98155a:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"ƒ/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-range-behavior/bower.json;T:	nameI"iron-range-behavior/bower;T:logical_pathI"#iron-range-behavior/bower.json;T:content_typeI"application/json;T:sourceI"]{
+  "name": "iron-range-behavior",
+  "version": "1.0.1",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "description": "Provides a behavior for something with a minimum and maximum value",
+  "authors": "The Polymer Authors",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "behavior"
+  ],
+  "main": [
+    "iron-range-behavior.html"
+  ],
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PolymerElements/iron-range-behavior.git"
+  },
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-input": "PolymerElements/iron-input#^1.0.0",
+    "test-fixture": "PolymerElements/test-fixture#^1.0.0",
+    "web-component-tester": "*",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"‘file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-range-behavior/bower.json;TT:charsetI"
+utf-8;F:digest"%%¯¦Íë¤(áˆ<¶ô‹)y„a¯‡fmbÀ¥}ºIiï?:lengthi]:integrityI"Rni:///sha-256;Ja-mzeukKOGIFzy29IspFnmEYa-HZm1iwKV9uklp7z8?ct=application/json;T:dependencies_digest"%Úý ¹’.poFV|Úoð7ÒKÐÏÃÊ%š?/²|:idI"E1949f8738f83e3972f4e1a573fd362d05fcd69b998acb671af8cb1b4bd98155a;F:
+mtimel+^FV

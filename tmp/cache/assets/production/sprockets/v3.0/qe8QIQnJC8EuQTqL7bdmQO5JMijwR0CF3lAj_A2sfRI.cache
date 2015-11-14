@@ -1,0 +1,34 @@
+{:uriI"ßfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-iconset-svg/test/index.html?type=text/html&id=7b17408fb2b2e2ae946e138a9c95b5adc31d3985752ed9f78e1a2e6b5e17b768:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"…/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-iconset-svg/test/index.html;T:	nameI"iron-iconset-svg/test;T:logical_pathI"iron-iconset-svg/test.html;T:content_typeI"text/html;T:sourceI"þ<!doctype html>
+<!--
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <title>Tests</title>
+  <script src="../../web-component-tester/browser.js"></script>
+
+</head>
+<body>
+
+  <script>
+
+    WCT.loadSuites([
+      'iron-iconset-svg.html'
+    ]);
+
+  </script>
+
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"“file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-iconset-svg/test/index.html;TT:charsetI"
+utf-8;F:digest"%••B¥H$Õ5s|/Lâ{z¨X¿ÏŠ˜p5	qÎ5#:lengthiþ:integrityI"Kni:///sha-256;lZUBQqVIJNU1c3wvTOJ7HXqoWL_PCIqYcDUJE3HONSM?ct=text/html;T:dependencies_digest"%ïböì´M)7;hÓ³’EˆÁ©½ùâ+ZÉ9ÞÈ,>dƒ:idI"E7b17408fb2b2e2ae946e138a9c95b5adc31d3985752ed9f78e1a2e6b5e17b768;F:
+mtimel+^FV

@@ -1,0 +1,49 @@
+{:uriI"Øfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-ajax/demo/index.html?type=text/html&id=58679160ebf9102f3b1911ce0d88fb43b882ae2849dcee8dbf10c89f53860c95:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"~/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-ajax/demo/index.html;T:	nameI"iron-ajax/demo;T:logical_pathI"iron-ajax/demo.html;T:content_typeI"text/html;T:sourceI"ž<!doctype html>
+<!--
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+<head>
+
+  <title>iron-ajax</title>
+
+  <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="import" href="../iron-ajax.html">
+  <link rel="import" href="../../iron-image/iron-image.html">
+  <link rel="import" href="../../paper-styles/classes/typography.html">
+  <link rel="import" href="../../iron-flex-layout/classes/iron-flex-layout.html">
+  <link rel="stylesheet" href="../../paper-styles/demo.css">
+  <style>
+    iron-image {
+      background-color: lightgray;
+      margin: 1em;
+    }
+  </style>
+</head>
+<body>
+
+  <template is="dom-bind">
+    <iron-ajax auto url="//gdata.youtube.com/feeds/api/videos/"
+        params='{"alt":"json", "q":"polymer"}'
+        handle-as="json" last-response="{{ajaxResponse}}"></iron-ajax>
+    <h1>Video Feed</h1>
+    <section class="flex layout horizontal wrap">
+      <template is="dom-repeat" items="[[ajaxResponse.feed.entry]]">
+        <a href="[[item.link.0.href]]" target="_blank">
+          <iron-image src="[[item.media$group.media$thumbnail.0.url]]" width="256" height="256" sizing="cover" preload fade></iron-image>
+        </a>
+      </template>
+    </section>
+  </template>
+
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"Œfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-ajax/demo/index.html;TT:charsetI"
+utf-8;F:digest"%´lìÙ}Ú€ÛjF8Ä¨F<¬ßþE³Ü~Ræo¦:lengthiž:integrityI"Kni:///sha-256;tGzsDNl92oAW2xJqRjjEqEY8rA7f_kWz3H5S5m8apgQ?ct=text/html;T:dependencies_digest"%G>Õ5ÚÕJ†™0Úß»Î\">‡˜ùH.àEÃ„:…2[:idI"E58679160ebf9102f3b1911ce0d88fb43b882ae2849dcee8dbf10c89f53860c95;F:
+mtimel+]FV

@@ -1,0 +1,42 @@
+{:uriI"Úfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-ajax/bower.json?type=application/json&id=88cfacbea9169d35cde6cdc3e11ecd6aade599aa9518f3841c3224eab4b7a1c6:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"~/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-ajax/bower.json;T:	nameI"iron-ajax/bower;T:logical_pathI"iron-ajax/bower.json;T:content_typeI"application/json;T:sourceI"g{
+  "name": "iron-ajax",
+  "version": "1.0.1",
+  "description": "Makes it easy to make ajax calls and parse the response",
+  "private": true,
+  "authors": [
+    "The Polymer Authors"
+  ],
+  "keywords": [
+    "web-components",
+    "web-component",
+    "polymer"
+  ],
+  "main": [
+    "iron-ajax.html",
+    "iron-request.html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PolymerElements/iron-ajax.git"
+  },
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/PolymerElements/iron-ajax",
+  "ignore": [],
+  "dependencies": {
+    "promise-polyfill": "polymerlabs/promise-polyfill#^1.0.0",
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "polymerelements/iron-component-page#^1.0.0",
+    "iron-flex-layout": "polymerelements/iron-flex-layout#^1.0.0",
+    "iron-image": "polymerelements/iron-image#^1.0.0",
+    "paper-styles": "polymerelements/paper-styles#^1.0.0",
+    "test-fixture": "polymerelements/test-fixture#^1.0.0",
+    "web-component-tester": "*",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"‡file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-ajax/bower.json;TT:charsetI"
+utf-8;F:digest"%´L¡Èðá[[N•ÒDè€ëk”Y»Ð)øÞÓ7±!:lengthig:integrityI"Rni:///sha-256;tEyhyPDhW1sQTpUP0kTogOtrlFm7BtAcKfje0zexECE?ct=application/json;T:dependencies_digest"%žókÕŽõÏºãÙŸ.°)Jß²7áV­%ùA˜´2:idI"E88cfacbea9169d35cde6cdc3e11ecd6aade599aa9518f3841c3224eab4b7a1c6;F:
+mtimel+]FV

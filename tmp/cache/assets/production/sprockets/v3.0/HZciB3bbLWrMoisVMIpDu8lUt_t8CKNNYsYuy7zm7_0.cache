@@ -1,0 +1,33 @@
+{:uriI"Úfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-icon/bower.json?type=application/json&id=d3906f63f37abd9ccb7ca745d71c9e86537859f8c74f26fdc82fdb7f72ff855c:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"~/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-icon/bower.json;T:	nameI"iron-icon/bower;T:logical_pathI"iron-icon/bower.json;T:content_typeI"application/json;T:sourceI"p{
+  "name": "iron-icon",
+  "private": true,
+  "version": "1.0.0",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "description": "An element that supports displaying an icon",
+  "main": "iron-icon.html",
+  "author": [
+    "The Polymer Authors"
+  ],
+  "keywords": [
+    "web-components",
+    "polymer",
+    "icon"
+  ],
+  "dependencies": {
+    "iron-flex-layout": "polymerelements/iron-flex-layout#^1.0.0",
+    "iron-meta": "polymerelements/iron-meta#^1.0.0",
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "test-fixture": "polymerelements/test-fixture#^1.0.0",
+    "iron-iconset": "polymerelements/iron-iconset#^1.0.0",
+    "iron-icons": "polymerelements/iron-icons#^1.0.0",
+    "iron-component-page": "polymerelements/iron-component-page#^1.0.0",
+    "web-component-tester": "*",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"‡file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-icon/bower.json;TT:charsetI"
+utf-8;F:digest"%ŒT¯lù7Šão/´JÙÇ]Ã¿÷ªtŒ¿®K5u8:lengthip:integrityI"Rni:///sha-256;jBsHVK9s-YE3iuNvDS-0StnHXcO_DfeqdIy_rks1dTg?ct=application/json;T:dependencies_digest"%"=Ñ»˜ÁÎZ>kOŠ['¹„¡'Iß‡iJ$«®:idI"Ed3906f63f37abd9ccb7ca745d71c9e86537859f8c74f26fdc82fdb7f72ff855c;F:
+mtimel+^FV

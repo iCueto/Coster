@@ -1,0 +1,30 @@
+{:uriI"ﬁfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-behaviors/test/index.html?type=text/html&id=bad62dfdfc06233580ab3f794f75635565f81659eae9ed9fad0648342e337cb4:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"Ñ/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-behaviors/test/index.html;T:	nameI"paper-behaviors/test;T:logical_pathI"paper-behaviors/test.html;T:content_typeI"text/html;T:sourceI"_<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+  <script src="../../web-component-tester/browser.js"></script>
+</head>
+<body>
+  <script>
+    WCT.loadSuites([
+      'paper-button-behavior.html',
+      'paper-radio-button-behavior.html'
+    ]);
+  </script>
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"ífile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-behaviors/test/index.html;TT:charsetI"
+utf-8;F:digest"%ï.êtˇC„h—^≥À«Fß4»»;IƒÓÛ’˘Q—5:lengthi_:integrityI"Kni:///sha-256;lS6QdP9D42jRH16zy8dGAac0yBnIO0nE7gTz1flR0TU?ct=text/html;T:dependencies_digest"%¨%Í]E„ZSî›TsÿgÅ£Ê¥Ç(^À˛8YônP:idI"Ebad62dfdfc06233580ab3f794f75635565f81659eae9ed9fad0648342e337cb4;F:
+mtimel+^FV

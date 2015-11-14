@@ -1,0 +1,59 @@
+{:uriI"Ífile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-menu-behavior/demo/simple-menubar.html?type=text/html&id=968123ae57f36a0c6129e71feb3eaf6c49c1c251632a23d3706b3316e835d13b:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"ê/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-menu-behavior/demo/simple-menubar.html;T:	nameI"+iron-menu-behavior/demo/simple-menubar;T:logical_pathI"0iron-menu-behavior/demo/simple-menubar.html;T:content_typeI"text/html;T:sourceI".<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../../polymer/polymer.html">
+<link rel="import" href="../iron-menubar-behavior.html">
+
+<dom-module id="simple-menubar">
+
+  <style>
+
+    .content ::content > .iron-selected {
+      color: red;
+    }
+
+    .content ::content > * {
+      display: inline-block;
+    }
+
+  </style>
+
+  <template>
+
+    <div class="content">
+      <content></content>
+    </div>
+
+  </template>
+
+</dom-module>
+
+<script>
+
+(function() {
+
+  Polymer({
+
+    is: 'simple-menubar',
+
+    behaviors: [
+      Polymer.IronMenubarBehavior
+    ]
+
+  });
+
+})();
+
+</script>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"ûfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-menu-behavior/demo/simple-menubar.html;TT:charsetI"
+utf-8;F:digest"%ª:QwHë<Õ|\£◊ÅÄ
++Y'·U!~2¢â_Óf∆:lengthi.:integrityI"Kni:///sha-256;uwY6UXdIkTzNfFyj14GADgorWSfhVSF-MqKJXxLuZsY?ct=text/html;T:dependencies_digest"%é&,#∂œ;NÏﬁ®πÁúÛ·ŒMê˙≈∆QcÊOB∫cΩ:idI"E968123ae57f36a0c6129e71feb3eaf6c49c1c251632a23d3706b3316e835d13b;F:
+mtimel+^FV

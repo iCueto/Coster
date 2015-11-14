@@ -1,0 +1,31 @@
+{:uriI"›file:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-styles/bower.json?type=application/json&id=c081b1d095d48541101361b92c380b10b9ff77fa6b255597deb7c3e49b64fd38:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"|/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-styles/bower.json;T:	nameI"paper-styles/bower;T:logical_pathI"paper-styles/bower.json;T:content_typeI"application/json;T:sourceI"é{
+  "name": "paper-styles",
+  "version": "1.0.4",
+  "description": "Common (global) styles for Material Design elements.",
+  "authors": [
+    "The Polymer Authors"
+  ],
+  "keywords": [
+    "web-component",
+    "polymer",
+    "style"
+  ],
+  "main": "paper-styles.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/polymerelements/paper-styles/",
+  "ignore": [
+    "/.*",
+    "/demo/"
+  ],
+  "dependencies": {
+    "iron-flex-layout": "polymerelements/iron-flex-layout#^1.0.0",
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"äfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-styles/bower.json;TT:charsetI"
+utf-8;F:digest"%ﬂ—Na√∫ÁõÚùyÒâ†+®∑ˇh_d&b‚åÓ ◊pÍÄ:lengthié:integrityI"Rni:///sha-256;39FOA2HDuueb8p158YmgK6i3_2hfZCZi4ozuINdw6oA?ct=application/json;T:dependencies_digest"%xT6<5«wVò m‚'«»}Nö˛slF:idI"Ec081b1d095d48541101361b92c380b10b9ff77fa6b255597deb7c3e49b64fd38;F:
+mtimel+^FV

@@ -1,0 +1,26 @@
+{:uriI"‚file:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-localstorage/bower.json?type=application/json&id=0425c7c7a4f015f765bba32763965022c11f1b3cc8d687a8014944d86c08ba91:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"Å/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-localstorage/bower.json;T:	nameI"iron-localstorage/bower;T:logical_pathI"!iron-localstorage/bower.json;T:content_typeI"application/json;T:sourceI"î{
+  "name": "iron-localstorage",
+  "version": "1.0.0",
+  "description": "Provides access to local storage",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "storage"
+  ],
+  "main": "iron-localstorage.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/PolymerElements/iron-localstorage/",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "test-fixture": "PolymerElements/test-fixture#^1.0.0",
+    "web-component-tester": "*",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"èfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-localstorage/bower.json;TT:charsetI"
+utf-8;F:digest"%v–¨ys(÷Co—è<Ï≠FÉ7ë£∑Ro˚WÅ=:lengthiî:integrityI"Rni:///sha-256;dtCseRhzKNZDb9GPPPDsrUYXGYMfN5GjFbdSb_tXgT0?ct=application/json;T:dependencies_digest"%ÉkÅÚÊ∞˚	∞1SJ{úç']Ä(K sµTº%ê:idI"E0425c7c7a4f015f765bba32763965022c11f1b3cc8d687a8014944d86c08ba91;F:
+mtimel+^FV

@@ -1,0 +1,32 @@
+{:uriI"ófile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-validatable-behavior/test/test-validatable.html?type=text/html&id=250d876c403f580cf80ecc0f0833d35f092a828d5d847729242ef5b5157a9216:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"™/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-validatable-behavior/test/test-validatable.html;T:	nameI"4iron-validatable-behavior/test/test-validatable;T:logical_pathI"9iron-validatable-behavior/test/test-validatable.html;T:content_typeI"text/html;T:sourceI"<!--
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<link rel="import" href="../iron-validatable-behavior.html">
+
+<dom-module id="test-validatable">
+  <template>
+    <content></content>
+  </template>
+</dom-module>
+
+<script>
+
+  Polymer({
+
+    is: 'test-validatable',
+
+    behaviors: [
+      Polymer.IronValidatableBehavior
+    ]
+
+  });
+</script>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"§file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-validatable-behavior/test/test-validatable.html;TT:charsetI"
+utf-8;F:digest"%§/ëtM14$Óÿ8!?»’‰Û"º_¯‚xAšÛpYj¯:lengthi:integrityI"Kni:///sha-256;py_rdE0xNCTT_zghP7uSidsiul-vDoJ4QZrbcFkdaq8?ct=text/html;T:dependencies_digest"%_0ÔÅÍ\ÔŸj6¼Ï(Ù¯Š”Ã0n/¶ÞÓ×>j:idI"E250d876c403f580cf80ecc0f0833d35f092a828d5d847729242ef5b5157a9216;F:
+mtimel+^FV

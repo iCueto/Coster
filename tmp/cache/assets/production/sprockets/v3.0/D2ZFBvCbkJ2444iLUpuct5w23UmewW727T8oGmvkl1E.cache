@@ -1,0 +1,87 @@
+{:uriI"âfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-button/test/paper-button.html?type=text/html&id=41d7d7a2ad84ecfb32f357aceeccd90e6d06b5c271cdf4e24e26a75c4c08010f:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"ˆ/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-button/test/paper-button.html;T:	nameI"#paper-button/test/paper-button;T:logical_pathI"(paper-button/test/paper-button.html;T:content_typeI"text/html;T:sourceI"ò	<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>paper-button basic tests</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+  <script src="../../web-component-tester/browser.js"></script>
+  <script src="../../test-fixture/test-fixture-mocha.js"></script>
+  <script src="../../iron-test-helpers/mock-interactions.js"></script>
+
+  <link rel="import" href="../paper-button.html">
+  <link rel="import" href="../../test-fixture/test-fixture.html">
+
+</head>
+<body>
+
+  <test-fixture id="TrivialButton">
+    <template>
+      <paper-button>Button</paper-button>
+    </template>
+  </test-fixture>
+
+  <script>
+    suite('<paper-button>', function() {
+      var button;
+
+      setup(function() {
+        button = fixture('TrivialButton');
+      });
+
+      test('can be raised imperatively', function(done) {
+        button.raised = true;
+
+        expect(button.hasAttribute('raised')).to.be.eql(true);
+
+        Polymer.Base.async(function() {
+          try {
+            expect(button._elevation).to.be.eql(1);
+            done();
+          } catch (e) {
+            done(e);
+          }
+        }, 1);
+      });
+
+      test('has aria role "button"', function() {
+        expect(button.getAttribute('role')).to.be.eql('button');
+      });
+
+      test('can be disabled imperatively', function() {
+        button.disabled = true;
+        expect(button.getAttribute('aria-disabled')).to.be.eql('true');
+        expect(button.hasAttribute('disabled')).to.be.eql(true);
+      });
+
+      test('can be triggered with space', function(done) {
+        button.addEventListener('click', function() {
+          done();
+        });
+        MockInteractions.pressSpace(button);
+      });
+
+      test('can be triggered with enter', function(done) {
+        button.addEventListener('click', function() {
+          done();
+        });
+        MockInteractions.pressEnter(button);
+      });
+    });
+  </script>
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"–file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-button/test/paper-button.html;TT:charsetI"
+utf-8;F:digest"%Ø¶—ñ!„¬80îX!hÌƒ‚¦Æ‡·ŒãÔ¼ùvÅê†ÿ:lengthiò	:integrityI"Kni:///sha-256;2LaX8SGErDgw7lgXIWjMg4Kmxoe3jOPUvBz5dsXqhv8?ct=text/html;T:dependencies_digest"%Vz.o\ùø¡j¨"âm/›¸ÙÌ Êî9æô>9:idI"E41d7d7a2ad84ecfb32f357aceeccd90e6d06b5c271cdf4e24e26a75c4c08010f;F:
+mtimel+^FV

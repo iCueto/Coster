@@ -1,0 +1,63 @@
+{:uriI"ﬁfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-elements/bower.json?type=application/json&id=5a344c749f56500a3238b91750def81ea91c94265496c04ad8d6e69f3ae5379e:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"}/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-elements/bower.json;T:	nameI"iron-elements/bower;T:logical_pathI"iron-elements/bower.json;T:content_typeI"application/json;T:sourceI"{
+  "name": "iron-elements",
+  "version": "1.0.0",
+  "description": "Iron elements are a set of visual and non-visual utility elements. They include elements for working with layout, user input, selection, and scaffolding apps.",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "utility",
+    "user-input",
+    "selection"
+  ],
+
+  "dependencies": {
+    "iron-a11y-announcer": "PolymerElements/iron-a11y-announcer#^1.0.0",
+    "iron-a11y-keys": "PolymerElements/iron-a11y-keys#^1.0.0",
+    "iron-a11y-keys-behavior": "PolymerElements/iron-a11y-keys-behavior#^1.0.0",
+    "iron-ajax": "PolymerElements/iron-ajax#^1.0.0",
+    "iron-autogrow-textarea": "PolymerElements/iron-autogrow-textarea#^1.0.0",
+    "iron-behaviors": "PolymerElements/iron-behaviors#^1.0.0",
+    "iron-collapse": "PolymerElements/iron-collapse#^1.0.0",
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-doc-viewer": "PolymerElements/iron-doc-viewer#^1.0.0",
+    "iron-fit-behavior": "PolymerElements/iron-fit-behavior#^1.0.0",
+    "iron-flex-layout": "PolymerElements/iron-flex-layout#^1.0.0",
+    "iron-form": "PolymerElements/iron-form#^1.0.0",
+    "iron-form-element-behavior": "PolymerElements/iron-form-element-behavior#^1.0.0",
+    "iron-icon": "PolymerElements/iron-icon#^1.0.0",
+    "iron-icons": "PolymerElements/iron-icons#^1.0.0",
+    "iron-iconset": "PolymerElements/iron-iconset#^1.0.0",
+    "iron-iconset-svg": "PolymerElements/iron-iconset-svg#^1.0.0",
+    "iron-image": "PolymerElements/iron-image#^1.0.0",
+    "iron-input": "PolymerElements/iron-input#^1.0.0",
+    "iron-jsonp-library": "PolymerElements/iron-jsonp-library#^1.0.0",
+    "iron-localstorage": "PolymerElements/iron-localstorage#^1.0.0",
+    "iron-media-query": "PolymerElements/iron-media-query#^1.0.0",
+    "iron-menu-behavior": "PolymerElements/iron-menu-behavior#^1.0.0",
+    "iron-meta": "PolymerElements/iron-meta#^1.0.0",
+    "iron-overlay-behavior": "PolymerElements/iron-overlay-behavior#^1.0.0",
+    "iron-pages": "PolymerElements/iron-pages#^1.0.0",
+    "iron-range-behavior": "PolymerElements/iron-range-behavior#^1.0.0",
+    "iron-resizable-behavior": "PolymerElements/iron-resizable-behavior#^1.0.0",
+    "iron-selector": "PolymerElements/iron-selector#^1.0.0",
+    "iron-signals": "PolymerElements/iron-signals#^1.0.0",
+    "iron-test-helpers": "PolymerElements/iron-test-helpers#^1.0.0",
+    "iron-validatable-behavior": "PolymerElements/iron-validatable-behavior#^1.0.0",
+    "iron-validator-behavior": "PolymerElements/iron-validator-behavior#^1.0.0"
+  },
+
+  "homepage": "https://github.com/PolymerElements/iron-elements",
+  "authors": ["The Polymer Authors"],
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"ãfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-elements/bower.json;TT:charsetI"
+utf-8;F:digest"%3]eÁ$Ôcàã¯‡ÄÔÅÌNõ9‡»‚ı›ƒSÖ%´:lengthi:integrityI"Rni:///sha-256;M11l5yQY72OIi_jggO-B7QVOmzng8Mji9d3EU4UlqwE?ct=application/json;T:dependencies_digest"%ãíù6FEπ_8‚«Ú`∞≠«π‡îx¯mkô´.nU:idI"E5a344c749f56500a3238b91750def81ea91c94265496c04ad8d6e69f3ae5379e;F:
+mtimel+^FV

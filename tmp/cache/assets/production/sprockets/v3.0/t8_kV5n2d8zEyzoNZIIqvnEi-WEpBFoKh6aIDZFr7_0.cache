@@ -1,0 +1,28 @@
+{:uriI"Üfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-toolbar/test/index.html?type=text/html&id=3d443d4440735a1bd370206293e4ad6139d7331388d608b3bee3a7b443ffe1d0:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"‚/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-toolbar/test/index.html;T:	nameI"paper-toolbar/test;T:logical_pathI"paper-toolbar/test.html;T:content_typeI"text/html;T:sourceI"q<!doctype html>
+<!--
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <title>paper-toolbar tests</title>
+  <script src="../../web-component-tester/browser.js"></script>
+</head>
+<body>
+  <script>
+    WCT.loadSuites([
+      'paper-toolbar.html'
+    ]);
+  </script>
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-toolbar/test/index.html;TT:charsetI"
+utf-8;F:digest"%û—b@Êî•ï*N®&y*XmLˆ«êkÜƒí¶ãa³Ø:lengthiq:integrityI"Kni:///sha-256;A_uXgWIfQMrule8qTq4meSpYbUyIq-pr3IPttuNhs9g?ct=text/html;T:dependencies_digest"%rt4½á‰¯™l`ôÙ±{İl¨ıykæ‰Ò6ÖçÚÜój:idI"E3d443d4440735a1bd370206293e4ad6139d7331388d608b3bee3a7b443ffe1d0;F:
+mtimel+^FV

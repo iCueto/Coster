@@ -1,0 +1,33 @@
+{:uriI"Úfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-meta/bower.json?type=application/json&id=48ba7db90bc15616029c523432cbcf61f9e9eab47db095374b3ac176a145ec31:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"~/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-meta/bower.json;T:	nameI"iron-meta/bower;T:logical_pathI"iron-meta/bower.json;T:content_typeI"application/json;T:sourceI"©{
+  "name": "iron-meta",
+  "version": "1.0.1",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "meta"
+  ],
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "description": "Useful for sharing information across a DOM tree",
+  "private": true,
+  "authors": [
+    "The Polymer Authors"
+  ],
+  "keywords": [
+    "web-components",
+    "polymer"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "polymerelements/iron-component-page#^1.0.0",
+    "test-fixture": "polymerelements/test-fixture#^1.0.0",
+    "web-component-tester": "*",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"‡file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-meta/bower.json;TT:charsetI"
+utf-8;F:digest"%ƒÜx;Ô£r_“}:q…L$šÒY¿¿6ñÊWG:lengthi©:integrityI"Rni:///sha-256;g9x4HDvUo3Jfk306cYUHTH8kmtIVBFm_vzbxFspXG0c?ct=application/json;T:dependencies_digest"%à#²ó¬6œ	8lf™u¶2N4c—©QêÈø¥s
+¤:idI"E48ba7db90bc15616029c523432cbcf61f9e9eab47db095374b3ac176a145ec31;F:
+mtimel+^FV

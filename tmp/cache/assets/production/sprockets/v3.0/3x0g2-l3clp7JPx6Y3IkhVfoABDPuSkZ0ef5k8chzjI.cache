@@ -1,0 +1,105 @@
+{:uriI"˜file:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-validatable-behavior/iron-validatable-behavior.html?type=text/html&id=86a4f1cb5534a8e18832396228730f92b186c2f178302bf440e4721e06c5f053:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"ù/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-validatable-behavior/iron-validatable-behavior.html;T:	nameI"8iron-validatable-behavior/iron-validatable-behavior;T:logical_pathI"=iron-validatable-behavior/iron-validatable-behavior.html;T:content_typeI"text/html;T:sourceI"™	<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../iron-meta/iron-meta.html">
+
+<script>
+
+  /**
+   * Use `Polymer.IronValidatableBehavior` to implement an element that validates user input.
+   *
+   * ### Accessiblity
+   *
+   * Changing the `invalid` property, either manually or by calling `validate()` will update the
+   * `aria-invalid` attribute.
+   *
+   * @demo demo/index.html
+   * @polymerBehavior
+   */
+  Polymer.IronValidatableBehavior = {
+
+    properties: {
+
+      /**
+       * Namespace for this validator.
+       */
+      validatorType: {
+        type: String,
+        value: 'validator'
+      },
+
+      /**
+       * Name of the validator to use.
+       */
+      validator: {
+        type: String
+      },
+
+      /**
+       * True if the last call to `validate` is invalid.
+       */
+      invalid: {
+        notify: true,
+        reflectToAttribute: true,
+        type: Boolean,
+        value: false
+      },
+
+      _validatorMeta: {
+        type: Object
+      }
+
+    },
+
+    observers: [
+      '_invalidChanged(invalid)'
+    ],
+
+    get _validator() {
+      return this._validatorMeta && this._validatorMeta.byKey(this.validator);
+    },
+
+    ready: function() {
+      this._validatorMeta = new Polymer.IronMeta({type: this.validatorType});
+    },
+
+    _invalidChanged: function() {
+      if (this.invalid) {
+        this.setAttribute('aria-invalid', 'true');
+      } else {
+        this.removeAttribute('aria-invalid');
+      }
+    },
+
+    /**
+     * @return {boolean} True if the validator `validator` exists.
+     */
+    hasValidator: function() {
+      return this._validator != null;
+    },
+
+    /**
+     * @param {Object} values Passed to the validator's `validate()` function.
+     * @return {boolean} True if `values` is valid.
+     */
+    validate: function(values) {
+      var valid = this._validator && this._validator.validate(values);
+      this.invalid = !valid;
+      return valid;
+    }
+
+  };
+
+</script>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"´file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-validatable-behavior/iron-validatable-behavior.html;TT:charsetI"
+utf-8;F:digest"%“Ωî0ÑWøè••åDf∏≠VêFüÖ!JO^ãM·∫¨:lengthi™	:integrityI"Kni:///sha-256;0r2UMIRXv4-lpYxEZritVpAORp-FIUpPXotN4bqs8Bk?ct=text/html;T:dependencies_digest"%›ç»§~˙õ_Uv@|Ú]KzmtƒÕU?Á|ÃpfQ:idI"E86a4f1cb5534a8e18832396228730f92b186c2f178302bf440e4721e06c5f053;F:
+mtimel+^FV

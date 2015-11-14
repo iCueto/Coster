@@ -1,0 +1,56 @@
+{:uriI"üfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-validatable-behavior/test/iron-validatable-behavior.html?type=text/html&id=ff1683948d08d7d91122279bc9264ed31fecca4d916fbcdb2a76f1074b3de7ad:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"¢/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-validatable-behavior/test/iron-validatable-behavior.html;T:	nameI"=iron-validatable-behavior/test/iron-validatable-behavior;T:logical_pathI"Biron-validatable-behavior/test/iron-validatable-behavior.html;T:content_typeI"text/html;T:sourceI"†<!doctype html>
+<!--
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+<head>
+
+  <title>iron-validatable-behavior tests</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+
+  <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+  <script src="../../web-component-tester/browser.js"></script>
+  <script src="../../test-fixture/test-fixture-mocha.js"></script>
+
+  <link rel="import" href="../../test-fixture/test-fixture.html">
+  <link rel="import" href="test-validatable.html">
+
+</head>
+<body>
+
+  <test-fixture id="basic">
+    <template>
+      <test-validatable></test-validatable>
+    </template>
+  </test-fixture>
+
+  <script>
+
+    suite('basic', function() {
+
+      test('setting `invalid` sets `aria-invalid=true`', function() {
+        var node = fixture('basic');
+        node.invalid = true;
+        assert.equal(node.getAttribute('aria-invalid'), 'true', 'aria-invalid is set');
+        node.invalid = false;
+        assert.isFalse(node.hasAttribute('aria-invalid'), 'aria-invalid is unset');
+      });
+
+    });
+
+  </script>
+
+</body>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"°file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-validatable-behavior/test/iron-validatable-behavior.html;TT:charsetI"
+utf-8;F:digest"%;/êRD,RÕÓ£ê_¾™­QÕöø!É\:lengthi†:integrityI"Kni:///sha-256;HA87LwXqG1JELAiPUtXTo-pfG76ZrVHV9vghyYEBXA8?ct=text/html;T:dependencies_digest"%“F7/å)eRô}¯æQ’p¬½Yj)î>“Æ‘·:idI"Eff1683948d08d7d91122279bc9264ed31fecca4d916fbcdb2a76f1074b3de7ad;F:
+mtimel+^FV

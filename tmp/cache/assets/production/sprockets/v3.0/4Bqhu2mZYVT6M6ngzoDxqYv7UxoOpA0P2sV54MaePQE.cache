@@ -1,0 +1,81 @@
+{:uriI"„file:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-a11y-keys/demo/x-key-aware.html?type=text/html&id=f4438127f74e0254fe2fe8c138840cd3225d6d6a3938515a6ad479522ebae9df:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"â/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-a11y-keys/demo/x-key-aware.html;T:	nameI"$iron-a11y-keys/demo/x-key-aware;T:logical_pathI")iron-a11y-keys/demo/x-key-aware.html;T:content_typeI"text/html;T:sourceI"Ö<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../../polymer/polymer.html">
+<link rel="import" href="../iron-a11y-keys-behavior.html">
+<link rel="import" href="../iron-a11y-keys.html">
+
+<dom-module id="x-key-aware">
+  <style>
+    :host {
+      display: block;
+      position: relative;
+    }
+  </style>
+  <template>
+    <span>Press any of these keys: <span>[[boundKeys]]</span></span>
+    <iron-a11y-keys
+      id="keys"
+      keys="* pageup pagedown left right down up shift+a alt+a home end space enter"
+      target="[[target]]"
+      on-keys-pressed="_updatePressed">
+    </iron-a11y-keys>
+    <pre id="output">[[pressed]]</pre>
+  </template>
+</dom-module>
+
+<script>
+  Polymer({
+    is: 'x-key-aware',
+
+    behaviors: [
+      Polymer.IronA11yKeysBehavior
+    ],
+
+    properties: {
+      pressed: {
+        type: String,
+        readOnly: true,
+        value: ''
+      },
+
+      boundKeys: {
+        type: String
+      },
+
+      target: {
+        type: Object,
+        value: function() {
+          return document.body;
+        }
+      }
+    },
+
+    keyBindings: {
+      '* pageup pagedown left right down up shift+a alt+a home end space enter': '_updatePressed'
+    },
+
+    ready: function() {
+      this.boundKeys = this.$.keys.keys;
+    },
+
+    _updatePressed: function(event) {
+      console.log(event.detail);
+
+      this._setPressed(
+        this.pressed + event.detail.combo + ' pressed!\n'
+      );
+    }
+  });
+</script>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"ófile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-a11y-keys/demo/x-key-aware.html;TT:charsetI"
+utf-8;F:digest"%⁄∏°”6âƒ ÍŸ≈0Z^µqÆ"~? ∏±çÊ:lengthiÖ:integrityI"Kni:///sha-256;2rih0zYeDInEIOrZxTBaXgS1ca4MIgZ-FT_KuBaxjeY?ct=text/html;T:dependencies_digest"%tÀﬂ¶mthS≠Õ|¢≠˚'•pIvì˝≈ÿ©Ná⁄*:idI"Ef4438127f74e0254fe2fe8c138840cd3225d6d6a3938515a6ad479522ebae9df;F:
+mtimel+]FV

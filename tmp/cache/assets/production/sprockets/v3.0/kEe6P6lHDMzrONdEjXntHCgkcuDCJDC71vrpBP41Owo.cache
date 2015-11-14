@@ -1,0 +1,32 @@
+{:uriI"Úfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-form-element-behavior/demo/simple-element.html?type=text/html&id=7a71137a7c6e9ba5adc9c536191051ad45c22952db20c2e4f4796b968fc25ebe:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"ò/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-form-element-behavior/demo/simple-element.html;T:	nameI"3iron-form-element-behavior/demo/simple-element;T:logical_pathI"8iron-form-element-behavior/demo/simple-element.html;T:content_typeI"text/html;T:sourceI"<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<link rel="import" href="../../polymer/polymer.html">
+<link rel="import" href="../iron-form-element-behavior.html">
+
+<script>
+
+  Polymer({
+
+    is: 'simple-element',
+
+    extends: 'input',
+
+    behaviors: [
+      Polymer.IronFormElementBehavior
+    ]
+
+  });
+
+</script>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"¶file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-form-element-behavior/demo/simple-element.html;TT:charsetI"
+utf-8;F:digest"%˘ﬁå(~
+A6ÀI&Nûˆ){h÷Ê£~Iù^’É¿è :lengthi:integrityI"Kni:///sha-256;A_nejCh-CkEcATbLSSZOnvYpe2jW5qN-SZ1e1YPAj8o?ct=text/html;T:dependencies_digest"%î’gÖ¶9˘qød†±Ó›Ÿ:†=aËQ•RˇÚó=&:idI"E7a71137a7c6e9ba5adc9c536191051ad45c22952db20c2e4f4796b968fc25ebe;F:
+mtimel+^FV

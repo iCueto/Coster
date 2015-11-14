@@ -1,0 +1,39 @@
+{:uriI"ﬁfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-toolbar/bower.json?type=application/json&id=dbfd0d25fc6df1637901c638a51dd8ccc37a5dce7be7f42f1f0ed21d44426224:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"}/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-toolbar/bower.json;T:	nameI"paper-toolbar/bower;T:logical_pathI"paper-toolbar/bower.json;T:content_typeI"application/json;T:sourceI"’{
+  "name": "paper-toolbar",
+  "version": "1.0.1",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "description": "A material design toolbar that is easily customizable",
+  "private": true,
+  "main": [
+    "paper-toolbar.html"
+  ],
+  "authors": [
+    "The Polymer Authors"
+  ],
+  "keywords": [
+    "web-components",
+    "polymer",
+    "toolbar",
+    "layout"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PolymerElements/paper-toolbar.git"
+  },
+  "dependencies": {
+    "paper-styles": "PolymerElements/paper-styles#^1.0.0",
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-icons": "PolymerElements/iron-icons#^1.0.0",
+    "paper-icon-button": "PolymerElements/paper-icon-button#^1.0.0",
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "test-fixture": "PolymerElements/test-fixture#^1.0.0",
+    "web-component-tester": "*",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"ãfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-toolbar/bower.json;TT:charsetI"
+utf-8;F:digest"%XÆ˘H¡ß!ÇΩ8—’ Mà∏€›ÍI/\tÅßssË:lengthi’:integrityI"Rni:///sha-256;FliuFPlIwachDoK9ONHVyk2IuNvd6kkvXHSBB6dzc-g?ct=application/json;T:dependencies_digest"%¨aÚ˝OaóYaJÿ=˝∑t¯∫}n·ßùA›Éˆ'Oﬁ3:idI"Edbfd0d25fc6df1637901c638a51dd8ccc37a5dce7be7f42f1f0ed21d44426224;F:
+mtimel+^FV

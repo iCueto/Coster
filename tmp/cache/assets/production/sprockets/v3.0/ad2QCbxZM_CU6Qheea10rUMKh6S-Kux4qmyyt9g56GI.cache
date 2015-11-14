@@ -1,0 +1,50 @@
+{:uriI"Ífile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-validator-behavior/demo/cats-only.html?type=text/html&id=1b105fbdfdb9db118ba830a6ac78446bf78fe0ed19723a00b6afedd33ccac0a9:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"ê/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-validator-behavior/demo/cats-only.html;T:	nameI"+iron-validator-behavior/demo/cats-only;T:logical_pathI"0iron-validator-behavior/demo/cats-only.html;T:content_typeI"text/html;T:sourceI"”<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../../polymer/polymer.html">
+<link rel="import" href="../iron-validator-behavior.html">
+
+<script>
+
+  Polymer({
+
+    is: 'cats-only',
+
+    behaviors: [
+      Polymer.IronValidatorBehavior
+    ],
+
+    validateObject: function(obj) {
+      var valid = true;
+      for (key in obj) {
+        if (obj[key] !== 'cats') {
+          valid = false;
+          break;
+        }
+      }
+      return valid;
+    },
+
+    validate: function(values) {
+      if (typeof values === 'object') {
+        return this.validateObject(values);
+      } else {
+        var value = Array.isArray(values) ? values.join('') : values;
+        return value.match(/^(c|ca|cat|cats)?$/) !== null;
+      }
+    }
+
+  });
+
+</script>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"ûfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-validator-behavior/demo/cats-only.html;TT:charsetI"
+utf-8;F:digest"%∆¡{.¯ﬁ(U¢y	∑·TôïÊ®Òî$.Wó4«ƒl:lengthi”:integrityI"Kni:///sha-256;xsF7LvjeKFWieQMGCbfhVJmV5qjxlCQuV5c0AgjHxGw?ct=text/html;T:dependencies_digest"%ÚÁÜä=ü◊-»˙µ;üqyWñΩ¡,ódßbkÉì£ﬂ):idI"E1b105fbdfdb9db118ba830a6ac78446bf78fe0ed19723a00b6afedd33ccac0a9;F:
+mtimel+^FV

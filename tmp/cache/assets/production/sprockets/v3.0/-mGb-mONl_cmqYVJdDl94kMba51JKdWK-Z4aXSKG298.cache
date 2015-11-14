@@ -1,0 +1,49 @@
+{:uriI"áfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/rails-assets-bootstrap-3.3.5/app/assets/documents/bootstrap/grunt/configBridge.json?type=application/json&id=4a70437494cacf72ba6bdd49b1750814a471aad9950bace62216bbffd033188f:ET:load_pathI"c/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/rails-assets-bootstrap-3.3.5/app/assets/documents;F:filenameI"€/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/rails-assets-bootstrap-3.3.5/app/assets/documents/bootstrap/grunt/configBridge.json;T:	nameI"!bootstrap/grunt/configBridge;T:logical_pathI"&bootstrap/grunt/configBridge.json;T:content_typeI"application/json;T:sourceI"@{
+  "paths": {
+    "customizerJs": [
+      "../assets/js/vendor/autoprefixer.js",
+      "../assets/js/vendor/less.min.js",
+      "../assets/js/vendor/jszip.min.js",
+      "../assets/js/vendor/uglify.min.js",
+      "../assets/js/vendor/Blob.js",
+      "../assets/js/vendor/FileSaver.js",
+      "../assets/js/raw-files.min.js",
+      "../assets/js/src/customizer.js"
+    ],
+    "docsJs": [
+      "../assets/js/vendor/holder.min.js",
+      "../assets/js/vendor/ZeroClipboard.min.js",
+      "../assets/js/vendor/anchor.js",
+      "../assets/js/src/application.js"
+    ]
+  },
+  "config": {
+    "autoprefixerBrowsers": [
+      "Android 2.3",
+      "Android >= 4",
+      "Chrome >= 20",
+      "Firefox >= 24",
+      "Explorer >= 8",
+      "iOS >= 6",
+      "Opera >= 12",
+      "Safari >= 6"
+    ],
+    "jqueryCheck": [
+      "if (typeof jQuery === 'undefined') {",
+      "  throw new Error('Bootstrap\\'s JavaScript requires jQuery')",
+      "}\n"
+    ],
+    "jqueryVersionCheck": [
+      "+function ($) {",
+      "  'use strict';",
+      "  var version = $.fn.jquery.split(' ')[0].split('.')",
+      "  if ((version[0] < 2 && version[1] < 9) || (version[0] == 1 && version[1] == 9 && version[2] < 1)) {",
+      "    throw new Error('Bootstrap\\'s JavaScript requires jQuery version 1.9.1 or higher')",
+      "  }",
+      "}(jQuery);\n\n"
+    ]
+  }
+};T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"Žfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/rails-assets-bootstrap-3.3.5/app/assets/documents/bootstrap/grunt/configBridge.json;TT:charsetI"
+utf-8;F:digest"%çÿuäÃ&ñmÉŸ8ù.±Ú'b#UË‹ù5c²¾ß¤"S:lengthi@:integrityI"Rni:///sha-256;5_91neTDJvFtyZ84-S6x2idiI1XLCIv5NWOyvt-kIlM?ct=application/json;T:dependencies_digest"%f³}Á²0Ênz`ð˜ÀbýøCŠJMÕ™;¿_õÖRË:idI"E4a70437494cacf72ba6bdd49b1750814a471aad9950bace62216bbffd033188f;F:
+mtimel+Ã^CV

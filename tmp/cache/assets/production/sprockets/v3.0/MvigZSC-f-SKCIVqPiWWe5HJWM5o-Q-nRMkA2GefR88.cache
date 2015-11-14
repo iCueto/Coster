@@ -1,0 +1,34 @@
+{:uriI"Ûfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-fit-behavior/index.html?type=text/html&id=cb9e490ae2658543698281acb98775682656875cc50ab05579a744b733e67b97:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-fit-behavior/index.html;T:	nameI"iron-fit-behavior;T:logical_pathI"iron-fit-behavior.html;T:content_typeI"text/html;T:sourceI"ã<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+
+  <title>iron-fit-behavior</title>
+
+  <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+
+  <link rel="import" href="../polymer/polymer.html">
+  <link rel="import" href="../iron-component-page/iron-component-page.html">
+
+</head>
+<body>
+
+  <iron-component-page></iron-component-page>
+
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-fit-behavior/index.html;TT:charsetI"
+utf-8;F:digest"%]*!z8Ü¿Ş³Ú¶Öíó´Q¨¿èkŒ•Êøá1Ênl:lengthiã:integrityI"Kni:///sha-256;XSohDXo43L_es9q21u3ztFGov-hrjJXK-IHhMcpubBc?ct=text/html;T:dependencies_digest"%ÚdÁÓóàä4‘ÏÖõ‹Úç–C×˜÷,³×#´JjS:idI"Ecb9e490ae2658543698281acb98775682656875cc50ab05579a744b733e67b97;F:
+mtimel+^FV

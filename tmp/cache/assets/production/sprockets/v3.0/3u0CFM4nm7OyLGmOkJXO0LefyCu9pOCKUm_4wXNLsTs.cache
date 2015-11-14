@@ -1,0 +1,34 @@
+{:uriI"Ýfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-ripple/bower.json?type=application/json&id=2f526f0fc750ce7759e54f6e4dc44b7323c0ce7eb61f56f6bdd088d43a29dac8:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"|/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-ripple/bower.json;T:	nameI"paper-ripple/bower;T:logical_pathI"paper-ripple/bower.json;T:content_typeI"application/json;T:sourceI"Š{
+  "name": "paper-ripple",
+  "version": "1.0.0",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "description": "Adds a material design ripple to any container",
+  "private": true,
+  "authors": [
+    "The Polymer Authors"
+  ],
+  "keywords": [
+    "web-components",
+    "polymer",
+    "ripple"
+  ],
+  "main": "paper-ripple.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "iron-a11y-keys-behavior": "polymerelements/iron-a11y-keys-behavior#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "polymerelements/iron-component-page#^1.0.0",
+    "iron-icon": "polymerelements/iron-icon#^1.0.0",
+    "iron-icons": "polymerelements/iron-icons#^1.0.0",
+    "paper-styles": "polymerelements/paper-styles#^1.0.0",
+    "test-fixture": "polymerelements/test-fixture#^1.0.0",
+    "web-component-tester": "*",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"Šfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-ripple/bower.json;TT:charsetI"
+utf-8;F:digest"%X
+úGAUVôZix¡xî£È„ë°÷'éò±ž5°:lengthiŠ:integrityI"Rni:///sha-256;WAr6R0FVVvRaaXihD3juBqPIhALrsPcnC-nysZ41CLA?ct=application/json;T:dependencies_digest"%cÄzù‡3`•À¬/±ÜÙuO<cÚgå;ÞCÈq¡Ó:idI"E2f526f0fc750ce7759e54f6e4dc44b7323c0ce7eb61f56f6bdd088d43a29dac8;F:
+mtimel+^FV

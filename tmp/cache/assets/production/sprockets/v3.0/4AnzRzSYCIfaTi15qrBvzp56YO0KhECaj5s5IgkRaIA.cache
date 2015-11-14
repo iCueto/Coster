@@ -1,0 +1,75 @@
+{:uriI"Âfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-behaviors/demo/paper-button.html?type=text/html&id=e720c7fa2ef17d93b237a7ec093d9db236983517525ac13d51a9fb702304a633:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"ã/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-behaviors/demo/paper-button.html;T:	nameI"&paper-behaviors/demo/paper-button;T:logical_pathI"+paper-behaviors/demo/paper-button.html;T:content_typeI"text/html;T:sourceI"ä<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../../polymer/polymer.html">
+<link rel="import" href="../../paper-material/paper-material.html">
+<link rel="import" href="../paper-button-behavior.html">
+
+<dom-module id="paper-button">
+
+  <style>
+
+    :host {
+      display: inline-block;
+      background-color: #4285F4;
+      color: #fff;
+      border-radius: 3px;
+      text-transform: uppercase;
+      outline: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -webkit-user-select: none;
+      user-select: none;
+      cursor: pointer;
+    }
+
+    paper-material {
+      border-radius: inherit;
+      padding: 16px;
+    }
+
+    :host([disabled]) {
+      background-color: #888;
+      pointer-events: none;
+    }
+
+    :host([active]),
+    :host([pressed]) {
+      background-color: #3367D6;
+      box-shadow: inset 0 3px 5px rgba(0,0,0,.2);
+    }
+
+  </style>
+
+  <template>
+
+    <paper-material class="content" elevation="[[_elevation]]" animated>
+      <content></content>
+    </paper-material>
+
+  </template>
+
+  <script>
+
+    Polymer({
+      is: 'paper-button',
+
+      behaviors: [
+        Polymer.PaperButtonBehavior
+      ]
+    });
+
+  </script>
+
+</dom-module>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"ôfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-behaviors/demo/paper-button.html;TT:charsetI"
+utf-8;F:digest"%I‘2ß©%ø´rnë{tYV§™1ÁÜ•eñhÜ∏ë£:lengthiä:integrityI"Kni:///sha-256;SdQyp6klvwSrcm6Re3RZVqQPqjET5xOGpWWWaIa4kaM?ct=text/html;T:dependencies_digest"%8ﬂƒ(Sâß˙+Ò}Å6sá©êº„˘JøGœ¬Ä,⁄:idI"Ee720c7fa2ef17d93b237a7ec093d9db236983517525ac13d51a9fb702304a633;F:
+mtimel+^FV

@@ -1,0 +1,24 @@
+{:uriI"›file:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-signals/bower.json?type=application/json&id=1b3ce9df920dc2b04d48ad4246c0693ff3f717f7e2cbedbb834b758506790357:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"|/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-signals/bower.json;T:	nameI"iron-signals/bower;T:logical_pathI"iron-signals/bower.json;T:content_typeI"application/json;T:sourceI".{
+  "name": "iron-signals",
+  "version": "1.0.1",
+  "description": "Basic publish-subscribe functionality",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "signals"
+  ],
+  "main": "iron-signals.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/PolymerElements/iron-signals/",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"äfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-signals/bower.json;TT:charsetI"
+utf-8;F:digest"%„úlsUπÍœfÙq&≠ÕO=à–©BµÚJ√"D:lengthi.:integrityI"Rni:///sha-256;45xsc1W56s9mH_RxEyatzU89D4jQqRHwQrXyGkrDIkQ?ct=application/json;T:dependencies_digest"%{Äû∂’ÃfF:##∫ÙIçÀß!~IÙ«9BI‚6π´:idI"E1b3ce9df920dc2b04d48ad4246c0693ff3f717f7e2cbedbb834b758506790357;F:
+mtimel+^FV

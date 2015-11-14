@@ -1,0 +1,56 @@
+{:uriI"Ýfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/marked-element/demo/index.html?type=text/html&id=c2c4d39cbd2caf856647294135d9192daa739d2d243b3101fb37cef889f11e6a:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"ƒ/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/marked-element/demo/index.html;T:	nameI"marked-element/demo;T:logical_pathI"marked-element/demo.html;T:content_typeI"text/html;T:sourceI"<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>marked-element demo</title>
+
+  <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="import" href="../marked-element.html">
+</head>
+
+<body>
+
+  <section>
+    <h3>Inline Text</h3>
+    <marked-element>
+      <script type="text/markdown">
+## Markdown Renderer
+
+Example:
+
+```html
+<div>
+  <core-overlay>
+    <h2>Dialog</h2>
+    <input placeholder="say something..." autofocus>
+    <div>I agree with this wholeheartedly.</div>
+    <button core-overlay-toggle>OK</button>
+  </core-overlay>
+</div>
+```
+
+_Nifty_ features.
+      </script>
+    </marked-element>
+  </section>
+
+  <section>
+    <h3>Text via Attribute</h3>
+    <marked-element markdown="    <div>div</div>"></marked-element>
+  </section>
+
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"‘file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/marked-element/demo/index.html;TT:charsetI"
+utf-8;F:digest"%Ÿ“Þ|®L‰´zåNònÔV%{}pôç=ãðØ~õ7$;:lengthi:integrityI"Kni:///sha-256;n5PefK5ME4m0euVO8m7UViV7fXD05wQ94_DYfvU3JDs?ct=text/html;T:dependencies_digest"%wŠŽ”Z'ý;{6N–þ<Ä¹Ô–ÂÇ¤¶-€´1pf:idI"Ec2c4d39cbd2caf856647294135d9192daa739d2d243b3101fb37cef889f11e6a;F:
+mtimel+^FV

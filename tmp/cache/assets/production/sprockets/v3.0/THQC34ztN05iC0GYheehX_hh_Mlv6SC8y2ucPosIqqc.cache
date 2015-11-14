@@ -1,0 +1,46 @@
+{:uriI"ğfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-component-page/test/iron-component-page.html?type=text/html&id=1be3db4fb252e5af5cf8ec71d0685e98a1c1d9e386184ccebefec74e96729eb4:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"–/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-component-page/test/iron-component-page.html;T:	nameI"1iron-component-page/test/iron-component-page;T:logical_pathI"6iron-component-page/test/iron-component-page.html;T:content_typeI"text/html;T:sourceI"<!doctype html>
+<!--
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+<head>
+  <title>iron-component-page</title>
+
+  <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+  <script src="../../web-component-tester/browser.js"></script>
+  <script src="../../test-fixture/test-fixture-mocha.js"></script>
+
+  <link rel="import" href="../../polymer/polymer.html">
+  <link rel="import" href="../../test-fixture/test-fixture.html">
+  <link rel="import" href="../iron-component-page.html">
+</head>
+<body>
+
+  <test-fixture id="basic">
+    <template>
+      <iron-component-page src="test-element.html"></iron-component-page>
+    </template>
+  </test-fixture>
+
+  <script>
+    suite('active-state', function() {
+
+      var testElement;
+
+      setup(function() {
+        testElement = fixture('basic');
+      });
+
+    });
+  </script>
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"¤file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-component-page/test/iron-component-page.html;TT:charsetI"
+utf-8;F:digest"%ôå¯:˜áÅ¦Ç¥dgjßü0ï“æ’é6»7µU:lengthi:integrityI"Kni:///sha-256;9OWvOpjhxabHDoGlC2Rnat_8MO-T5pLpNo27Nwe1VX8?ct=text/html;T:dependencies_digest"%YN÷†j©y(jõñ¿t®ü ªº^¨S!ïáŠ»±:idI"E1be3db4fb252e5af5cf8ec71d0685e98a1c1d9e386184ccebefec74e96729eb4;F:
+mtimel+^FV

@@ -1,0 +1,88 @@
+{:uriI"Ùfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-pages/iron-pages.html?type=text/html&id=e425485e8e3478b6b36f998e430c8794a0dce13709401dc5b65b3ad4353b6306:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-pages/iron-pages.html;T:	nameI"iron-pages/iron-pages;T:logical_pathI"iron-pages/iron-pages.html;T:content_typeI"text/html;T:sourceI"<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../iron-resizable-behavior/iron-resizable-behavior.html">
+<link rel="import" href="../iron-selector/iron-selectable.html">
+
+<!--
+`iron-pages` is used to select one of its children to show. One use is to cycle through a list of
+children "pages".
+
+Example:
+
+    <iron-pages selected="0">
+      <div>One</div>
+      <div>Two</div>
+      <div>Three</div>
+    </iron-pages>
+
+    <script>
+      document.addEventListener('click', function(e) {
+        var pages = document.querySelector('iron-pages');
+        pages.selectNext();
+      });
+    </script>
+
+@group Iron Elements
+@class iron-pages
+@hero hero.svg
+@demo demo/index.html
+@extends iron-selector
+-->
+
+<dom-module id="iron-pages">
+
+  <style>
+
+    :host {
+      display: block;
+    }
+
+    :host > ::content > :not(.iron-selected) {
+      display: none !important;
+    }
+
+  </style>
+
+  <template>
+
+    <content></content>
+
+  </template>
+
+</dom-module>
+
+<script>
+
+  Polymer({
+
+    is: 'iron-pages',
+
+    behaviors: [
+      Polymer.IronResizableBehavior,
+      Polymer.IronSelectableBehavior
+    ],
+
+    observers: [
+      '_selectedPageChanged(selected)'
+    ],
+
+    _selectedPageChanged: function(selected, old) {
+      this.async(this.notifyResize);
+    }
+  });
+
+</script>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-pages/iron-pages.html;TT:charsetI"
+utf-8;F:digest"%IJÜ˜”Tkl«Şæ¼[	[6–LıvòŞ’YÎ)lë`:lengthi:integrityI"Kni:///sha-256;SUrcmJQCVGtsgY2r3ua8WwlbNpZM_Xby3pJZzils62A?ct=text/html;T:dependencies_digest"%Š„jF)óÚ¶Ï+
+M» :Iñ¢ü›J«—:idI"Ee425485e8e3478b6b36f998e430c8794a0dce13709401dc5b65b3ad4353b6306;F:
+mtimel+^FV

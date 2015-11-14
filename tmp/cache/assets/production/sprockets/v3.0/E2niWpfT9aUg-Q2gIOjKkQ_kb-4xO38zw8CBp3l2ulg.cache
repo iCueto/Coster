@@ -1,0 +1,33 @@
+{:uriI"ßfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-a11y-keys/bower.json?type=application/json&id=b564e67b57639a1b75531bdd30f14d1d19591468d5c22ab5d0e72a7912e94081:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"~/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-a11y-keys/bower.json;T:	nameI"iron-a11y-keys/bower;T:logical_pathI"iron-a11y-keys/bower.json;T:content_typeI"application/json;T:sourceI"i{
+  "name": "iron-a11y-keys",
+  "version": "1.0.0",
+  "description": "A basic element implementation of iron-a11y-keys-behavior, matching the legacy core-a11y-keys.",
+  "keywords": [
+    "web-components",
+    "web-component",
+    "polymer",
+    "a11y",
+    "input"
+  ],
+  "authors": [
+    "The Polymer Authors"
+  ],
+  "main": "iron-a11y-keys.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "dependencies": {
+    "polymer": "polymer/polymer#^1.0.0",
+    "iron-a11y-keys-behavior": "polymerelements/iron-a11y-keys-behavior#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "polymerelements/iron-component-page#^1.0.0",
+    "test-fixture": "polymerelements/test-fixture#^1.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0",
+    "web-component-tester": "*",
+    "iron-test-helpers": "polymerelements/iron-test-helpers#^1.0.0"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"Œfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-a11y-keys/bower.json;TT:charsetI"
+utf-8;F:digest"%­gÍEÓÅµ‘xI	ÿ¹|îÖÑSVµÿ™|—YñÛ¤Á­Á:lengthii:integrityI"Rni:///sha-256;rWfNRdPFtZF4SQn_uXzu1tFTVrX_mXyXWfHbEaTBrcE?ct=application/json;T:dependencies_digest"%Î~³ó$š¦Êåà,~S3# 1CŸÒ°=ùŽ&úb:7
+:idI"Eb564e67b57639a1b75531bdd30f14d1d19591468d5c22ab5d0e72a7912e94081;F:
+mtimel+]FV

@@ -1,0 +1,44 @@
+{:uriI"‚file:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-a11y-announcer/demo/index.html?type=text/html&id=97bfa605c788edc0669aaecf850d52c24e58d1f5273a92d71de4bbd418b05b9e:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"à/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-a11y-announcer/demo/index.html;T:	nameI"iron-a11y-announcer/demo;T:logical_pathI""iron-a11y-announcer/demo.html;T:content_typeI"text/html;T:sourceI"‘<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+
+  <title>iron-a11y-announcer demo</title>
+
+  <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="import" href="../../paper-styles/paper-styles.html">
+  <link rel="import" href="../../paper-styles/demo-pages.html">
+  <link rel="import" href="x-announces.html">
+
+
+</head>
+<body>
+  <div class="horizontal center-justified layout">
+    <div>
+      <div class="vertical-section">
+        <span>Note: in order to hear the announcements, be sure to turn on your favorite screen reader!</span>
+        <x-announces>Hello, my name is Ava.</x-announces>
+        <x-announces>This true sentence is false.</x-announces>
+        <x-announces>Are you paying attention?</x-announces>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"ñfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-a11y-announcer/demo/index.html;TT:charsetI"
+utf-8;F:digest"%ŸUé¢ÓÍÊhZèÖ=x#$é˚V,] Á}ò§qÀ¸¬5:lengthi‘:integrityI"Kni:///sha-256;2VWOou7q5gZoWo-FPXgjJI77VixdIOd9mKRxy_zCDDU?ct=text/html;T:dependencies_digest"%æNü(›Y„ÏQ€J}:_ÓõpçÜ˚7±9qP]_Ïÿ:idI"E97bfa605c788edc0669aaecf850d52c24e58d1f5273a92d71de4bbd418b05b9e;F:
+mtimel+]FV

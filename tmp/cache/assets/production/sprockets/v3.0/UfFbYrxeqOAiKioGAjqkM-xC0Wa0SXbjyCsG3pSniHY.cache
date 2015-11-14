@@ -1,0 +1,65 @@
+{:uriI"ófile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-validator-behavior/iron-validator-behavior.html?type=text/html&id=6d75c5daa1b6a6858f8122494b0628932a4eb6abd1476449c42789377c60e36f:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"™/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-validator-behavior/iron-validator-behavior.html;T:	nameI"4iron-validator-behavior/iron-validator-behavior;T:logical_pathI"9iron-validator-behavior/iron-validator-behavior.html;T:content_typeI"text/html;T:sourceI"ö<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../iron-meta/iron-meta.html">
+
+<script>
+
+  /**
+   * Use `Polymer.IronValidatorBehavior` to implement a custom input/form validator. Element
+   * instances implementing this behavior will be registered for use in elements that implement
+   * `Polymer.IronValidatableBehavior`.
+   * 
+   * @demo demo/index.html
+   * @polymerBehavior
+   */
+  Polymer.IronValidatorBehavior = {
+
+    properties: {
+
+      /**
+       * Namespace for this validator.
+       */
+      validatorType: {
+        type: String,
+        value: 'validator'
+      },
+
+      /**
+       * Name for this validator, used by `Polymer.IronValidatableBehavior` to lookup this element.
+       */
+      validatorName: {
+        type: String,
+        value: function() {
+          return this.is;
+        }
+      }
+
+    },
+
+    ready: function() {
+      new Polymer.IronMeta({type: this.validatorType, key: this.validatorName, value: this});
+    },
+
+    /**
+     * Implement custom validation logic in this function.
+     * @param {Object} values The value to validate. May be any type depending on the validation logic.
+     * @return {Boolean} true if `values` is valid.
+     */
+    validate: function(values) {
+    }
+  };
+
+</script>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"§file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-validator-behavior/iron-validator-behavior.html;TT:charsetI"
+utf-8;F:digest"%±™ë@9"È_ô=€»/´ù Åûë©Ø6n’Y+ï\x:lengthiö:integrityI"Kni:///sha-256;sZnrQDkiyF_0PYC7Lw20-aDFEfvrEqnYNm6SWSvvXHg?ct=text/html;T:dependencies_digest"%HuÆèŠÉCŸ×˜çõ%íÞ%UÂ KƒøV¾}ê5:idI"E6d75c5daa1b6a6858f8122494b0628932a4eb6abd1476449c42789377c60e36f;F:
+mtimel+^FV

@@ -1,0 +1,75 @@
+{:uriI"èfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-validatable-behavior/demo/index.html?type=text/html&id=a0565b059f42926dfdab5b4fd0b2e0c73e85d1ae3ae6ca2f3070e5ab1ead10ea:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"Ž/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-validatable-behavior/demo/index.html;T:	nameI"#iron-validatable-behavior/demo;T:logical_pathI"(iron-validatable-behavior/demo.html;T:content_typeI"text/html;T:sourceI"<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+
+  <title>iron-validatable-behavior demo</title>
+
+  <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+  <link rel="import" href="../../paper-styles/demo-pages.html">
+  <link rel="import" href="cats-only.html">
+  <link rel="import" href="validatable-input.html">
+
+  <style is="custom-style">
+
+    .valid {
+      color: var(--google-green-500);
+    }
+
+    .invalid {
+      color: var(--google-red-500);
+    }
+
+  </style>
+
+</head>
+<body>
+  <div class="vertical-section vertical-section-container centered">
+  <h1>&lt;iron-validatable-behavior&gt;</h1>
+
+  <template is="dom-bind">
+
+    <cats-only></cats-only>
+
+    <section>
+
+      <p>
+        only type <code>cats</code>:
+
+        <input is="validatable-input" invalid="{{invalid}}" validator="cats-only">
+
+        <span class="valid" hidden$="[[invalid]]">valid</span>
+        <span class="invalid" hidden$="[[!invalid]]">invalid</span>
+      </p>
+
+    </section>
+
+  </template>
+
+  </div>
+
+  <script>
+
+    document.querySelector('template[is="dom-bind"]').invalid = false;
+
+  </script>
+
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"œfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-validatable-behavior/demo/index.html;TT:charsetI"
+utf-8;F:digest"%¬Oü-L wönLû„¹ˆ	¦ø[Ñs&e¶äí‰>M¼:lengthi:integrityI"Kni:///sha-256;rE_8LUygd_ZuTBX7hLmICab4W9FzJmW2AeTtCIk-Tbw?ct=text/html;T:dependencies_digest"%ê*ïkÞk Ö¤½/_ÒYi|ýÃÄü^—vþT|Ð:idI"Ea0565b059f42926dfdab5b4fd0b2e0c73e85d1ae3ae6ca2f3070e5ab1ead10ea;F:
+mtimel+^FV

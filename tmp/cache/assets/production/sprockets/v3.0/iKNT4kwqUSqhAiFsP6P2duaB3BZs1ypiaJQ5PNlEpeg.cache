@@ -1,0 +1,30 @@
+{:uriI"ÿfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/polymer/bower.json?type=application/json&id=1f68c4be40b1b42daaa5dd608e4959bd387ed8d7604de639945bcc2698191330:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"|/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/polymer/bower.json;T:	nameI"polymer/bower;T:logical_pathI"polymer/bower.json;T:content_typeI"application/json;T:sourceI"Ì{
+  "name": "polymer",
+  "version": "1.0.3",
+  "main": [
+    "polymer.html"
+  ],
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "authors": [
+    "The Polymer Authors (http://polymer.github.io/AUTHORS.txt)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Polymer/polymer.git"
+  },
+  "dependencies": {
+    "webcomponentsjs": "^0.7.2"
+  },
+  "devDependencies": {
+    "web-component-tester": "*"
+  },
+  "private": true
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"Öfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/polymer/bower.json;TT:charsetI"
+utf-8;F:digest"%çÖCé’±xÆ˜!Ê±Ÿ™ì5lHÓ€Pf^»"äî¯é:lengthiÌ:integrityI"Rni:///sha-256;jYVDjtWxeK73IeYIsdmqkzVsSBHu21BmXsgiD4qU-I4?ct=application/json;T:dependencies_digest"%]˙∂úƒÏjÁGt‹á,≥AÚâ.(ßM<u« #≈6√:idI"E1f68c4be40b1b42daaa5dd608e4959bd387ed8d7604de639945bcc2698191330;F:
+mtimel+^FV

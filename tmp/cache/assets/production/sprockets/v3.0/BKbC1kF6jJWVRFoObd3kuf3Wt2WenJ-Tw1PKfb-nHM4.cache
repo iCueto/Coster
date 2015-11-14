@@ -1,0 +1,44 @@
+{:uriI"‡file:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-behaviors/bower.json?type=application/json&id=6d20ab37c1e16635c492cef309f85b3e14ccb5de8321704d0534947af4904c37:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-behaviors/bower.json;T:	nameI"paper-behaviors/bower;T:logical_pathI"paper-behaviors/bower.json;T:content_typeI"application/json;T:sourceI"ö{
+  "name": "paper-behaviors",
+  "version": "1.0.1",
+  "description": "Common behaviors across the paper elements",
+  "authors": [
+    "The Polymer Authors"
+  ],
+  "main": [
+    "paper-button-behavior.html",
+    "paper-radio-button-behavior.html"
+  ],
+  "keywords": [
+    "web-components",
+    "web-component",
+    "polymer",
+    "paper",
+    "behavior"
+  ],
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PolymerElements/paper-behaviors"
+  },
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/PolymerElements/paper-behaviors",
+  "dependencies": {
+    "iron-behaviors": "PolymerElements/iron-behaviors#^1.0.0",
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "polymerelements/iron-component-page#^1.0.0",
+    "iron-test-helpers": "polymerelements/iron-test-helpers#^1.0.0",
+    "paper-material": "PolymerElements/paper-material#^1.0.0",
+    "paper-ripple": "PolymerElements/paper-ripple#^1.0.0",
+    "test-fixture": "PolymerElements/test-fixture#^1.0.0",
+    "web-component-tester": "*",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"çfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-behaviors/bower.json;TT:charsetI"
+utf-8;F:digest"%C°˚¶‚wôgÁ¥W£`y)-Ê¬êü∞ÓR÷˚ô<:lengthiö:integrityI"Rni:///sha-256;Q6H7puIbd5ln57QXGlejYHkpLebCkJ-w7lIC1vuZPAU?ct=application/json;T:dependencies_digest"%jJ—¿5v¬n”‘ëÂR
+t;ÑDCÀ}CÅkwQÕ:idI"E6d20ab37c1e16635c492cef309f85b3e14ccb5de8321704d0534947af4904c37;F:
+mtimel+^FV

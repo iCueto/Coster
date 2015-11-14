@@ -1,0 +1,25 @@
+{:uriI"›file:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-iconset/bower.json?type=application/json&id=f0ac59130c8d062a922e734141ebbd539a08dee3a15905df987029e531c4ae7d:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"|/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-iconset/bower.json;T:	nameI"iron-iconset/bower;T:logical_pathI"iron-iconset/bower.json;T:content_typeI"application/json;T:sourceI"Å{
+  "name": "iron-iconset",
+  "version": "1.0.0",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "description": "Represents a set of icons",
+  "authors": [
+    "The Polymer Authors"
+  ],
+  "private": true,
+  "dependencies": {
+    "iron-meta": "PolymerElements/iron-meta#^1.0.0",
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "polymerelements/iron-component-page#^1.0.0",
+    "iron-icon": "polymerelements/iron-icon#^1.0.0",
+    "test-fixture": "PolymerElements/test-fixture#^1.0.0",
+    "web-component-tester": "*",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"äfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-iconset/bower.json;TT:charsetI"
+utf-8;F:digest"%Xg÷NAc⁄<úOVkÂÚÔoC]Õt4‹Ú_–”p:lengthiÅ:integrityI"Rni:///sha-256;WGcN1k5BY9o8nE9Wa-Xy729DXR7NdDR_3PJf0PAH03A?ct=application/json;T:dependencies_digest"%û0p_ˆòOEË≤u&0¸»æ˜*ó®KxÎå…¥i∏√:idI"Ef0ac59130c8d062a922e734141ebbd539a08dee3a15905df987029e531c4ae7d;F:
+mtimel+^FV

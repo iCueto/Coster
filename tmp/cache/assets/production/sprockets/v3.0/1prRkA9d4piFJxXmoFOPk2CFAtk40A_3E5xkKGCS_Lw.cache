@@ -1,0 +1,43 @@
+{:uriI"Ýfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-button/bower.json?type=application/json&id=4be8a410dbc4999838661aaa420898bdb200db95419ce78b1e223bb1ac7f792d:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"|/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-button/bower.json;T:	nameI"paper-button/bower;T:logical_pathI"paper-button/bower.json;T:content_typeI"application/json;T:sourceI"é{
+  "name": "paper-button",
+  "version": "1.0.1",
+  "description": "Material design button",
+  "authors": [
+    "The Polymer Authors"
+  ],
+  "keywords": [
+    "web-components",
+    "web-component",
+    "polymer",
+    "paper",
+    "button"
+  ],
+  "main": "paper-button.html",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PolymerElements/paper-button"
+  },
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/PolymerElements/paper-button",
+  "dependencies": {
+    "paper-ripple": "polymerelements/paper-ripple#^1.0.0",
+    "paper-material": "polymerelements/paper-material#^1.0.0",
+    "paper-behaviors": "polymerelements/paper-behaviors#^1.0.0",
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "polymerelements/iron-component-page#^1.0.0",
+    "test-fixture": "polymerelements/test-fixture#^1.0.0",
+    "iron-icon": "polymerelements/iron-icon#^1.0.0",
+    "iron-icons": "polymerelements/iron-icons#^1.0.0",
+    "iron-test-helpers": "polymerelements/iron-test-helpers#^1.0.0",
+    "paper-styles": "polymerelements/paper-styles#^1.0.0",
+    "web-component-tester": "*",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"Šfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-button/bower.json;TT:charsetI"
+utf-8;F:digest"%Ïþ,©úO¥êñ=C’Î²4l¥¹Ê]LÞ¹Ó¹{›:lengthié:integrityI"Rni:///sha-256;zxL-LKn6EE-l6vE9Q5LOHbI0BWylucoQXUzeudO5e5s?ct=application/json;T:dependencies_digest"%¹‰r£ßˆf7ªY<e¯^Âàe²ym"/,ž:idI"E4be8a410dbc4999838661aaa420898bdb200db95419ce78b1e223bb1ac7f792d;F:
+mtimel+^FV

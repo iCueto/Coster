@@ -1,0 +1,45 @@
+{:uriI"Ífile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-behaviors/test/test-radio-button.html?type=text/html&id=8899044cd339c210a0cbc570ecd9695524d8fd518cc76db5773276bc52dbc105:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"ê/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-behaviors/test/test-radio-button.html;T:	nameI"+paper-behaviors/test/test-radio-button;T:logical_pathI"0paper-behaviors/test/test-radio-button.html;T:content_typeI"text/html;T:sourceI"o<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../../polymer/polymer.html">
+<link rel="import" href="../paper-inky-focus-behavior.html">
+<link rel="import" href="../../paper-ripple/paper-ripple.html">
+
+<dom-module id="test-radio-button">
+  <style>
+  :host #ink {
+    position: absolute;
+    top: -16px;
+    left: -16px;
+    width: 48px;
+    height: 48px;
+  }
+
+  </style>
+  <template>
+    <div id="container">
+      <paper-ripple id="ink" class="circle" center></paper-ripple>
+    </div>
+  </template>
+</dom-module>
+
+<script>
+  Polymer({
+    is: 'test-radio-button',
+
+    behaviors: [
+      Polymer.PaperInkyFocusBehavior
+    ]
+  });
+</script>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"ûfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-behaviors/test/test-radio-button.html;TT:charsetI"
+utf-8;F:digest"%7∏&s®|*ñïÅ2Ω§æy…6µ˜∏Mä≥æﬁOh∑√Ÿ:lengthio:integrityI"Kni:///sha-256;N7h_JnOofCqWlYEyvaS-eck2tfe4TYoEs77eT2i3w9k?ct=text/html;T:dependencies_digest"%¸8ó˜ñuªâV·;–e"cª:s-À¿√µ∏ú7fv:idI"E8899044cd339c210a0cbc570ecd9695524d8fd518cc76db5773276bc52dbc105;F:
+mtimel+^FV

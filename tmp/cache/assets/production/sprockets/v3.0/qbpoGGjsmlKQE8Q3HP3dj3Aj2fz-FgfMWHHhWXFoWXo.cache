@@ -1,0 +1,29 @@
+{:uriI"›file:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-material/test/index.html?type=text/html&id=a20f41ed6e69e95f062969078d854e5f8567640ffcf69bf42e7d437b1de6db15:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"É/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-material/test/index.html;T:	nameI"paper-material/test;T:logical_pathI"paper-material/test.html;T:content_typeI"text/html;T:sourceI"|<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <title>paper-material tests</title>
+  <script src="../../web-component-tester/browser.js"></script>
+</head>
+<body>
+  <script>
+    WCT.loadSuites([
+      'paper-material.html'
+    ]);
+  </script>
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"ëfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-material/test/index.html;TT:charsetI"
+utf-8;F:digest"%9∆°v+ìü»√SR!A∞~'R8íŸFÑº>Z&U≥ÇqV:lengthi|:integrityI"Kni:///sha-256;OcahdiuTn8jDU1IeIUGwfidSOJLZRoS8PlomVbOCcVY?ct=text/html;T:dependencies_digest"%áãÊ‚Ã∆VÆΩügñg2d¡‡(3y]P∞¥N‘à3z:idI"Ea20f41ed6e69e95f062969078d854e5f8567640ffcf69bf42e7d437b1de6db15;F:
+mtimel+^FV

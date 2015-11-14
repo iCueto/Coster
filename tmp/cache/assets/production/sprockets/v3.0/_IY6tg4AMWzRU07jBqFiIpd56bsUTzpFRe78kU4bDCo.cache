@@ -1,0 +1,29 @@
+{:uriI"›file:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/marked-element/test/index.html?type=text/html&id=b5480190345559ceb5ae0b4fd2853776e4d9993615ac931cfcb37509513784b4:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"É/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/marked-element/test/index.html;T:	nameI"marked-element/test;T:logical_pathI"marked-element/test.html;T:content_typeI"text/html;T:sourceI"m<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <title>Tests</title>
+  <script src="../../web-component-tester/browser.js"></script>
+</head>
+<body>
+  <script>
+    WCT.loadSuites([
+      'marked-element.html'
+    ]);
+  </script>
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"ëfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/marked-element/test/index.html;TT:charsetI"
+utf-8;F:digest"%Ó	†ª>ÃPª«ùÁóÈ6,´ò ˝/+ˆÂ:å:lengthim:integrityI"Kni:///sha-256;7gkSoLs-Ex3MFFC7x50F55cW6TYsq5gg_S8CK_blOow?ct=text/html;T:dependencies_digest"%Èby<[‘¢æ«s∫‹€»•zµ÷≠2	¡WhÓTé:idI"Eb5480190345559ceb5ae0b4fd2853776e4d9993615ac931cfcb37509513784b4;F:
+mtimel+^FV

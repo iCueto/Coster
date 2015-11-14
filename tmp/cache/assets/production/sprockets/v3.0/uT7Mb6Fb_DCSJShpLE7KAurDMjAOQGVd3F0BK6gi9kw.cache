@@ -1,0 +1,33 @@
+{:uriI"ﬁfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/prism-element/bower.json?type=application/json&id=aeed31f9aa30dc123f9367d3868197cffe0c58ed00b575509f9759b59d322bb6:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"}/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/prism-element/bower.json;T:	nameI"prism-element/bower;T:logical_pathI"prism-element/bower.json;T:content_typeI"application/json;T:sourceI"©{
+  "name": "prism-element",
+  "description": "Prism.js import and syntax highlighting",
+  "version": "1.0.2",
+  "authors": [
+    "The Polymer Project Authors (https://polymer.github.io/AUTHORS.txt)"
+  ],
+  "keywords": [
+    "web-components",
+    "polymer",
+    "prism",
+    "molecule"
+  ],
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/PolymerElements/prism-highlighter",
+  "main": "prism-highlighter.html",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/demo/"
+  ],
+  "dependencies": {
+    "prism": "*",
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"ãfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/prism-element/bower.json;TT:charsetI"
+utf-8;F:digest"%œì47Ëûû&’Ij´ysLæi‚§':Xëk!&-áiuO:lengthi©:integrityI"Rni:///sha-256;z5M0N-ieH54m1Ulqq3lzTL5p4qQnOliRayEmLYdpdU8?ct=application/json;T:dependencies_digest"%”#$›‚	»pG6T ©∑≈mÚppÅ˚å'h˜<ÔîíÚ0:idI"Eaeed31f9aa30dc123f9367d3868197cffe0c58ed00b575509f9759b59d322bb6;F:
+mtimel+^FV

@@ -1,0 +1,39 @@
+{:uriI"èfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-validator-behavior/bower.json?type=application/json&id=f6282001ee3e69b16d8f88dca2b1bef59bb8aa32a9c81f76a4481bdad785b66d:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"‡/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-validator-behavior/bower.json;T:	nameI""iron-validator-behavior/bower;T:logical_pathI"'iron-validator-behavior/bower.json;T:content_typeI"application/json;T:sourceI"ä{
+  "name": "iron-validator-behavior",
+  "version": "1.0.1",
+  "description": "Implements a input validator",
+  "authors": "The Polymer Authors",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "iron",
+    "behavior"
+  ],
+  "main": [
+    "iron-validator-behavior.html"
+  ],
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PolymerElements/iron-validator-behavior.git"
+  },
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/PolymerElements/iron-validator-behavior",
+  "ignore": [],
+  "dependencies": {
+    "iron-meta": "PolymerElements/iron-meta#^1.0.0",
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "paper-styles": "PolymerElements/paper-styles#^1.0.0",
+    "test-fixture": "PolymerElements/test-fixture#^1.0.0",
+    "web-component-tester": "*",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"•file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-validator-behavior/bower.json;TT:charsetI"
+utf-8;F:digest"%„xÉZ’q/°¾–>l¶DÙzüŒc/5aã«®z¡:lengthiä:integrityI"Rni:///sha-256;hHjJWpKBcS-wvpY-bLZE2Xr8jGMvAzVh4xurrnoaoQ4?ct=application/json;T:dependencies_digest"%»±o©€çkêä(Ûf
+QŒO-*×{‹NèG!pÖþÏNÿ:idI"Ef6282001ee3e69b16d8f88dca2b1bef59bb8aa32a9c81f76a4481bdad785b66d;F:
+mtimel+^FV

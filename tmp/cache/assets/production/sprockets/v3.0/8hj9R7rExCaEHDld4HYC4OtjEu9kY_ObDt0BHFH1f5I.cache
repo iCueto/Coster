@@ -1,0 +1,31 @@
+{:uriI"Øfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/prism/package.json?type=application/json&id=b372f11a012eaa5262bcf45bb7c0bf67201057543ae583b08b1f792ae8f50234:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"|/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/prism/package.json;T:	nameI"prism/package;T:logical_pathI"prism/package.json;T:content_typeI"application/json;T:sourceI"{{
+  "name": "prismjs",
+  "version": "0.0.1",
+  "description": "Lightweight, robust, elegant syntax highlighting. A spin-off project from Dabblet.",
+  "main": "prism.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeaVerou/prism.git"
+  },
+  "keywords": [
+    "prism",
+    "highlight"
+  ],
+  "author": "Lea Verou",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "gulp": "^3.8.6",
+    "gulp-concat": "^2.3.4",
+    "gulp-header": "^1.0.5",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^0.3.1"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"…file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/prism/package.json;TT:charsetI"
+utf-8;F:digest"%qø§%o	r	úé‚G§ˆÏ³2<Ù+a¦vCÌ:lengthi{:integrityI"Rni:///sha-256;cfinJW8JFAtyAxEJ-umCR6eIz7MyPNkrYY0SpgR2Q8w?ct=application/json;T:dependencies_digest"%"N}Æ×ë0òÔUPOŒÒX‚è€x¦îoæºÛˆQºQ:idI"Eb372f11a012eaa5262bcf45bb7c0bf67201057543ae583b08b1f792ae8f50234;F:
+mtimel+^FV

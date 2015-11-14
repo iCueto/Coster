@@ -1,0 +1,69 @@
+{:uriI"ßfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-iconset-svg/demo/index.html?type=text/html&id=efcccfc16850e7534f45b4a568b7502c999be486ed20e874505c58d00fc3defd:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"…/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-iconset-svg/demo/index.html;T:	nameI"iron-iconset-svg/demo;T:logical_pathI"iron-iconset-svg/demo.html;T:content_typeI"text/html;T:sourceI"|<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<html>
+<head>
+
+  <title>iron-iconset-svg</title>
+  <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+  <link href="../../paper-styles/demo-pages.html" rel="import">
+
+  <link rel="import" href="svg-sample-icons.html">
+  <style is="custom-style">
+
+    .centered {
+      text-align: center;
+    }
+    
+    iron-icon {
+      height: 64px;
+      width: 64px;
+      margin: auto 1em;
+    }
+
+    iron-icon:nth-of-type(1) {
+      fill: orange;
+    }
+
+    iron-icon:nth-of-type(2) {
+      fill: green;
+    }
+
+    iron-icon:nth-of-type(3) {
+      fill: navy;
+    }
+
+    iron-icon {
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+    }
+
+    iron-icon:hover {
+      -webkit-filter: drop-shadow( 2px 2px 2px var(--google-grey-700) );
+      filter: drop-shadow( 2px 2px 2px var(--google-grey-700) );
+    }
+  </style>
+</head>
+<body>
+
+  <div class="vertical-section vertical-section-container centered">
+    <iron-icon icon="svg-sample-icons:codepen"></iron-icon>
+    <iron-icon icon="svg-sample-icons:twitter"></iron-icon>
+    <iron-icon icon="svg-sample-icons:youtube"></iron-icon>
+  </div>
+
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"“file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-iconset-svg/demo/index.html;TT:charsetI"
+utf-8;F:digest"%'5QíC†zš˜À½¶$‰ØØˆ¥˜îÈäô¾“êã˜:lengthi|:integrityI"Kni:///sha-256;JzVR7UOGepqYwL22GiSJFNjYiKWY7sjk9L4DE5Pq45g?ct=text/html;T:dependencies_digest"%´êÄ¹¸§Æy9RvÒZÛKò•>ŸŒªå:Ùòœz°Ó:idI"Eefcccfc16850e7534f45b4a568b7502c999be486ed20e874505c58d00fc3defd;F:
+mtimel+^FV

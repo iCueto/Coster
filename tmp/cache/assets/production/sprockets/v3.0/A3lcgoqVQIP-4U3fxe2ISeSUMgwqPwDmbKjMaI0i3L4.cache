@@ -1,0 +1,46 @@
+{:uriI"åfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-fit-behavior/demo/simple-fit.html?type=text/html&id=6a9a49bc13daa558ba73feaf11de540fba1e2e0963b3312ad0f4d65ccd3247ce:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"‹/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-fit-behavior/demo/simple-fit.html;T:	nameI"&iron-fit-behavior/demo/simple-fit;T:logical_pathI"+iron-fit-behavior/demo/simple-fit.html;T:content_typeI"text/html;T:sourceI"Â<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<link rel="import" href="../../polymer/polymer.html">
+<link rel="import" href="../iron-fit-behavior.html">
+
+<dom-module id="simple-fit">
+
+  <style>
+    :host {
+      display: block;
+      background: black;
+      color: white;
+      padding: 8px;
+    }
+  </style>
+
+  <template>
+    <content></content>
+  </template>
+
+</dom-module>
+
+<script>
+
+  Polymer({
+
+    is: 'simple-fit',
+
+    behaviors: [
+      Polymer.IronFitBehavior
+    ]
+
+  });
+
+</script>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"™file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-fit-behavior/demo/simple-fit.html;TT:charsetI"
+utf-8;F:digest"%w€t,ö¯îªÉ©:ëÆ‚ò Úû„ÝIìóŽ:lengthiÂ:integrityI"Kni:///sha-256;kBCBd4B0LPav7giqncmpOuvGgvKg2vuQhATdSezzEo4?ct=text/html;T:dependencies_digest"%AH*·$48’'vÚò1›F6q»‘+Ì€>~þÖˆq:idI"E6a9a49bc13daa558ba73feaf11de540fba1e2e0963b3312ad0f4d65ccd3247ce;F:
+mtimel+^FV

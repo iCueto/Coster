@@ -1,0 +1,31 @@
+{:uriI"÷file:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-ripple/index.html?type=text/html&id=f10fd1a77b2244bb4aa72f8c54aa560f3ba652ee469ddcf6c6bce8e887c0f619:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"|/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-ripple/index.html;T:	nameI"paper-ripple;T:logical_pathI"paper-ripple.html;T:content_typeI"text/html;T:sourceI"ó<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE
+The complete set of authors may be found at http://polymer.github.io/AUTHORS
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS
+-->
+<html>
+<head>
+
+  <title>paper-ripple</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+
+  <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="import" href="../iron-component-page/iron-component-page.html">
+
+</head>
+<body>
+
+  <iron-component-page></iron-component-page>
+
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"äfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/paper-ripple/index.html;TT:charsetI"
+utf-8;F:digest"%YAû9ù%å´Ø,–>˙≈N…çºˆ€Ò!ò+§ùÂ=n‹:lengthió:integrityI"Kni:///sha-256;WUGeOZ0ljH-rryzQPvrFTsmNvPbb8SGYK6Sd5T0abtw?ct=text/html;T:dependencies_digest"%Êueˇ«…À£ã‹æBDÊºn∫äÏ)]Â˛FJ;:idI"Ef10fd1a77b2244bb4aa72f8c54aa560f3ba652ee469ddcf6c6bce8e887c0f619;F:
+mtimel+^FV

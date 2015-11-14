@@ -1,0 +1,30 @@
+{:uriI"Ÿfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-input/test/index.html?type=text/html&id=02e9ee1f6d6429a104b783616e66496d3dc0c0ea050ddb1acee1331f8d64ff4f:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-input/test/index.html;T:	nameI"iron-input/test;T:logical_pathI"iron-input/test.html;T:content_typeI"text/html;T:sourceI"k<!doctype html>
+<!--
+Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <title>iron-input ests</title>
+  <script src="../../web-component-tester/browser.js"></script>
+</head>
+<body>
+  <script>
+    WCT.loadSuites([
+      'iron-input.html',
+    ]);
+  </script>
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"çfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-input/test/index.html;TT:charsetI"
+utf-8;F:digest"%¡°[˜œfKüºúÏÊÊø®A<
+3&ÃKœ™…+>:lengthik:integrityI"Kni:///sha-256;waEUW_fPZkufvJzsBeYL5r9_qEEMPAozJsxLz6rJKz4?ct=text/html;T:dependencies_digest"%|‘—Y)`bÃ¢QíâNf?
+˙˘dHnÉ|ÿ≥≈öü:idI"E02e9ee1f6d6429a104b783616e66496d3dc0c0ea050ddb1acee1331f8d64ff4f;F:
+mtimel+^FV

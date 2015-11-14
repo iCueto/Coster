@@ -1,0 +1,31 @@
+{:uriI"€file:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-pages/bower.json?type=application/json&id=3cf18fe4967d6ac44c6e31325ca72be0978735a99d377019af098cad947bd200:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-pages/bower.json;T:	nameI"iron-pages/bower;T:logical_pathI"iron-pages/bower.json;T:content_typeI"application/json;T:sourceI"!{
+  "name": "iron-pages",
+  "version": "1.0.0",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "description": "Organizes a set of pages and shows one at a time",
+  "main": "iron-pages.html",
+  "private": true,
+  "authors": [
+    "The Polymer Authors"
+  ],
+  "keywords": [
+    "web-components",
+    "polymer",
+    "container"
+  ],
+  "dependencies": {
+    "iron-resizable-behavior": "polymerelements/iron-resizable-behavior#^1.0.0",
+    "iron-selector": "polymerelements/iron-selector#^1.0.0",
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "polymerelements/iron-component-page#^1.0.0",
+    "test-fixture": "polymerelements/test-fixture#^1.0.0",
+    "web-component-tester": "*",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"@processors:type=application/json&file_type=application/json;TTI"àfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-pages/bower.json;TT:charsetI"
+utf-8;F:digest"%‰◊BΩG™wçH≤˙∞í	›ah˝ÕË°^¨7ó_":lengthi!:integrityI"Rni:///sha-256;5NdCvUeqd41IsvrwsJIJ3WEPB2j9zeihXqw3HxSXXyI?ct=application/json;T:dependencies_digest"%,+ºdoœnT∏˚IÕ%∑á∞˙`4ñìçã:idI"E3cf18fe4967d6ac44c6e31325ca72be0978735a99d377019af098cad947bd200;F:
+mtimel+^FV

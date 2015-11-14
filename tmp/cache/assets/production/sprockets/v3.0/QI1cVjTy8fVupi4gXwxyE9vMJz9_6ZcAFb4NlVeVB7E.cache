@@ -1,0 +1,46 @@
+{:uriI"‡file:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-fit-behavior/demo/index.html?type=text/html&id=ad9fe1e03846fa27dc1388a02d1d9d68727b69e9c2ff786443738220f3d79017:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"Ü/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-fit-behavior/demo/index.html;T:	nameI"iron-fit-behavior/demo;T:logical_pathI" iron-fit-behavior/demo.html;T:content_typeI"text/html;T:sourceI"u<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+  <head>
+
+    <title>iron-fit-behavior demo</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="simple-fit.html">
+
+    <style>
+
+      .sized {
+        width: 50%;
+        height: 50%;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <simple-fit auto-fit-on-attach class="sized">
+      centered in window
+    </simple-fit>
+
+
+  </body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"îfile-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-fit-behavior/demo/index.html;TT:charsetI"
+utf-8;F:digest"%eçj¥t7“Î”?ÄL«„1ıJãi¨[;â≥¨:lengthiu:integrityI"Kni:///sha-256;ZY1qtHQ30uvTPxyAGxJMxx7jMRX18EoUi2msWzuJs6w?ct=text/html;T:dependencies_digest"%#ŸÈô\[Oπ∏åÌ{–p£LÓ-<ü;Q∞WóΩ:idI"Ead9fe1e03846fa27dc1388a02d1d9d68727b69e9c2ff786443738220f3d79017;F:
+mtimel+^FV

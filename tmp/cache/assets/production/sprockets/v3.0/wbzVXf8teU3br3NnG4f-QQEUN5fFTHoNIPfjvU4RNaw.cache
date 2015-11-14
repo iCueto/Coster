@@ -1,0 +1,29 @@
+{:uriI"áfile:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-resizable-behavior/index.html?type=text/html&id=0e17113bc05a5c47b31c39d3635cb34d1fb358b1fae9a83b3f4c4f1d93ee7516:ET:load_pathI"i/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components;F:filenameI"‡/usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-resizable-behavior/index.html;T:	nameI"iron-resizable-behavior;T:logical_pathI"!iron-resizable-behavior.html;T:content_typeI"text/html;T:sourceI"*<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<html>
+<head>
+
+  <title>iron-resizable-behavior</title>
+  <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="import" href="../iron-component-page/iron-component-page.html">
+
+</head>
+<body>
+
+  <iron-component-page></iron-component-page>
+
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash{	I"environment-version;TTI"environment-paths;TTI"2processors:type=text/html&file_type=text/html;TTI"•file-digest:///usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/polymer-iron-rails-1.0.0.pre.rc.3/app/assets/components/iron-resizable-behavior/index.html;TT:charsetI"
+utf-8;F:digest"%ìóëUX=¸eÖÁªdfšòôî%Ó–R*0 ¶gšš:lengthi*:integrityI"Kni:///sha-256;Eezz6xxVWD24ZdbBqmRmmvL07hIlEtOWUiowILZnmpo?ct=text/html;T:dependencies_digest"%¿A0¤Ûª¾f{Žtä6Ý™×»‰— \Q•­Cu:idI"E0e17113bc05a5c47b31c39d3635cb34d1fb358b1fae9a83b3f4c4f1d93ee7516;F:
+mtimel+^FV
