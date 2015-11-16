@@ -31,7 +31,7 @@ Polymer({
         handleRemove: function(e) {
     var entry = e.currentTarget;
             console.log(entry.id)
-    this.$.delete.url = "https://coster.herokuapp.com/api/maderas/" + entry.id;
+    this.$.delete.url = "/api/maderas/" + entry.id;
     this.$.delete.generateRequest();
 },
   

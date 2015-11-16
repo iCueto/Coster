@@ -339,3 +339,1206 @@ PG::ConnectionBad (could not connect to server: Permission denied
   Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
   Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (200.2ms)
 Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x007fb4b9d61120 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fb4b9d60ba8 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fb4b9d93af8 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/signup" for ::1 at 2015-11-14 10:16:21 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (219.0ms)
+Completed 200 OK in 3082ms (Views: 2796.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-c6f7424d47afb33b0ad1c1336862be88.css?body=1" for ::1 at 2015-11-14 10:16:48 -0400
+
+
+Started GET "/assets/turbolinks-4031cb0a0613adc8fac596d20e01b074.js?body=1" for ::1 at 2015-11-14 10:16:48 -0400
+
+
+Started GET "/assets/bootstrap-2fd0b9386add9f69cb7a086df5c65d0e.css?body=1" for ::1 at 2015-11-14 10:16:48 -0400
+
+
+Started GET "/assets/webcomponentsjs/webcomponents-lite-960b30c5eca2415a5656f17085549028.js?body=1" for ::1 at 2015-11-14 10:16:49 -0400
+
+
+Started GET "/assets/jquery-4075e3b7b3964707c653f61b66f46dec.js?body=1" for ::1 at 2015-11-14 10:16:49 -0400
+
+
+Started GET "/assets/jquery_ujs-f9f4ae336c0d19804775e0e2c8749423.js?body=1" for ::1 at 2015-11-14 10:16:49 -0400
+
+
+Started GET "/assets/bootstrap/bootstrap-5219915267bc07092cc5984f417a5ad5.js?body=1" for ::1 at 2015-11-14 10:16:49 -0400
+
+
+Started GET "/assets/bootstrap-5219915267bc07092cc5984f417a5ad5.js?body=1" for ::1 at 2015-11-14 10:16:49 -0400
+
+
+Started GET "/assets/api/cotizaciones-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-14 10:16:49 -0400
+
+
+Started GET "/assets/api/grosores-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-14 10:16:49 -0400
+
+
+Started GET "/assets/api/maderas-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-14 10:16:49 -0400
+
+
+Started GET "/assets/api/puertas-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-14 10:16:49 -0400
+
+
+Started GET "/assets/application-3d0c73dd85a1a04ff726b84efc964caf.js?body=1" for ::1 at 2015-11-14 10:16:49 -0400
+
+
+Started GET "/assets/application-27929ea0b9fc23572c941a95aaa10884.html" for ::1 at 2015-11-14 10:16:49 -0400
+
+
+Started GET "/assets/dashboard-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-14 10:16:49 -0400
+
+
+Started GET "/assets/%7B%7Bitem.thumb_url%7D%7D" for ::1 at 2015-11-14 10:16:50 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/%7B%7Bitem.thumb_url%7D%7D"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (123.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (29.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (27.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (48.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (590.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (277.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (437.4ms)
+
+
+Started GET "/assets/%5B%5Bitem.cotizacion.puerta.thumb_url%5D%5D" for ::1 at 2015-11-14 10:16:52 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/%5B%5Bitem.cotizacion.puerta.thumb_url%5D%5D"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (73.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (65.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (107.0ms)
+
+
+Started GET "/assets/%5B%5Bitem.cotizacion.madera.thumb_url%5D%5D" for ::1 at 2015-11-14 10:16:52 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/%5B%5Bitem.cotizacion.madera.thumb_url%5D%5D"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (112.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (51.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (83.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (196.6ms)
+
+
+Started POST "/users" for ::1 at 2015-11-14 10:17:15 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Q11VMdWG+JcM5xJEz6Rxpq0fZKPh5cLTcis9W2/j5c+8ztJJ57lGlj92xLdU4UmkgHb9LYtpzqlWZoIHSOdwmQ==", "user"=>{"name"=>"admin", "email"=>"admin", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Submit"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (20.1ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "admin"], ["email", "admin"], ["password_digest", "$2a$10$CiJdFJIQRPsJB1waBkSfEuI522MihnXY7xk8sHIIo4sPAdO6bWn.e"], ["created_at", "2015-11-14 14:17:15.976503"], ["updated_at", "2015-11-14 14:17:15.976503"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/dashboard
+Completed 302 Found in 553ms (ActiveRecord: 132.2ms)
+
+
+Started GET "/dashboard" for ::1 at 2015-11-14 10:17:16 -0400
+Processing by DashboardController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered dashboard/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 595ms (Views: 556.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/%7B%7Bitem.thumb_url%7D%7D" for ::1 at 2015-11-14 10:17:17 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/%7B%7Bitem.thumb_url%7D%7D"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (174.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (37.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (96.8ms)
+
+
+Started GET "/assets/%5B%5Bitem.cotizacion.madera.thumb_url%5D%5D" for ::1 at 2015-11-14 10:17:17 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/%5B%5Bitem.cotizacion.madera.thumb_url%5D%5D"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (66.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (139.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (4.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (56.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (120.1ms)
+
+
+Started GET "/assets/%5B%5Bitem.cotizacion.puerta.thumb_url%5D%5D" for ::1 at 2015-11-14 10:17:17 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/%5B%5Bitem.cotizacion.puerta.thumb_url%5D%5D"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (25.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (36.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (149.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (17.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (74.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (195.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2015-11-14 10:25:15 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DashboardController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered dashboard/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 1538ms (Views: 1404.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap-2fd0b9386add9f69cb7a086df5c65d0e.css?body=1" for ::1 at 2015-11-14 10:25:18 -0400
+
+
+Started GET "/assets/application-c6f7424d47afb33b0ad1c1336862be88.css?body=1" for ::1 at 2015-11-14 10:25:18 -0400
+
+
+Started GET "/assets/webcomponentsjs/webcomponents-lite-960b30c5eca2415a5656f17085549028.js?body=1" for ::1 at 2015-11-14 10:25:18 -0400
+
+
+Started GET "/assets/jquery-4075e3b7b3964707c653f61b66f46dec.js?body=1" for ::1 at 2015-11-14 10:25:18 -0400
+
+
+Started GET "/assets/turbolinks-4031cb0a0613adc8fac596d20e01b074.js?body=1" for ::1 at 2015-11-14 10:25:18 -0400
+
+
+Started GET "/assets/jquery_ujs-f9f4ae336c0d19804775e0e2c8749423.js?body=1" for ::1 at 2015-11-14 10:25:18 -0400
+
+
+Started GET "/assets/bootstrap/bootstrap-5219915267bc07092cc5984f417a5ad5.js?body=1" for ::1 at 2015-11-14 10:25:18 -0400
+
+
+Started GET "/assets/bootstrap-5219915267bc07092cc5984f417a5ad5.js?body=1" for ::1 at 2015-11-14 10:25:18 -0400
+
+
+Started GET "/assets/dashboard-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-14 10:25:18 -0400
+
+
+Started GET "/assets/application-7f7f421523c223791aa65fc832468ca4.html" for ::1 at 2015-11-14 10:25:18 -0400
+
+
+Started GET "/assets/api/grosores-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-14 10:25:18 -0400
+
+
+Started GET "/assets/api/maderas-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-14 10:25:18 -0400
+
+
+Started GET "/assets/api/puertas-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-14 10:25:19 -0400
+
+
+Started GET "/assets/api/cotizaciones-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-14 10:25:19 -0400
+
+
+Started GET "/assets/application-3d0c73dd85a1a04ff726b84efc964caf.js?body=1" for ::1 at 2015-11-14 10:25:19 -0400
+
+
+Started GET "/assets/%7B%7Bitem.thumb_url%7D%7D" for ::1 at 2015-11-14 10:25:19 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/%7B%7Bitem.thumb_url%7D%7D"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (98.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (329.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (94.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (191.1ms)
+
+
+Started GET "/assets/%5B%5Bitem.cotizacion.madera.thumb_url%5D%5D" for ::1 at 2015-11-14 10:25:20 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/%5B%5Bitem.cotizacion.madera.thumb_url%5D%5D"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (80.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (43.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (85.4ms)
+
+
+Started GET "/assets/%5B%5Bitem.cotizacion.puerta.thumb_url%5D%5D" for ::1 at 2015-11-14 10:25:20 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/%5B%5Bitem.cotizacion.puerta.thumb_url%5D%5D"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (79.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (42.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (81.6ms)
+
+
+Started GET "/api/puertas" for ::1 at 2015-11-14 10:25:20 -0400
+Processing by Api::PuertasController#index as JSON
+  [1m[36mPuertum Load (19.9ms)[0m  [1mSELECT "puerta".* FROM "puerta"[0m
+Completed 200 OK in 115ms (Views: 51.7ms | ActiveRecord: 20.2ms)
+
+
+Started GET "/api/maderas" for ::1 at 2015-11-14 10:25:20 -0400
+Processing by Api::MaderasController#index as JSON
+  [1m[35mMadera Load (0.7ms)[0m  SELECT "maderas".* FROM "maderas"
+Completed 200 OK in 38ms (Views: 20.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/grosores" for ::1 at 2015-11-14 10:25:21 -0400
+Processing by Api::GrosoresController#index as JSON
+  [1m[36mGrosor Load (0.4ms)[0m  [1mSELECT "grosors".* FROM "grosors"[0m
+Completed 200 OK in 22ms (Views: 10.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/cotizaciones" for ::1 at 2015-11-14 10:25:21 -0400
+Processing by Api::CotizacionesController#index as JSON
+  [1m[35mCotizacion Load (0.3ms)[0m  SELECT "cotizacions".* FROM "cotizacions"
+Completed 200 OK in 16ms (Views: 1.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/%7B%7Bitem.thumb_url%7D%7D" for ::1 at 2015-11-14 10:25:21 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/%7B%7Bitem.thumb_url%7D%7D"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (116.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (54.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (98.7ms)
+
+
+Started GET "/assets/%7B%7BdoorID('" for ::1 at 2015-11-14 10:25:45 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/%7B%7BdoorID('"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (96.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (86.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (212.3ms)
+
+
+Started GET "/assets/%7B%7BdoorID('" for ::1 at 2015-11-14 10:25:45 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/%7B%7BdoorID('"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (81.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (14.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (53.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (103.0ms)
+
+
+Started GET "/assets/%7B%7Bitem.thumb_url%7D%7D" for ::1 at 2015-11-14 10:26:02 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/%7B%7Bitem.thumb_url%7D%7D"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (27.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (205.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (177.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (405.6ms)
+
+
+Started GET "/assets/%7B%7BdoorID('" for ::1 at 2015-11-14 10:26:04 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/%7B%7BdoorID('"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (71.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (33.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (78.0ms)
+
+
+Started GET "/assets/%7B%7BdoorID('" for ::1 at 2015-11-14 10:26:05 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/%7B%7BdoorID('"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (81.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (46.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (88.5ms)
+
+
+Started GET "/assets/%7B%7Bitem.thumb_url%7D%7D" for ::1 at 2015-11-14 10:26:51 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/%7B%7Bitem.thumb_url%7D%7D"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (402.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (37.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (118.5ms)
+
+
+Started DELETE "/api/puertas/20" for ::1 at 2015-11-14 10:27:19 -0400
+Processing by Api::PuertasController#destroy as JSON
+  Parameters: {"id"=>"20"}
+  [1m[36mPuertum Load (0.5ms)[0m  [1mSELECT  "puerta".* FROM "puerta" WHERE "puerta"."id" = ? LIMIT 1[0m  [["id", 20]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (60.9ms)[0m  [1mDELETE FROM "puerta" WHERE "puerta"."id" = ?[0m  [["id", 20]]
+  [1m[35m (5.2ms)[0m  commit transaction
+Completed 204 No Content in 756ms (ActiveRecord: 66.7ms)
+
+
+Started GET "/assets/%7B%7Bitem.thumb_url%7D%7D" for ::1 at 2015-11-14 10:27:20 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/%7B%7Bitem.thumb_url%7D%7D"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (9.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (84.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (56.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (104.4ms)
+
+
+Started GET "/assets/%5B%5Bitem.cotizacion.madera.thumb_url%5D%5D" for ::1 at 2015-11-14 10:27:20 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/%5B%5Bitem.cotizacion.madera.thumb_url%5D%5D"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (76.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (159.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (51.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (92.6ms)
+
+
+Started GET "/assets/%5B%5Bitem.cotizacion.puerta.thumb_url%5D%5D" for ::1 at 2015-11-14 10:27:21 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/%5B%5Bitem.cotizacion.puerta.thumb_url%5D%5D"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (70.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (35.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (82.2ms)
+
+
+Started GET "/dashboard" for ::1 at 2015-11-16 17:04:59 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DashboardController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 610ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-11-16 17:05:09 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (101.3ms)
+Completed 200 OK in 4015ms (Views: 4013.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-c6f7424d47afb33b0ad1c1336862be88.css?body=1" for ::1 at 2015-11-16 17:05:13 -0400
+
+
+Started GET "/assets/bootstrap-2fd0b9386add9f69cb7a086df5c65d0e.css?body=1" for ::1 at 2015-11-16 17:05:13 -0400
+
+
+Started GET "/assets/webcomponentsjs/webcomponents-lite-960b30c5eca2415a5656f17085549028.js?body=1" for ::1 at 2015-11-16 17:05:13 -0400
+
+
+Started GET "/assets/jquery-4075e3b7b3964707c653f61b66f46dec.js?body=1" for ::1 at 2015-11-16 17:05:13 -0400
+
+
+Started GET "/assets/jquery_ujs-f9f4ae336c0d19804775e0e2c8749423.js?body=1" for ::1 at 2015-11-16 17:05:13 -0400
+
+
+Started GET "/assets/turbolinks-4031cb0a0613adc8fac596d20e01b074.js?body=1" for ::1 at 2015-11-16 17:05:13 -0400
+
+
+Started GET "/assets/bootstrap/bootstrap-5219915267bc07092cc5984f417a5ad5.js?body=1" for ::1 at 2015-11-16 17:05:13 -0400
+
+
+Started GET "/assets/api/cotizaciones-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-16 17:05:14 -0400
+
+
+Started GET "/assets/bootstrap-5219915267bc07092cc5984f417a5ad5.js?body=1" for ::1 at 2015-11-16 17:05:14 -0400
+
+
+Started GET "/assets/api/grosores-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-16 17:05:14 -0400
+
+
+Started GET "/assets/api/maderas-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-16 17:05:14 -0400
+
+
+Started GET "/assets/api/puertas-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-16 17:05:14 -0400
+
+
+Started GET "/assets/dashboard-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-16 17:05:14 -0400
+
+
+Started GET "/assets/application-3d0c73dd85a1a04ff726b84efc964caf.js?body=1" for ::1 at 2015-11-16 17:05:14 -0400
+
+
+Started POST "/login" for ::1 at 2015-11-16 17:05:21 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kfySqoKhkZXGM3bVet9h3vRzS/bOoxsqUNhshTsR1k4KDi9lfkSBZXbbvJgro3XIi/uZjLXXgD286cjToUTiAA==", "email"=>"Admin", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "Admin"]]
+Redirected to http://localhost:3000/login
+Completed 302 Found in 126ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/login" for ::1 at 2015-11-16 17:05:21 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 272ms (Views: 270.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-11-16 17:05:32 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"urwyCseiRBVJA9VGWQA0HJ2tzFbd8xqzfxee0WK5Zm0hTo/FO0dU5fnrHwsIfCAK4iUeLKaHgaSTJjqH+OxSIw==", "email"=>"Admin", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "Admin"]]
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for ::1 at 2015-11-16 17:05:33 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 551ms (Views: 549.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for ::1 at 2015-11-16 17:05:40 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (45.1ms)
+Completed 200 OK in 237ms (Views: 236.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2015-11-16 17:05:51 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V3sVq666RRFslS/TzUqQ6eGdgxzJTkfJnN4v0TOKv/rMiahkUl9V4dx95Z6cNoT/nhVRZrI63N5w74uHqd+LtA==", "user"=>{"name"=>"Alex", "email"=>"Alex", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Submit"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (18.5ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Alex"], ["email", "Alex"], ["password_digest", "$2a$10$sur6rCvOO9/s/acjX1wkNuAup2rHj8/qSyEHoRClZmTSicyZzGUVu"], ["created_at", "2015-11-16 21:05:52.101878"], ["updated_at", "2015-11-16 21:05:52.101878"]]
+  [1m[35m (1.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/dashboard
+Completed 302 Found in 294ms (ActiveRecord: 20.6ms)
+
+
+Started GET "/dashboard" for ::1 at 2015-11-16 17:05:52 -0400
+Processing by DashboardController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered dashboard/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 199ms (Views: 196.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/dashboard" for ::1 at 2015-11-16 17:09:54 -0400
+Processing by DashboardController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered dashboard/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 209ms (Views: 207.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap-2fd0b9386add9f69cb7a086df5c65d0e.css?body=1" for ::1 at 2015-11-16 17:09:54 -0400
+
+
+Started GET "/assets/application-c6f7424d47afb33b0ad1c1336862be88.css?body=1" for ::1 at 2015-11-16 17:09:54 -0400
+
+
+Started GET "/assets/webcomponentsjs/webcomponents-lite-960b30c5eca2415a5656f17085549028.js?body=1" for ::1 at 2015-11-16 17:09:54 -0400
+
+
+Started GET "/assets/bootstrap/bootstrap-5219915267bc07092cc5984f417a5ad5.js?body=1" for ::1 at 2015-11-16 17:09:55 -0400
+
+
+Started GET "/assets/jquery_ujs-f9f4ae336c0d19804775e0e2c8749423.js?body=1" for ::1 at 2015-11-16 17:09:55 -0400
+
+
+Started GET "/assets/bootstrap-5219915267bc07092cc5984f417a5ad5.js?body=1" for ::1 at 2015-11-16 17:09:55 -0400
+
+
+Started GET "/assets/api/maderas-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-16 17:09:55 -0400
+
+
+Started GET "/assets/jquery-4075e3b7b3964707c653f61b66f46dec.js?body=1" for ::1 at 2015-11-16 17:09:55 -0400
+
+
+Started GET "/assets/turbolinks-4031cb0a0613adc8fac596d20e01b074.js?body=1" for ::1 at 2015-11-16 17:09:55 -0400
+
+
+Started GET "/assets/api/puertas-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-16 17:09:55 -0400
+
+
+Started GET "/assets/api/cotizaciones-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-16 17:09:55 -0400
+
+
+Started GET "/assets/application-3d0c73dd85a1a04ff726b84efc964caf.js?body=1" for ::1 at 2015-11-16 17:09:55 -0400
+
+
+Started GET "/assets/dashboard-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-16 17:09:55 -0400
+
+
+Started GET "/assets/api/grosores-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-16 17:09:55 -0400
+
+
+Started GET "/assets/application-c6f7424d47afb33b0ad1c1336862be88.css?body=1" for ::1 at 2015-11-16 17:10:05 -0400
+
+
+Started GET "/assets/bootstrap-2fd0b9386add9f69cb7a086df5c65d0e.css?body=1" for ::1 at 2015-11-16 17:10:05 -0400
+
+
+Started GET "/dashboard" for ::1 at 2015-11-16 17:10:17 -0400
+Processing by DashboardController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered dashboard/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 558ms (Views: 555.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap-2fd0b9386add9f69cb7a086df5c65d0e.css?body=1" for ::1 at 2015-11-16 17:10:18 -0400
+
+
+Started GET "/assets/application-c6f7424d47afb33b0ad1c1336862be88.css?body=1" for ::1 at 2015-11-16 17:10:18 -0400
+
+
+Started GET "/assets/webcomponentsjs/webcomponents-lite-960b30c5eca2415a5656f17085549028.js?body=1" for ::1 at 2015-11-16 17:10:18 -0400
+
+
+Started GET "/assets/jquery-4075e3b7b3964707c653f61b66f46dec.js?body=1" for ::1 at 2015-11-16 17:10:18 -0400
+
+
+Started GET "/assets/jquery_ujs-f9f4ae336c0d19804775e0e2c8749423.js?body=1" for ::1 at 2015-11-16 17:10:18 -0400
+
+
+Started GET "/assets/turbolinks-4031cb0a0613adc8fac596d20e01b074.js?body=1" for ::1 at 2015-11-16 17:10:18 -0400
+
+
+Started GET "/assets/bootstrap/bootstrap-5219915267bc07092cc5984f417a5ad5.js?body=1" for ::1 at 2015-11-16 17:10:18 -0400
+
+
+Started GET "/assets/bootstrap-5219915267bc07092cc5984f417a5ad5.js?body=1" for ::1 at 2015-11-16 17:10:18 -0400
+
+
+Started GET "/assets/api/grosores-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-16 17:10:18 -0400
+
+
+Started GET "/assets/api/maderas-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-16 17:10:18 -0400
+
+
+Started GET "/assets/api/cotizaciones-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-16 17:10:18 -0400
+
+
+Started GET "/assets/api/puertas-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-16 17:10:18 -0400
+
+
+Started GET "/assets/dashboard-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-16 17:10:18 -0400
+
+
+Started GET "/assets/application-3d0c73dd85a1a04ff726b84efc964caf.js?body=1" for ::1 at 2015-11-16 17:10:18 -0400

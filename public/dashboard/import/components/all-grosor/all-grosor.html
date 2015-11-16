@@ -1,0 +1,81 @@
+<dom-module id="all-grosor">
+  <link rel="stylesheet" href="all-grosor.css" />
+  <template>
+    
+    <iron-ajax
+    id="get"
+    auto
+    url="/api/grosores"
+    handle-as="json"
+    on-response="handleData"></iron-ajax>
+    
+    <iron-ajax
+            id="send"
+            method="POST"
+            content-type="application/json"
+            on-response="handleResponse">
+        </iron-ajax>
+    
+    <iron-ajax
+            id="edit"
+            method="PUT"
+            content-type="application/json"
+            on-response="refresh">
+        </iron-ajax>
+    
+    <iron-ajax id="delete" method="DELETE" on-response="refresh"></iron-ajax>
+    
+    <ul class="list-group">
+         <template is="dom-repeat" items="{{grosors}}">
+                  
+            <li class="list-group-item">
+                
+                <span>{{item.valor}}</span>
+                <span class="pull-right"><a data-toggle="modal" href$="{{grosorID('#', item.id)}}">
+                Editar
+                </a>
+                    |
+                <a href="#" id$="{{item.id}}" on-tap="handleRemove">
+                Eliminar
+                </a>
+                </span>
+                
+                </li>
+                
+            
+            <div class="modal fade" id$="{{grosorID('', item.id)}}">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h5 class="modal-title">Editar Grosor</h5>
+      </div>
+      <div class="modal-body">
+          <div class="row">
+              <div class="col-md-12">    
+                  <div class="form-group">
+                  
+                  <div class="form-group">
+                      <label>Valor:</label>
+                      <input type="number" placeholder="Valor de Grosor" class="form-control" value="{{valor::input}}"/>
+                  </div>
+                      
+              </div>
+          </div>
+                </div>
+      <footer class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" id$="{{item.id}}" on-tap="handleEdit">Enviar</button>
+      </footer>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+            
+            
+        </template>
+    
+    </ul>
+    
+  </template>
+  <script src="all-grosor.js"></script>
+</dom-module>

@@ -1,0 +1,93 @@
+<dom-module id="all-price">
+  <link rel="stylesheet" href="all-price.css" />
+  <template>
+    
+    <iron-ajax
+    id="get"
+    auto
+    url="/api/cotizaciones"
+    handle-as="json"
+    on-response="handleData"></iron-ajax>
+    
+    <iron-ajax id="delete" method="DELETE" on-response="refresh"></iron-ajax>
+    
+    <table class="table table-hover">
+        <thead>
+    <tr>
+      <th>No.</th>
+      <th>Cliente</th>
+      <th>Fecha</th>
+      <th>Detalles</th>
+    </tr>
+  </thead>
+       <tbody> 
+         <template is="dom-repeat" items="{{price}}">     
+    <tr>
+      <td>{{item.id}}</td>
+      <td><span>{{item.cliente.name}}</span> <span>{{item.cliente.lastName}}</span></td>
+      <td>{{item.created_at}}</td>
+      <td>
+    <a data-toggle="modal" href$="{{priceID('#', item.id)}}">detalles</a>
+      </td>
+    </tr>
+                   
+            <div class="modal fade" id$="{{priceID('', item.id)}}">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h5 class="modal-title">Detalles de la Cotizacion</h5>
+      </div>
+      <div class="modal-body">
+          <div class="row">
+            <div class="col-md-12">
+                <H3>Fecha: <small class="pull-right">[[item.created_at]]</small></H3>
+            <div class="col-md-6">
+                <h3>Datos del Cliente:</h3>
+                <div><strong>Cliente:</strong> <span>[[item.cliente.name]]</span> <span>[[item.cliente.lastName]]</span></div>
+                <div><strong>Telefono:</strong> <span>[[item.cliente.phone]]</span></div>
+                <div><strong>Email:</strong> <span>[[item.cliente.email]]</span></div>
+            </div>
+            <div class="col-md-6">
+                <h3>Cotizacion</h3>
+                <div>
+                    <h4>Madera:</h4>
+                    <div class="thumbnail text-center">
+                        <img src="[[item.cotizacion.madera.thumb_url]]"/>
+                        <span>[[item.cotizacion.madera.tipo_madera]]</span>
+                    </div>
+                    <h4>Puerta:</h4>
+                    <div class="thumbnail text-center">
+                        <img src="[[item.cotizacion.puerta.thumb_url]]"/>
+                        <span>[[item.cotizacion.puerta.codigo]]</span>
+                        <span>[[item.cotizacion.puerta.tipo_puerta]]</span>
+                    </div>
+                    <h4>Medidas:</h4>
+                    <div>
+                    <div>Alto: <span>[[item.cotizacion.medidas.alto]]</span> pies</div>
+                <div>Ancho: <span>[[item.cotizacion.medidas.ancho]]</span> pies</div>
+                <div>Grosor: <span>[[item.cotizacion.medidas.grosor]]</span> pies</div>
+                    </div>
+                <h4>Total: <strong>RD$<span>[[item.cotizacion.resultado]]</span></strong></h4>
+                </div>
+                
+            </div>
+                
+                  
+          </div>
+                </div>
+      <footer class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal" id$="{{item.id}}" on-tap="handleRemove">Eliminar</button>
+      </footer>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+            
+        </template>
+      </tbody>
+    </table>
+    
+ </template>    
+
+  <script src="all-price.js"></script>
+</dom-module>
