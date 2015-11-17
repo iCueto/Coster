@@ -1542,3 +1542,1132 @@ Started GET "/assets/dashboard-0bc27e2168727cafa1252f703137df60.js?body=1" for :
 
 
 Started GET "/assets/application-3d0c73dd85a1a04ff726b84efc964caf.js?body=1" for ::1 at 2015-11-16 17:10:18 -0400
+
+
+Started GET "/dashboard" for ::1 at 2015-11-17 09:37:45 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DashboardController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 214ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-11-17 09:37:51 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (55.9ms)
+Completed 200 OK in 2471ms (Views: 2470.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-d7997252db09025fcf1ebb22cc1a0ba4.js?body=1" for ::1 at 2015-11-17 09:37:53 -0400
+
+
+Started GET "/assets/jquery-4075e3b7b3964707c653f61b66f46dec.js?body=1" for ::1 at 2015-11-17 09:37:53 -0400
+
+
+Started GET "/assets/bootstrap-5219915267bc07092cc5984f417a5ad5.js?body=1" for ::1 at 2015-11-17 09:37:53 -0400
+
+
+Started GET "/assets/bootstrap/bootstrap-5219915267bc07092cc5984f417a5ad5.js?body=1" for ::1 at 2015-11-17 09:37:53 -0400
+
+
+Started GET "/assets/bootstrap-2fd0b9386add9f69cb7a086df5c65d0e.css?body=1" for ::1 at 2015-11-17 09:37:53 -0400
+
+
+Started GET "/assets/application-c6f7424d47afb33b0ad1c1336862be88.css?body=1" for ::1 at 2015-11-17 09:37:53 -0400
+
+
+Started GET "/assets/jquery_ujs-f9f4ae336c0d19804775e0e2c8749423.js?body=1" for ::1 at 2015-11-17 09:37:53 -0400
+
+
+Started GET "/assets/turbolinks-4031cb0a0613adc8fac596d20e01b074.js?body=1" for ::1 at 2015-11-17 09:37:53 -0400
+
+
+Started GET "/assets/api/cotizaciones-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-17 09:37:53 -0400
+
+
+Started GET "/assets/dashboard-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-17 09:37:53 -0400
+
+
+Started GET "/assets/api/puertas-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-17 09:37:54 -0400
+
+
+Started GET "/assets/api/grosores-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-17 09:37:54 -0400
+
+
+Started GET "/assets/api/maderas-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-17 09:37:54 -0400
+
+
+Started POST "/login" for ::1 at 2015-11-17 09:38:01 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"27i/CLIurTpEFFZ+BSuAyj00VF5L0QyKxejxRDFq1akst9x0H6NZ+EmkEmAvWxDsxWFzcvM9ZzYGIaDaJp04qw==", "email"=>"admin", "password"=>"[FILTERED]", "commit"=>"Submit"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "admin"]]
+Redirected to http://localhost:3000/dashboard
+Completed 302 Found in 328ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2015-11-17 09:38:01 -0400
+Processing by DashboardController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered dashboard/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 316ms (Views: 312.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap-2fd0b9386add9f69cb7a086df5c65d0e.css?body=1" for ::1 at 2015-11-17 09:38:02 -0400
+
+
+Started GET "/assets/jquery_ujs-f9f4ae336c0d19804775e0e2c8749423.js?body=1" for ::1 at 2015-11-17 09:38:02 -0400
+
+
+Started GET "/assets/bootstrap/bootstrap-5219915267bc07092cc5984f417a5ad5.js?body=1" for ::1 at 2015-11-17 09:38:02 -0400
+
+
+Started GET "/assets/application-c6f7424d47afb33b0ad1c1336862be88.css?body=1" for ::1 at 2015-11-17 09:38:02 -0400
+
+
+Started GET "/assets/turbolinks-4031cb0a0613adc8fac596d20e01b074.js?body=1" for ::1 at 2015-11-17 09:38:02 -0400
+
+
+Started GET "/assets/jquery-4075e3b7b3964707c653f61b66f46dec.js?body=1" for ::1 at 2015-11-17 09:38:02 -0400
+
+
+Started GET "/assets/dashboard-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-17 09:38:02 -0400
+
+
+Started GET "/assets/api/cotizaciones-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-17 09:38:02 -0400
+
+
+Started GET "/assets/api/grosores-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-17 09:38:02 -0400
+
+
+Started GET "/assets/api/maderas-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-17 09:38:02 -0400
+
+
+Started GET "/assets/bootstrap-5219915267bc07092cc5984f417a5ad5.js?body=1" for ::1 at 2015-11-17 09:38:02 -0400
+
+
+Started GET "/assets/api/puertas-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-17 09:38:02 -0400
+
+
+Started GET "/api/puertas" for ::1 at 2015-11-17 09:38:03 -0400
+Processing by Api::PuertasController#index as JSON
+  [1m[35mPuertum Load (30.5ms)[0m  SELECT "puerta".* FROM "puerta"
+Completed 200 OK in 167ms (Views: 114.0ms | ActiveRecord: 30.9ms)
+
+
+Started GET "/api/cotizaciones" for ::1 at 2015-11-17 09:38:03 -0400
+Processing by Api::CotizacionesController#index as JSON
+  [1m[36mCotizacion Load (0.3ms)[0m  [1mSELECT "cotizacions".* FROM "cotizacions"[0m
+Completed 200 OK in 82ms (Views: 1.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/grosores" for ::1 at 2015-11-17 09:38:03 -0400
+Processing by Api::GrosoresController#index as JSON
+  [1m[35mGrosor Load (0.4ms)[0m  SELECT "grosors".* FROM "grosors"
+Completed 200 OK in 16ms (Views: 10.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/maderas" for ::1 at 2015-11-17 09:38:03 -0400
+Processing by Api::MaderasController#index as JSON
+  [1m[36mMadera Load (0.5ms)[0m  [1mSELECT "maderas".* FROM "maderas"[0m
+Completed 200 OK in 148ms (Views: 139.2ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/grosores/" for ::1 at 2015-11-17 09:38:20 -0400
+Processing by Api::GrosoresController#create as JSON
+  Parameters: {"valor"=>"1", "grosore"=>{"valor"=>"1"}}
+Unpermitted parameters: format, grosore
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (12.0ms)[0m  [1mINSERT INTO "grosors" ("valor", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["valor", 1.0], ["created_at", "2015-11-17 13:38:20.504087"], ["updated_at", "2015-11-17 13:38:20.504087"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+Completed 200 OK in 50ms (Views: 0.6ms | ActiveRecord: 13.2ms)
+
+
+Started GET "/dashboard" for ::1 at 2015-11-17 09:38:22 -0400
+Processing by DashboardController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered dashboard/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 212ms (Views: 209.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application-c6f7424d47afb33b0ad1c1336862be88.css?body=1" for ::1 at 2015-11-17 09:38:22 -0400
+
+
+Started GET "/assets/turbolinks-4031cb0a0613adc8fac596d20e01b074.js?body=1" for ::1 at 2015-11-17 09:38:22 -0400
+
+
+Started GET "/assets/jquery-4075e3b7b3964707c653f61b66f46dec.js?body=1" for ::1 at 2015-11-17 09:38:22 -0400
+
+
+Started GET "/assets/jquery_ujs-f9f4ae336c0d19804775e0e2c8749423.js?body=1" for ::1 at 2015-11-17 09:38:22 -0400
+
+
+Started GET "/assets/bootstrap-2fd0b9386add9f69cb7a086df5c65d0e.css?body=1" for ::1 at 2015-11-17 09:38:22 -0400
+
+
+Started GET "/assets/bootstrap/bootstrap-5219915267bc07092cc5984f417a5ad5.js?body=1" for ::1 at 2015-11-17 09:38:22 -0400
+
+
+Started GET "/assets/bootstrap-5219915267bc07092cc5984f417a5ad5.js?body=1" for ::1 at 2015-11-17 09:38:22 -0400
+
+
+Started GET "/assets/api/puertas-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-17 09:38:22 -0400
+
+
+Started GET "/assets/api/grosores-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-17 09:38:22 -0400
+
+
+Started GET "/assets/api/cotizaciones-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-17 09:38:22 -0400
+
+
+Started GET "/assets/dashboard-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-17 09:38:22 -0400
+
+
+Started GET "/assets/application-d7997252db09025fcf1ebb22cc1a0ba4.js?body=1" for ::1 at 2015-11-17 09:38:22 -0400
+
+
+Started GET "/assets/api/maderas-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-17 09:38:22 -0400
+
+
+Started GET "/api/puertas" for ::1 at 2015-11-17 09:38:23 -0400
+Processing by Api::PuertasController#index as JSON
+  [1m[35mPuertum Load (0.7ms)[0m  SELECT "puerta".* FROM "puerta"
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/grosores" for ::1 at 2015-11-17 09:38:23 -0400
+Processing by Api::GrosoresController#index as JSON
+  [1m[36mGrosor Load (0.4ms)[0m  [1mSELECT "grosors".* FROM "grosors"[0m
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/cotizaciones" for ::1 at 2015-11-17 09:38:23 -0400
+Processing by Api::CotizacionesController#index as JSON
+  [1m[35mCotizacion Load (0.3ms)[0m  SELECT "cotizacions".* FROM "cotizacions"
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/maderas" for ::1 at 2015-11-17 09:38:23 -0400
+Processing by Api::MaderasController#index as JSON
+  [1m[36mMadera Load (0.5ms)[0m  [1mSELECT "maderas".* FROM "maderas"[0m
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/api/grosores/1" for ::1 at 2015-11-17 09:38:31 -0400
+Processing by Api::GrosoresController#destroy as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mGrosor Load (0.3ms)[0m  SELECT  "grosors".* FROM "grosors" WHERE "grosors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (20.5ms)[0m  DELETE FROM "grosors" WHERE "grosors"."id" = ?  [["id", 1]]
+  [1m[36m (4.3ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 44ms (ActiveRecord: 25.2ms)
+
+
+Started GET "/api/grosores" for ::1 at 2015-11-17 09:38:31 -0400
+Processing by Api::GrosoresController#index as JSON
+  [1m[35mGrosor Load (0.3ms)[0m  SELECT "grosors".* FROM "grosors"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap-2fd0b9386add9f69cb7a086df5c65d0e.css?body=1" for ::1 at 2015-11-17 09:38:40 -0400
+
+
+Started GET "/assets/application-c6f7424d47afb33b0ad1c1336862be88.css?body=1" for ::1 at 2015-11-17 09:38:40 -0400
+
+
+Started GET "/dashboard" for ::1 at 2015-11-17 09:38:45 -0400
+Processing by DashboardController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered dashboard/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 221ms (Views: 219.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application-c6f7424d47afb33b0ad1c1336862be88.css?body=1" for ::1 at 2015-11-17 09:38:45 -0400
+
+
+Started GET "/assets/jquery-4075e3b7b3964707c653f61b66f46dec.js?body=1" for ::1 at 2015-11-17 09:38:45 -0400
+
+
+Started GET "/assets/jquery_ujs-f9f4ae336c0d19804775e0e2c8749423.js?body=1" for ::1 at 2015-11-17 09:38:45 -0400
+
+
+Started GET "/assets/turbolinks-4031cb0a0613adc8fac596d20e01b074.js?body=1" for ::1 at 2015-11-17 09:38:45 -0400
+
+
+Started GET "/assets/bootstrap/bootstrap-5219915267bc07092cc5984f417a5ad5.js?body=1" for ::1 at 2015-11-17 09:38:45 -0400
+
+
+Started GET "/assets/bootstrap-5219915267bc07092cc5984f417a5ad5.js?body=1" for ::1 at 2015-11-17 09:38:45 -0400
+
+
+Started GET "/assets/dashboard-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-17 09:38:45 -0400
+
+
+Started GET "/assets/api/cotizaciones-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-17 09:38:45 -0400
+
+
+Started GET "/assets/api/grosores-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-17 09:38:45 -0400
+
+
+Started GET "/assets/api/puertas-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-17 09:38:45 -0400
+
+
+Started GET "/assets/api/maderas-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2015-11-17 09:38:45 -0400
+
+
+Started GET "/assets/application-d7997252db09025fcf1ebb22cc1a0ba4.js?body=1" for ::1 at 2015-11-17 09:38:45 -0400
+
+
+Started GET "/assets/bootstrap-2fd0b9386add9f69cb7a086df5c65d0e.css?body=1" for ::1 at 2015-11-17 09:38:45 -0400
+
+
+Started GET "/api/puertas" for ::1 at 2015-11-17 09:38:46 -0400
+Processing by Api::PuertasController#index as JSON
+  [1m[35mPuertum Load (0.8ms)[0m  SELECT "puerta".* FROM "puerta"
+Completed 200 OK in 17ms (Views: 14.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/grosores" for ::1 at 2015-11-17 09:38:46 -0400
+Processing by Api::GrosoresController#index as JSON
+  [1m[36mGrosor Load (0.3ms)[0m  [1mSELECT "grosors".* FROM "grosors"[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/maderas" for ::1 at 2015-11-17 09:38:46 -0400
+Processing by Api::MaderasController#index as JSON
+  [1m[35mMadera Load (0.5ms)[0m  SELECT "maderas".* FROM "maderas"
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/cotizaciones" for ::1 at 2015-11-17 09:38:46 -0400
+Processing by Api::CotizacionesController#index as JSON
+  [1m[36mCotizacion Load (0.3ms)[0m  [1mSELECT "cotizacions".* FROM "cotizacions"[0m
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap-2fd0b9386add9f69cb7a086df5c65d0e.css?body=1" for ::1 at 2015-11-17 09:40:55 -0400
+
+
+Started GET "/assets/application-c6f7424d47afb33b0ad1c1336862be88.css?body=1" for ::1 at 2015-11-17 09:40:55 -0400
+
+
+Started GET "/dashboard" for ::1 at 2015-11-17 09:50:42 -0400
+Processing by DashboardController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered dashboard/index.html.erb (0.2ms)
+Completed 200 OK in 288ms (Views: 33.5ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/api/puertas" for ::1 at 2015-11-17 09:50:48 -0400
+Processing by Api::PuertasController#index as JSON
+  [1m[36mPuertum Load (31.3ms)[0m  [1mSELECT "puerta".* FROM "puerta"[0m
+Completed 200 OK in 1469ms (Views: 1368.9ms | ActiveRecord: 31.8ms)
+
+
+Started GET "/api/maderas" for ::1 at 2015-11-17 09:50:49 -0400
+Processing by Api::MaderasController#index as JSON
+  [1m[35mMadera Load (0.6ms)[0m  SELECT "maderas".* FROM "maderas"
+Completed 200 OK in 72ms (Views: 21.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/grosores" for ::1 at 2015-11-17 09:50:50 -0400
+Processing by Api::GrosoresController#index as JSON
+  [1m[36mGrosor Load (0.4ms)[0m  [1mSELECT "grosors".* FROM "grosors"[0m
+Completed 200 OK in 43ms (Views: 10.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/cotizaciones" for ::1 at 2015-11-17 09:50:50 -0400
+Processing by Api::CotizacionesController#index as JSON
+  [1m[35mCotizacion Load (0.4ms)[0m  SELECT "cotizacions".* FROM "cotizacions"
+Completed 200 OK in 90ms (Views: 8.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/logout" for ::1 at 2015-11-17 10:48:06 -0400
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 41ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-11-17 10:48:06 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:14: syntax error, unexpected =>, expecting :: or '[' or '.'
+...end=( text_field_tag, :class => "form-control", :email );@ou...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:14: syntax error, unexpected ',', expecting ')'
+..._tag, :class => "form-control", :email );@output_buffer.safe...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:18: syntax error, unexpected =>, expecting :: or '[' or '.'
+...( password_field_tag, :class => "form-control", :password );...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:18: syntax error, unexpected ',', expecting ')'
+..._tag, :class => "form-control", :password );@output_buffer.s...
+...                               ^):
+  app/views/sessions/new.html.erb:14: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/sessions/new.html.erb:14: syntax error, unexpected ',', expecting ')'
+  app/views/sessions/new.html.erb:18: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/sessions/new.html.erb:18: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (56.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (43.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (245.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (165.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (41.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (764.8ms)
+
+
+Started GET "/login" for ::1 at 2015-11-17 10:48:58 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:8: syntax error, unexpected =>, expecting :: or '[' or '.'
+...end=( text_field_tag, :class => "form-control", :email );@ou...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:8: syntax error, unexpected ',', expecting ')'
+..._tag, :class => "form-control", :email );@output_buffer.safe...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:12: syntax error, unexpected =>, expecting :: or '[' or '.'
+...( password_field_tag, :class => "form-control", :password );...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:12: syntax error, unexpected ',', expecting ')'
+..._tag, :class => "form-control", :password );@output_buffer.s...
+...                               ^):
+  app/views/sessions/new.html.erb:8: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/sessions/new.html.erb:8: syntax error, unexpected ',', expecting ')'
+  app/views/sessions/new.html.erb:12: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/sessions/new.html.erb:12: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (97.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (150.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (8.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (34.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (97.5ms)
+
+
+Started GET "/login" for ::1 at 2015-11-17 10:51:33 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:6: syntax error, unexpected keyword_do_block, expecting =>
+...s => 'form-inline', '/login' do @output_buffer.safe_append='
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:9: syntax error, unexpected =>, expecting :: or '[' or '.'
+...end=( text_field_tag, :class => 'form-control', :email );@ou...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:9: syntax error, unexpected ',', expecting ')'
+..._tag, :class => 'form-control', :email );@output_buffer.safe...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:13: syntax error, unexpected =>, expecting :: or '[' or '.'
+...( password_field_tag, :class => 'form-control', :password );...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:13: syntax error, unexpected ',', expecting ')'
+..._tag, :class => 'form-control', :password );@output_buffer.s...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:19: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/sessions/new.html.erb:6: syntax error, unexpected keyword_do_block, expecting =>
+  app/views/sessions/new.html.erb:9: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/sessions/new.html.erb:9: syntax error, unexpected ',', expecting ')'
+  app/views/sessions/new.html.erb:13: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/sessions/new.html.erb:13: syntax error, unexpected ',', expecting ')'
+  app/views/sessions/new.html.erb:19: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (93.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (134.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (76.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (136.9ms)
+
+
+Started GET "/login" for ::1 at 2015-11-17 10:51:54 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:6: syntax error, unexpected keyword_do_block, expecting =>
+...s => 'form-inline', '/login' do @output_buffer.safe_append='
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:9: syntax error, unexpected =>, expecting :: or '[' or '.'
+...end=( text_field_tag, :class => 'form-control', :email );@ou...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:9: syntax error, unexpected ',', expecting ')'
+..._tag, :class => 'form-control', :email );@output_buffer.safe...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:13: syntax error, unexpected =>, expecting :: or '[' or '.'
+...( password_field_tag, :class => 'form-control', :password );...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:13: syntax error, unexpected ',', expecting ')'
+..._tag, :class => 'form-control', :password );@output_buffer.s...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:19: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/sessions/new.html.erb:6: syntax error, unexpected keyword_do_block, expecting =>
+  app/views/sessions/new.html.erb:9: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/sessions/new.html.erb:9: syntax error, unexpected ',', expecting ')'
+  app/views/sessions/new.html.erb:13: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/sessions/new.html.erb:13: syntax error, unexpected ',', expecting ')'
+  app/views/sessions/new.html.erb:19: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (128.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (178.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (41.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (81.3ms)
+
+
+Started GET "/login" for ::1 at 2015-11-17 10:52:23 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:3: syntax error, unexpected keyword_do_block, expecting =>
+...s => 'form-inline', '/login' do @output_buffer.safe_append='
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:6: syntax error, unexpected =>, expecting :: or '[' or '.'
+...end=( text_field_tag, :class => 'form-control', :email );@ou...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:6: syntax error, unexpected ',', expecting ')'
+..._tag, :class => 'form-control', :email );@output_buffer.safe...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:10: syntax error, unexpected =>, expecting :: or '[' or '.'
+...( password_field_tag, :class => 'form-control', :password );...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:10: syntax error, unexpected ',', expecting ')'
+..._tag, :class => 'form-control', :password );@output_buffer.s...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:16: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/sessions/new.html.erb:3: syntax error, unexpected keyword_do_block, expecting =>
+  app/views/sessions/new.html.erb:6: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/sessions/new.html.erb:6: syntax error, unexpected ',', expecting ')'
+  app/views/sessions/new.html.erb:10: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/sessions/new.html.erb:10: syntax error, unexpected ',', expecting ')'
+  app/views/sessions/new.html.erb:16: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (51.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (6.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (60.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (101.1ms)
+
+
+Started GET "/login" for ::1 at 2015-11-17 10:54:15 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:3: syntax error, unexpected =>, expecting keyword_end
+...er.append=  form_tag, :class => 'form-inline', '/login' do @...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:3: syntax error, unexpected ',', expecting keyword_end
+...m_tag, :class => 'form-inline', '/login' do @output_buffer.s...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:3: syntax error, unexpected keyword_do, expecting keyword_end
+...s => 'form-inline', '/login' do @output_buffer.safe_append='
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:6: syntax error, unexpected =>, expecting :: or '[' or '.'
+...end=( text_field_tag, :class => 'form-control', :email );@ou...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:6: syntax error, unexpected ',', expecting ')'
+..._tag, :class => 'form-control', :email );@output_buffer.safe...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:10: syntax error, unexpected =>, expecting :: or '[' or '.'
+...( password_field_tag, :class => 'form-control', :password );...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:10: syntax error, unexpected ',', expecting ')'
+..._tag, :class => 'form-control', :password );@output_buffer.s...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:16: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/sessions/new.html.erb:3: syntax error, unexpected =>, expecting keyword_end
+  app/views/sessions/new.html.erb:3: syntax error, unexpected ',', expecting keyword_end
+  app/views/sessions/new.html.erb:3: syntax error, unexpected keyword_do, expecting keyword_end
+  app/views/sessions/new.html.erb:6: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/sessions/new.html.erb:6: syntax error, unexpected ',', expecting ')'
+  app/views/sessions/new.html.erb:10: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/sessions/new.html.erb:10: syntax error, unexpected ',', expecting ')'
+  app/views/sessions/new.html.erb:16: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (51.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (59.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (98.4ms)
+
+
+Started GET "/login" for ::1 at 2015-11-17 10:55:51 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:6: syntax error, unexpected ':', expecting ')'
+...eld_tag class: 'form-control' :email );@output_buffer.safe_a...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:10: syntax error, unexpected ':', expecting ')'
+...eld_tag class: 'form-control' :password );@output_buffer.saf...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:12: syntax error, unexpected keyword_class, expecting ')'
+...mit_tag "Iniciar Session" class: 'btn btn-default');@output_...
+...                               ^):
+  app/views/sessions/new.html.erb:6: syntax error, unexpected ':', expecting ')'
+  app/views/sessions/new.html.erb:10: syntax error, unexpected ':', expecting ')'
+  app/views/sessions/new.html.erb:12: syntax error, unexpected keyword_class, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (67.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (104.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (44.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (85.1ms)
+
+
+Started POST "/console/repl_sessions/aa7fe1f065e013161384384180379548/trace" for ::1 at 2015-11-17 10:55:58 -0400
+
+
+Started POST "/console/repl_sessions/aa7fe1f065e013161384384180379548/trace" for ::1 at 2015-11-17 10:56:00 -0400
+
+
+Started POST "/console/repl_sessions/aa7fe1f065e013161384384180379548/trace" for ::1 at 2015-11-17 10:56:02 -0400
+
+
+Started POST "/console/repl_sessions/aa7fe1f065e013161384384180379548/trace" for ::1 at 2015-11-17 10:56:04 -0400
+
+
+Started POST "/console/repl_sessions/aa7fe1f065e013161384384180379548/trace" for ::1 at 2015-11-17 10:56:11 -0400
+
+
+Started GET "/login" for ::1 at 2015-11-17 10:59:19 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:3: syntax error, unexpected tLABEL
+...uffer.append=  form_tag, class: "form-inline", '/login' do @...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:3: syntax error, unexpected ',', expecting keyword_end
+...form_tag, class: "form-inline", '/login' do @output_buffer.s...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:3: syntax error, unexpected keyword_do, expecting keyword_end
+...ass: "form-inline", '/login' do @output_buffer.safe_append='
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:6: syntax error, unexpected tLABEL, expecting '='
+...append=( text_field_tag, class: "form-control", :email );@ou...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:6: syntax error, unexpected ',', expecting ')'
+...eld_tag, class: "form-control", :email );@output_buffer.safe...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:10: syntax error, unexpected tLABEL, expecting '='
+...nd=( password_field_tag, class: "form-control", :password );...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:10: syntax error, unexpected ',', expecting ')'
+...eld_tag, class: "form-control", :password );@output_buffer.s...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:16: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/sessions/new.html.erb:3: syntax error, unexpected tLABEL
+  app/views/sessions/new.html.erb:3: syntax error, unexpected ',', expecting keyword_end
+  app/views/sessions/new.html.erb:3: syntax error, unexpected keyword_do, expecting keyword_end
+  app/views/sessions/new.html.erb:6: syntax error, unexpected tLABEL, expecting '='
+  app/views/sessions/new.html.erb:6: syntax error, unexpected ',', expecting ')'
+  app/views/sessions/new.html.erb:10: syntax error, unexpected tLABEL, expecting '='
+  app/views/sessions/new.html.erb:10: syntax error, unexpected ',', expecting ')'
+  app/views/sessions/new.html.erb:16: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (56.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (110.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (150.6ms)
+
+
+Started POST "/console/repl_sessions/e909daeef532b5abba5fcb24deb4c6c5/trace" for ::1 at 2015-11-17 10:59:35 -0400
+
+
+Started POST "/console/repl_sessions/e909daeef532b5abba5fcb24deb4c6c5/trace" for ::1 at 2015-11-17 10:59:44 -0400
+
+
+Started POST "/console/repl_sessions/e909daeef532b5abba5fcb24deb4c6c5/trace" for ::1 at 2015-11-17 10:59:45 -0400
+
+
+Started GET "/login" for ::1 at 2015-11-17 11:00:22 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:3: syntax error, unexpected tLABEL
+...uffer.append=  form_tag, class: "form-inline", '/login' do @...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:3: syntax error, unexpected ',', expecting keyword_end
+...form_tag, class: "form-inline", '/login' do @output_buffer.s...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:3: syntax error, unexpected keyword_do, expecting keyword_end
+...ass: "form-inline", '/login' do @output_buffer.safe_append='
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:5: syntax error, unexpected tLABEL, expecting '='
+...append=( text_field_tag, class: "form-control", :email );@ou...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:5: syntax error, unexpected ',', expecting ')'
+...eld_tag, class: "form-control", :email );@output_buffer.safe...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:8: syntax error, unexpected tLABEL, expecting '='
+...nd=( password_field_tag, class: "form-control", :password );...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:8: syntax error, unexpected ',', expecting ')'
+...eld_tag, class: "form-control", :password );@output_buffer.s...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/sessions/new.html.erb:3: syntax error, unexpected tLABEL
+  app/views/sessions/new.html.erb:3: syntax error, unexpected ',', expecting keyword_end
+  app/views/sessions/new.html.erb:3: syntax error, unexpected keyword_do, expecting keyword_end
+  app/views/sessions/new.html.erb:5: syntax error, unexpected tLABEL, expecting '='
+  app/views/sessions/new.html.erb:5: syntax error, unexpected ',', expecting ')'
+  app/views/sessions/new.html.erb:8: syntax error, unexpected tLABEL, expecting '='
+  app/views/sessions/new.html.erb:8: syntax error, unexpected ',', expecting ')'
+  app/views/sessions/new.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (53.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (34.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (103.3ms)
+
+
+Started POST "/console/repl_sessions/66b633dcf21aa1385c38df4c955be52b/trace" for ::1 at 2015-11-17 11:00:28 -0400
+
+
+Started POST "/console/repl_sessions/66b633dcf21aa1385c38df4c955be52b/trace" for ::1 at 2015-11-17 11:00:33 -0400
+
+
+Started GET "/login" for ::1 at 2015-11-17 11:05:09 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 113ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:3: syntax error, unexpected tLABEL
+...uffer.append=  form_tag, class: "form-inline", '/login' do @...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:3: syntax error, unexpected ',', expecting keyword_end
+...form_tag, class: "form-inline", '/login' do @output_buffer.s...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:3: syntax error, unexpected keyword_do, expecting keyword_end
+...ass: "form-inline", '/login' do @output_buffer.safe_append='
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:6: syntax error, unexpected tLABEL, expecting '='
+...append=( text_field_tag, class: "form-control", :email );@ou...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:6: syntax error, unexpected ',', expecting ')'
+...eld_tag, class: "form-control", :email );@output_buffer.safe...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:10: syntax error, unexpected tLABEL, expecting '='
+...nd=( password_field_tag, class: "form-control", :password );...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:10: syntax error, unexpected ',', expecting ')'
+...eld_tag, class: "form-control", :password );@output_buffer.s...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/sessions/new.html.erb:3: syntax error, unexpected tLABEL
+  app/views/sessions/new.html.erb:3: syntax error, unexpected ',', expecting keyword_end
+  app/views/sessions/new.html.erb:3: syntax error, unexpected keyword_do, expecting keyword_end
+  app/views/sessions/new.html.erb:6: syntax error, unexpected tLABEL, expecting '='
+  app/views/sessions/new.html.erb:6: syntax error, unexpected ',', expecting ')'
+  app/views/sessions/new.html.erb:10: syntax error, unexpected tLABEL, expecting '='
+  app/views/sessions/new.html.erb:10: syntax error, unexpected ',', expecting ')'
+  app/views/sessions/new.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (54.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (36.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (97.5ms)
+
+
+Started GET "/login" for ::1 at 2015-11-17 11:19:34 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1496.5ms)
+Completed 500 Internal Server Error in 5666ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:3: syntax error, unexpected tLABEL
+...uffer.append=  form_tag, class: "form-inline", '/login' do @...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:3: syntax error, unexpected ',', expecting keyword_end
+...form_tag, class: "form-inline", '/login' do @output_buffer.s...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:3: syntax error, unexpected keyword_do, expecting keyword_end
+...ass: "form-inline", '/login' do @output_buffer.safe_append='
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:6: syntax error, unexpected tLABEL, expecting '='
+...append=( text_field_tag, class: "form-control", :email );@ou...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:6: syntax error, unexpected ',', expecting ')'
+...eld_tag, class: "form-control", :email );@output_buffer.safe...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:10: syntax error, unexpected tLABEL, expecting '='
+...nd=( password_field_tag, class: "form-control", :password );...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:10: syntax error, unexpected ',', expecting ')'
+...eld_tag, class: "form-control", :password );@output_buffer.s...
+...                               ^
+/Users/agencia03/Desktop/migracion/coster/app/views/sessions/new.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/sessions/new.html.erb:3: syntax error, unexpected tLABEL
+  app/views/sessions/new.html.erb:3: syntax error, unexpected ',', expecting keyword_end
+  app/views/sessions/new.html.erb:3: syntax error, unexpected keyword_do, expecting keyword_end
+  app/views/sessions/new.html.erb:6: syntax error, unexpected tLABEL, expecting '='
+  app/views/sessions/new.html.erb:6: syntax error, unexpected ',', expecting ')'
+  app/views/sessions/new.html.erb:10: syntax error, unexpected tLABEL, expecting '='
+  app/views/sessions/new.html.erb:10: syntax error, unexpected ',', expecting ')'
+  app/views/sessions/new.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (62.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (42.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (254.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (145.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (364.0ms)
+
+
+Started GET "/login" for ::1 at 2015-11-17 11:24:26 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (46.8ms)
+Completed 200 OK in 14547ms (Views: 14535.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4a4c63b3b379fe307cf83e414c8ae532911fc0a1f3cb82fac49a7c36a8c5b78a.css?body=1" for ::1 at 2015-11-17 11:24:40 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-17 11:24:40 -0400
+
+
+Started GET "/assets/api/cotizaciones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-17 11:24:40 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-17 11:24:40 -0400
+
+
+Started GET "/assets/bootstrap.self-185214b9936b11ab8170e61b2cc460c8beadf2487dd3eec8a35a7c8039587e86.css?body=1" for ::1 at 2015-11-17 11:24:40 -0400
+
+
+Started GET "/assets/bootstrap.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-17 11:24:40 -0400
+
+
+Started GET "/assets/api/grosores.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-17 11:24:40 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-17 11:24:40 -0400
+
+
+Started GET "/assets/api/maderas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-17 11:24:40 -0400
+
+
+Started GET "/assets/bootstrap/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-17 11:24:40 -0400
+
+
+Started GET "/assets/api/puertas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-17 11:24:41 -0400
+
+
+Started GET "/assets/dashboard.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-17 11:24:41 -0400
+
+
+Started GET "/assets/application.self-a48294779250c8a749f54e0eadca8d3725eb133a8909a50d93e8c5d65199d5a4.js?body=1" for ::1 at 2015-11-17 11:24:41 -0400
+
+
+Started GET "/login" for ::1 at 2015-11-17 11:25:29 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 315ms (Views: 313.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-185214b9936b11ab8170e61b2cc460c8beadf2487dd3eec8a35a7c8039587e86.css?body=1" for ::1 at 2015-11-17 11:25:29 -0400
+
+
+Started GET "/assets/application.self-4a4c63b3b379fe307cf83e414c8ae532911fc0a1f3cb82fac49a7c36a8c5b78a.css?body=1" for ::1 at 2015-11-17 11:25:29 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-17 11:25:29 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-17 11:25:29 -0400
+
+
+Started GET "/assets/api/grosores.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-17 11:25:29 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-17 11:25:29 -0400
+
+
+Started GET "/assets/bootstrap.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-17 11:25:29 -0400
+
+
+Started GET "/assets/bootstrap/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-17 11:25:29 -0400
+
+
+Started GET "/assets/api/maderas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-17 11:25:29 -0400
+
+
+Started GET "/assets/dashboard.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-17 11:25:29 -0400
+
+
+Started GET "/assets/api/puertas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-17 11:25:29 -0400
+
+
+Started GET "/assets/api/cotizaciones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-17 11:25:29 -0400
+
+
+Started GET "/assets/application.self-a48294779250c8a749f54e0eadca8d3725eb133a8909a50d93e8c5d65199d5a4.js?body=1" for ::1 at 2015-11-17 11:25:29 -0400
+
+
+Started POST "/login" for ::1 at 2015-11-17 11:25:35 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cjFcPU91HfupRX39aFDXLesws0Fo76QGqTq6E9QeF3yFPj9B4vjpOaT1OeNCIEcLE2WUbdADz7pq8+uNw+n6fg==", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Iniciar Session"}
+  [1m[35mUser Load (43.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", ""]]
+Redirected to http://localhost:3000/login
+Completed 302 Found in 666ms (ActiveRecord: 75.8ms)
+
+
+Started GET "/login" for ::1 at 2015-11-17 11:25:36 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 168ms (Views: 167.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-11-17 11:29:24 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GetIiOh0elNpU9RZu4Oddpb6oD3eLfdd+XXMAsvL76Tu5Cv0RfmOkWTjkEeR8w1Qbq+HEWbBnOE6vJ2c3DwCpg==", "email"=>"admin", "password"=>"[FILTERED]", "commit"=>"Iniciar Session"}
+  [1m[36mUser Load (28.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "admin"]]
+Redirected to http://localhost:3000/dashboard
+Completed 302 Found in 183ms (ActiveRecord: 37.7ms)
+
+
+Started GET "/dashboard" for ::1 at 2015-11-17 11:29:24 -0400
+Processing by DashboardController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered dashboard/index.html.erb (0.8ms)
+Completed 200 OK in 55ms (Views: 18.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/puertas" for ::1 at 2015-11-17 11:29:26 -0400
+Processing by Api::PuertasController#index as JSON
+  [1m[36mPuertum Load (15.6ms)[0m  [1mSELECT "puerta".* FROM "puerta"[0m
+Completed 200 OK in 325ms (Views: 271.4ms | ActiveRecord: 16.1ms)
+
+
+Started GET "/api/cotizaciones" for ::1 at 2015-11-17 11:29:26 -0400
+Processing by Api::CotizacionesController#index as JSON
+  [1m[35mCotizacion Load (16.9ms)[0m  SELECT "cotizacions".* FROM "cotizacions"
+Completed 200 OK in 42ms (Views: 1.6ms | ActiveRecord: 17.0ms)
+
+
+Started GET "/api/grosores" for ::1 at 2015-11-17 11:29:26 -0400
+Processing by Api::GrosoresController#index as JSON
+  [1m[36mGrosor Load (0.4ms)[0m  [1mSELECT "grosors".* FROM "grosors"[0m
+Completed 200 OK in 40ms (Views: 11.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/maderas" for ::1 at 2015-11-17 11:29:26 -0400
+Processing by Api::MaderasController#index as JSON
+  [1m[35mMadera Load (0.6ms)[0m  SELECT "maderas".* FROM "maderas"
+Completed 200 OK in 45ms (Views: 18.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/logout" for ::1 at 2015-11-17 11:34:04 -0400
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-11-17 11:34:04 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 254ms (Views: 252.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-11-17 11:48:32 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 447ms (Views: 445.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-11-17 11:48:37 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I54PE/+AfK0qMcJ++tvdu7LxkrfHkX53GhlSHHiUR3DUkWxvUg2IbyeBhmDQq02dSqS1m399FcvZ0AOCb2Oqcg==", "email"=>"Admin", "password"=>"[FILTERED]", "commit"=>"Iniciar Session"}
+  [1m[36mUser Load (37.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "Admin"]]
+Redirected to http://localhost:3000/login
+Completed 302 Found in 39ms (ActiveRecord: 37.4ms)
+
+
+Started GET "/login" for ::1 at 2015-11-17 11:48:37 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 403ms (Views: 402.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-11-17 11:48:54 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T8KsZmTzckS7u3/9DGj+GTNVbh4hMQ15GJzvAZc6LOO4zc8ayX6GhrYLO+MmGG4/ywBJMpndZsXbVb6fgM3B4Q==", "email"=>"cueto", "password"=>"[FILTERED]", "commit"=>"Iniciar Session"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "cueto"]]
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for ::1 at 2015-11-17 11:48:54 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 139ms (Views: 137.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-11-17 11:49:05 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+hkXBCVfaZzw+SD7Mu/c7lMxzWAK3s0nYYpW7OMy58ENFnR4iNKdXv1JZOUYn0zIq2TqTLIyppuiQwdy9MUKww==", "email"=>"cueto", "password"=>"[FILTERED]", "commit"=>"Iniciar Session"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "cueto"]]
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for ::1 at 2015-11-17 11:49:05 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 152ms (Views: 151.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-11-17 11:49:12 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ni+LXzfLg7jOBXuJGB6cq7lFXfcedXCXlt7B1CXQLo1pIOgjmkZ3esO1P5cybgyNQRB626aZGytVF5BKMifDjw==", "email"=>"alex", "password"=>"[FILTERED]", "commit"=>"Iniciar Session"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "alex"]]
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for ::1 at 2015-11-17 11:49:12 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 153ms (Views: 152.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for ::1 at 2015-11-17 11:49:18 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (87.6ms)
+Completed 200 OK in 318ms (Views: 316.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2015-11-17 11:49:27 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9UH6UiZBwj2GPlf9AnhL5xGdIi4LHYjJGphW9aJZzBgCTpkui8w2/4uOE+MoCNvB6cgFArPx43XZUQdrta4hGg==", "user"=>{"name"=>"a", "email"=>"a", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Submit"}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (11.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "a"], ["email", "a"], ["password_digest", "$2a$10$HxF.H9nmMXv5EL4Ye3G8i.ptmK0NzsFUHlt0KzxAy.z4JB4q3zoS6"], ["created_at", "2015-11-17 15:49:27.214503"], ["updated_at", "2015-11-17 15:49:27.214503"]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/dashboard
+Completed 302 Found in 259ms (ActiveRecord: 13.1ms)
+
+
+Started GET "/dashboard" for ::1 at 2015-11-17 11:49:27 -0400
+Processing by DashboardController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered dashboard/index.html.erb (0.8ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/puertas" for ::1 at 2015-11-17 11:49:27 -0400
+Processing by Api::PuertasController#index as JSON
+  [1m[36mPuertum Load (0.7ms)[0m  [1mSELECT "puerta".* FROM "puerta"[0m
+Completed 200 OK in 17ms (Views: 14.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/grosores" for ::1 at 2015-11-17 11:49:27 -0400
+Processing by Api::GrosoresController#index as JSON
+  [1m[35mGrosor Load (0.6ms)[0m  SELECT "grosors".* FROM "grosors"
+Completed 200 OK in 6ms (Views: 2.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/cotizaciones" for ::1 at 2015-11-17 11:49:27 -0400
+Processing by Api::CotizacionesController#index as JSON
+  [1m[36mCotizacion Load (0.3ms)[0m  [1mSELECT "cotizacions".* FROM "cotizacions"[0m
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/maderas" for ::1 at 2015-11-17 11:49:27 -0400
+Processing by Api::MaderasController#index as JSON
+  [1m[35mMadera Load (0.5ms)[0m  SELECT "maderas".* FROM "maderas"
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.5ms)
