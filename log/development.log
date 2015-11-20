@@ -3313,3 +3313,160 @@ Started GET "/api/grosores" for ::1 at 2015-11-19 17:01:22 -0400
 Processing by Api::GrosoresController#index as JSON
   [1m[35mGrosor Load (0.4ms)[0m  SELECT "grosors".* FROM "grosors"
 Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/lib/bootstrap/dist/css/bootstrap,js" for ::1 at 2015-11-20 11:48:52 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/lib/bootstrap/dist/css/bootstrap,js"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (482.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (452.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (1128.6ms)
+
+
+Started GET "/api/puertas" for ::1 at 2015-11-20 11:49:25 -0400
+Processing by Api::PuertasController#index as JSON
+  [1m[35mPuertum Load (437.0ms)[0m  SELECT "puerta".* FROM "puerta"
+Completed 200 OK in 971ms (Views: 124.6ms | ActiveRecord: 437.7ms)
+
+
+Started GET "/api/grosores" for ::1 at 2015-11-20 11:49:27 -0400
+Processing by Api::GrosoresController#index as JSON
+  [1m[36mGrosor Load (0.4ms)[0m  [1mSELECT "grosors".* FROM "grosors"[0m
+Completed 200 OK in 239ms (Views: 10.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/maderas" for ::1 at 2015-11-20 11:49:28 -0400
+Processing by Api::MaderasController#index as JSON
+  [1m[35mMadera Load (34.5ms)[0m  SELECT "maderas".* FROM "maderas"
+Completed 200 OK in 109ms (Views: 23.3ms | ActiveRecord: 34.8ms)
+
+
+Started GET "/lib/bootstrap/dist/css/bootstrap.js" for ::1 at 2015-11-20 11:50:22 -0400
+
+ActionController::RoutingError (No route matches [GET] "/lib/bootstrap/dist/css/bootstrap.js"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (99.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (110.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p643-rub/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (279.0ms)
+
+
+Started GET "/api/puertas" for ::1 at 2015-11-20 11:50:24 -0400
+Processing by Api::PuertasController#index as JSON
+  [1m[36mPuertum Load (1.1ms)[0m  [1mSELECT "puerta".* FROM "puerta"[0m
+Completed 200 OK in 28ms (Views: 25.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/grosores" for ::1 at 2015-11-20 11:50:25 -0400
+Processing by Api::GrosoresController#index as JSON
+  [1m[35mGrosor Load (0.4ms)[0m  SELECT "grosors".* FROM "grosors"
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/maderas" for ::1 at 2015-11-20 11:50:25 -0400
+Processing by Api::MaderasController#index as JSON
+  [1m[36mMadera Load (0.7ms)[0m  [1mSELECT "maderas".* FROM "maderas"[0m
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/puertas" for ::1 at 2015-11-20 11:51:19 -0400
+Processing by Api::PuertasController#index as JSON
+  [1m[35mPuertum Load (1.1ms)[0m  SELECT "puerta".* FROM "puerta"
+Completed 200 OK in 34ms (Views: 31.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/maderas" for ::1 at 2015-11-20 11:51:20 -0400
+Processing by Api::MaderasController#index as JSON
+  [1m[36mMadera Load (0.7ms)[0m  [1mSELECT "maderas".* FROM "maderas"[0m
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/grosores" for ::1 at 2015-11-20 11:51:20 -0400
+Processing by Api::GrosoresController#index as JSON
+  [1m[35mGrosor Load (0.3ms)[0m  SELECT "grosors".* FROM "grosors"
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/puertas" for ::1 at 2015-11-20 11:51:42 -0400
+Processing by Api::PuertasController#index as JSON
+  [1m[36mPuertum Load (2.8ms)[0m  [1mSELECT "puerta".* FROM "puerta"[0m
+Completed 200 OK in 32ms (Views: 27.6ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/api/maderas" for ::1 at 2015-11-20 11:51:42 -0400
+Processing by Api::MaderasController#index as JSON
+  [1m[35mMadera Load (0.7ms)[0m  SELECT "maderas".* FROM "maderas"
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/grosores" for ::1 at 2015-11-20 11:51:42 -0400
+Processing by Api::GrosoresController#index as JSON
+  [1m[36mGrosor Load (0.4ms)[0m  [1mSELECT "grosors".* FROM "grosors"[0m
+Completed 200 OK in 17ms (Views: 3.3ms | ActiveRecord: 0.4ms)

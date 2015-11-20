@@ -21,12 +21,25 @@
 
 <link rel="import" href="import/components/coster-app.html"/>
 
-  <script src="lib/jquery/dist/jquery.min.js"></script>    
+  <script src="lib/jquery/dist/jquery.min.js"></script> 
+
+
 <script src="lib/bootstrap/js/modal.js"></script>
         <script src="lib/bootstrap/js/tooltip.js"></script>
 <script>
           
         </script>
+
+        <script>
+    jQuery.ajax({
+        url: '/lib/bootstrap/dist/js/bootstrap.js',
+        success: function (data) {
+            (new Function('document', 'window', data))
+                .call({}, wrap(document), wrap(window));
+        },
+        dataType: 'text'
+    });
+</script>
 
 <script src="js/main.js"></script>
 </head>
