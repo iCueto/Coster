@@ -3470,3 +3470,144 @@ Started GET "/api/grosores" for ::1 at 2015-11-20 11:51:42 -0400
 Processing by Api::GrosoresController#index as JSON
   [1m[36mGrosor Load (0.4ms)[0m  [1mSELECT "grosors".* FROM "grosors"[0m
 Completed 200 OK in 17ms (Views: 3.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/puertas" for ::1 at 2015-11-20 11:56:15 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Api::PuertasController#index as JSON
+  [1m[35mPuertum Load (39.7ms)[0m  SELECT "puerta".* FROM "puerta"
+Completed 200 OK in 302ms (Views: 121.8ms | ActiveRecord: 40.3ms)
+
+
+Started GET "/api/maderas" for ::1 at 2015-11-20 11:56:21 -0400
+Processing by Api::MaderasController#index as JSON
+  [1m[36mMadera Load (0.8ms)[0m  [1mSELECT "maderas".* FROM "maderas"[0m
+Completed 200 OK in 81ms (Views: 73.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/grosores" for ::1 at 2015-11-20 11:56:21 -0400
+Processing by Api::GrosoresController#index as JSON
+  [1m[35mGrosor Load (0.4ms)[0m  SELECT "grosors".* FROM "grosors"
+Completed 200 OK in 72ms (Views: 20.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/dashboard" for ::1 at 2015-11-20 12:04:37 -0400
+Processing by DashboardController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-11-20 12:04:38 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (43.0ms)
+Completed 200 OK in 4587ms (Views: 4586.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-20 12:04:43 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-20 12:04:43 -0400
+
+
+Started GET "/assets/api/cotizaciones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 12:04:43 -0400
+
+
+Started GET "/assets/api/grosores.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 12:04:43 -0400
+
+
+Started GET "/assets/api/maderas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 12:04:44 -0400
+
+
+Started GET "/assets/api/puertas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 12:04:44 -0400
+
+
+Started GET "/assets/dashboard.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-20 12:04:44 -0400
+
+
+Started GET "/assets/application.self-a48294779250c8a749f54e0eadca8d3725eb133a8909a50d93e8c5d65199d5a4.js?body=1" for ::1 at 2015-11-20 12:04:44 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-20 12:04:44 -0400
+
+
+Started GET "/assets/bootstrap/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-20 12:04:44 -0400
+
+
+Started GET "/assets/bootstrap.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-20 12:04:44 -0400
+
+
+Started GET "/assets/bootstrap.self-185214b9936b11ab8170e61b2cc460c8beadf2487dd3eec8a35a7c8039587e86.css?body=1" for ::1 at 2015-11-20 12:04:44 -0400
+
+
+Started GET "/assets/application.self-4a4c63b3b379fe307cf83e414c8ae532911fc0a1f3cb82fac49a7c36a8c5b78a.css?body=1" for ::1 at 2015-11-20 12:04:44 -0400
+
+
+Started POST "/login" for ::1 at 2015-11-20 12:06:30 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Wl6hYg4hCp23C5b1f4Fagg787uf8ES6KWk45IHV1Q+zMn5wtSR8pu1NektKPkWGRtjwMNcU5j3zdugRys+1yHQ==", "email"=>"a", "password"=>"[FILTERED]", "commit"=>"Iniciar Session"}
+  [1m[36mUser Load (45.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "a"]]
+Redirected to http://localhost:3000/dashboard
+Completed 302 Found in 414ms (ActiveRecord: 45.4ms)
+
+
+Started GET "/dashboard" for ::1 at 2015-11-20 12:06:31 -0400
+Processing by DashboardController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered dashboard/index.html.erb (0.8ms)
+Completed 200 OK in 46ms (Views: 42.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/grosores" for ::1 at 2015-11-20 12:06:45 -0400
+Processing by Api::GrosoresController#index as JSON
+  [1m[36mGrosor Load (0.4ms)[0m  [1mSELECT "grosors".* FROM "grosors"[0m
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/maderas" for ::1 at 2015-11-20 12:06:45 -0400
+Processing by Api::MaderasController#index as JSON
+  [1m[35mMadera Load (0.6ms)[0m  SELECT "maderas".* FROM "maderas"
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/puertas" for ::1 at 2015-11-20 12:06:45 -0400
+Processing by Api::PuertasController#index as JSON
+  [1m[36mPuertum Load (1.1ms)[0m  [1mSELECT "puerta".* FROM "puerta"[0m
+Completed 200 OK in 173ms (Views: 170.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/cotizaciones" for ::1 at 2015-11-20 12:06:45 -0400
+Processing by Api::CotizacionesController#index as JSON
+  [1m[35mCotizacion Load (52.0ms)[0m  SELECT "cotizacions".* FROM "cotizacions"
+Completed 200 OK in 194ms (Views: 1.4ms | ActiveRecord: 52.1ms)
+
+
+Started GET "/dashboard" for ::1 at 2015-11-20 12:07:19 -0400
+Processing by DashboardController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered dashboard/index.html.erb (0.1ms)
+Completed 200 OK in 41ms (Views: 38.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/puertas" for ::1 at 2015-11-20 12:07:38 -0400
+Processing by Api::PuertasController#index as JSON
+  [1m[35mPuertum Load (1.2ms)[0m  SELECT "puerta".* FROM "puerta"
+Completed 200 OK in 30ms (Views: 26.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/maderas" for ::1 at 2015-11-20 12:07:38 -0400
+Processing by Api::MaderasController#index as JSON
+  [1m[36mMadera Load (0.6ms)[0m  [1mSELECT "maderas".* FROM "maderas"[0m
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/grosores" for ::1 at 2015-11-20 12:07:38 -0400
+Processing by Api::GrosoresController#index as JSON
+  [1m[35mGrosor Load (0.8ms)[0m  SELECT "grosors".* FROM "grosors"
+Completed 200 OK in 24ms (Views: 4.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/cotizaciones" for ::1 at 2015-11-20 12:07:38 -0400
+Processing by Api::CotizacionesController#index as JSON
+  [1m[36mCotizacion Load (0.4ms)[0m  [1mSELECT "cotizacions".* FROM "cotizacions"[0m
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.4ms)
